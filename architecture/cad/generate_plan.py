@@ -70,6 +70,17 @@ LAYER_DOORS = "DOORS"
 LAYER_WINDOWS = "WINDOWS"
 LAYER_ROOMS = "ROOMS"
 LAYER_DIMENSIONS = "DIMENSIONS"
+LAYER_VERANDA = "VERANDA"
+
+# --- Веранда (отворена, по цялата източна фасада) -------------------------
+VERANDA_DEPTH = 1.80
+VERANDA_LEN = HOUSE_DEPTH           # 8,20 — от северния до южния ъгъл
+VERANDA_AREA = VERANDA_DEPTH * VERANDA_LEN      # 14,76 m²
+VERANDA_POST = 0.10                 # сечение на подпората
+VERANDA_POST_X = HOUSE_LENGTH + VERANDA_DEPTH - VERANDA_POST - 0.04
+VERANDA_RAIL_FROM = 2.30            # парапетът започва след входа
+VERANDA_ROOF_X = HOUSE_LENGTH + VERANDA_DEPTH + 0.30
+VERANDA_ROOF_Y = 0.28               # надвес на покрива на север и юг
 
 DXF_NAME = "house.dxf"
 IMAGE_NAME = "house"
@@ -188,6 +199,7 @@ WINDOWS = [
     (7.690, 7.85, 8.890, HOUSE_DEPTH, "window"),      # кухня
     (0.0, 2.00, WALL_EXT, 3.00, "window"),            # спалня 1, запад (опция)
     (11.65, 3.10, HOUSE_LENGTH, 4.70, "window"),      # трапезария
+    (11.65, 0.90, HOUSE_LENGTH, 2.30, "window"),      # хол, изток
 ]
 
 
@@ -208,9 +220,12 @@ def create_layers(doc: ezdxf.document.Drawing) -> None:
         LAYER_WINDOWS: (COLOR_LINE, 25),
         LAYER_ROOMS: (COLOR_ROOM, 13),
         LAYER_DIMENSIONS: (COLOR_LINE, 13),
+        LAYER_VERANDA: (32, 25),
     }
     for name, (color, lineweight) in specs.items():
         doc.layers.add(name, color=color, lineweight=lineweight)
+    if "DASHED" not in doc.linetypes:
+        doc.linetypes.add("DASHED", pattern=[0.6, 0.3, -0.2])
 
 
 def create_text_style(doc: ezdxf.document.Drawing) -> str:
@@ -244,9 +259,11 @@ def add_label(
     height: float = TEXT_INFO,
     layer: str = LAYER_ROOMS,
     align: TextEntityAlignment = TextEntityAlignment.MIDDLE_CENTER,
+    rotation: float = 0.0,
 ) -> None:
     entity = msp.add_text(
-        text, height=height, dxfattribs={"layer": layer, "style": TEXT_STYLE}
+        text, height=height, rotation=rotation,
+        dxfattribs={"layer": layer, "style": TEXT_STYLE}
     )
     entity.set_placement((x, y), align=align)
 
@@ -393,6 +410,63 @@ def draw_door(msp, hinge, width, along, side, layer=LAYER_DOORS) -> None:
     msp.add_arc(hinge, width, start, end, dxfattribs={"layer": layer})
 
 
+def draw_veranda(msp, layer: str = LAYER_VERANDA) -> None:
+    """Отворена дървена веранда 1,80 × 8,20 m по цялата източна фасада.
+
+    Координатите на верандата са записани от север (както в документацията)
+    и се обръщат към координатната система на чертежа (y от юг).
+    """
+    def sy(y_north: float) -> float:
+        return VERANDA_LEN - y_north
+
+    x0 = HOUSE_LENGTH
+    x1 = HOUSE_LENGTH + VERANDA_DEPTH
+    y0, y1 = 0.0, VERANDA_LEN
+
+    # подова скара
+    msp.add_lwpolyline([(x0, y0), (x1, y0), (x1, y1), (x0, y1)], close=True,
+                       dxfattribs={"layer": layer})
+    y = y0 + 0.40
+    while y < y1 - 0.05:
+        msp.add_line((x0, y), (x1, y), dxfattribs={"layer": layer})
+        y += 0.40
+
+    # подпори
+    px = VERANDA_POST_X
+    for py_n in (0.06, 2.10, 4.10, 6.10, VERANDA_LEN - 0.16):
+        py = sy(py_n + VERANDA_POST)          # долен ръб на подпората
+        msp.add_lwpolyline(
+            [(px, py), (px + VERANDA_POST, py),
+             (px + VERANDA_POST, py + VERANDA_POST), (px, py + VERANDA_POST)],
+            close=True, dxfattribs={"layer": layer})
+
+    # парапет по външния ръб (след входа)
+    rail_x = px + VERANDA_POST / 2
+    msp.add_line((rail_x, sy(VERANDA_LEN - 0.06)), (rail_x, sy(VERANDA_RAIL_FROM)),
+                 dxfattribs={"layer": layer})
+
+    # стъпало при входа (северния край)
+    msp.add_lwpolyline([(x1, sy(1.90)), (x1 + 0.55, sy(1.90)),
+                        (x1 + 0.55, sy(0.20)), (x1, sy(0.20))],
+                       close=True, dxfattribs={"layer": layer})
+
+    # пейка до стената на къщата
+    msp.add_lwpolyline([(x0 + 0.04, sy(7.40)), (x0 + 0.48, sy(7.40)),
+                        (x0 + 0.48, sy(5.90)), (x0 + 0.04, sy(5.90))],
+                       close=True, dxfattribs={"layer": layer})
+
+    # контур на собствения покрив — пунктир
+    msp.add_lwpolyline(
+        [(x0 - 0.10, -VERANDA_ROOF_Y), (VERANDA_ROOF_X, -VERANDA_ROOF_Y),
+         (VERANDA_ROOF_X, y1 + VERANDA_ROOF_Y), (x0 - 0.10, y1 + VERANDA_ROOF_Y)],
+        close=True, dxfattribs={"layer": layer, "linetype": "DASHED"})
+
+    cx = x0 + VERANDA_DEPTH / 2
+    add_label(msp, cx, 5.60, "ВЕРАНДА", TEXT_INFO, layer, rotation=90)
+    add_label(msp, cx, 4.20, "1,80 × 8,20 = 14,76 m²", 0.10, layer, rotation=90)
+    add_label(msp, cx, 2.95, "отворена, дървена", 0.10, layer, rotation=90)
+
+
 def draw_dimensions(msp, dimstyle: str, layer: str = LAYER_DIMENSIONS) -> None:
     attrs = {"layer": layer}
 
@@ -417,6 +491,11 @@ def draw_dimensions(msp, dimstyle: str, layer: str = LAYER_DIMENSIONS) -> None:
     linear((0, 0.35), (0, 4.45), (chain_x, 0), angle=90)
     linear((0, 0), (0, HOUSE_DEPTH), (chain_x - 0.75, 0), angle=90)
 
+    # веранда — дълбочина и дължина
+    vx = HOUSE_LENGTH + VERANDA_DEPTH
+    linear((HOUSE_LENGTH, 0), (vx, 0), (0, -0.75))
+    linear((vx, 0), (vx, VERANDA_LEN), (vx + 1.05, 0), angle=90)
+
 
 def draw_title_block(msp, layer=LAYER_DIMENSIONS) -> None:
     x1, y1, x2, y2 = 0.0, -2.95, HOUSE_LENGTH, -1.05
@@ -438,9 +517,10 @@ def draw_title_block(msp, layer=LAYER_DIMENSIONS) -> None:
     net = sum(room.area for room in ROOMS)
     lines = [
         f"Застроена площ {bg(BUILT_AREA)} m² · чиста използваема {bg(net)} m² · "
-        f"височина до стреха {bg(WALL_H)} m",
+        f"веранда {bg(VERANDA_AREA)} m² · височина до стреха {bg(WALL_H)} m",
         f"Външни ICF стени {bg(WALL_EXT)} m · прегради {bg(WALL_INT)} / "
         f"{bg(WALL_THIN)} m · врати {bg(DOOR_WIDTH)} m · размери в m",
+        "Веранда: отворена, дървена, по цялата източна фасада — собствен покрив (пунктир).",
         "Концептуален чертеж за обсъждане. Не е строителен проект.",
     ]
     for i, text in enumerate(lines):
@@ -449,7 +529,7 @@ def draw_title_block(msp, layer=LAYER_DIMENSIONS) -> None:
 
 
 def draw_north_arrow(msp, layer=LAYER_DIMENSIONS) -> None:
-    cx, cy, size = 13.15, 6.30, 0.45
+    cx, cy, size = 15.35, 6.60, 0.45
     msp.add_lwpolyline(
         [(cx, cy + size), (cx + size * 0.55, cy - size), (cx, cy - size * 0.35),
          (cx - size * 0.55, cy - size)],
@@ -494,6 +574,8 @@ def build_house() -> ezdxf.document.Drawing:
         draw_door(msp, hinge, width, along, side)
 
     add_label(msp, 12.45, 6.98, "ВХОД", TEXT_INFO, LAYER_DOORS)
+
+    draw_veranda(msp)
 
     draw_dimensions(msp, dimstyle)
     draw_title_block(msp)

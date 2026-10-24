@@ -145,7 +145,7 @@
 <line class="tb" x1="12.0" y1="241.8" x2="198.0" y2="241.8"/>
 <line class="tb" x1="12.0" y1="248.8" x2="198.0" y2="248.8"/>
 <line class="tb" x1="146.0" y1="233.8" x2="146.0" y2="248.8"/>
-<text class="tbmain" x="15.0" y="239.1" text-anchor="start">NIKOLAEVO HOUSE — ЕЛЕКТРОИНСТАЛАЦИЯ</text>
+<text class="tbmain" x="15.0" y="238.7" text-anchor="start" style="font-size:2.6px">NIKOLAEVO HOUSE — ЕЛЕКТРОИНСТАЛАЦИЯ</text>
 <text class="tbsub" x="15.0" y="246.6" text-anchor="start">Едносхемна схема на таблото · лист E-02</text>
 <text class="tbsmall" x="149.0" y="238.9" text-anchor="start">E-02</text>
 <text class="tbsmall" x="149.0" y="246.6" text-anchor="start">Без мащаб</text>

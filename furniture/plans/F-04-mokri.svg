@@ -45,6 +45,7 @@
 <rect class="win" x="7690.0" y="0.0" width="1200.0" height="350.0"/>
 <rect class="win" x="11650.0" y="3500.0" width="350.0" height="1600.0"/>
 <rect class="win" x="0.0" y="5200.0" width="350.0" height="1000.0"/>
+<rect class="win" x="11650.0" y="5900.0" width="350.0" height="1400.0"/>
 <rect class="part" x="350.0" y="2350.0" width="1850.0" height="150.0"/>
 <rect class="part" x="3100.0" y="2350.0" width="3700.0" height="150.0"/>
 <rect class="part" x="350.0" y="3600.0" width="550.0" height="150.0"/>
@@ -124,7 +125,7 @@
 <line class="tb" x1="350.0" y1="5600.0" x2="11650.0" y2="5600.0"/>
 <line class="tb" x1="350.0" y1="5950.0" x2="11650.0" y2="5950.0"/>
 <line class="tb" x1="9050.0" y1="5200.0" x2="9050.0" y2="5950.0"/>
-<text class="tbmain" x="500.0" y="5464.0" text-anchor="start">NIKOLAEVO HOUSE — ОБЗАВЕЖДАНЕ</text>
+<text class="tbmain" x="500.0" y="5446.8" text-anchor="start" style="font-size:130.0px">NIKOLAEVO HOUSE — ОБЗАВЕЖДАНЕ</text>
 <text class="tbsub" x="500.0" y="5838.0" text-anchor="start">Баня, мокро помещение, антре · лист F-04</text>
 <text class="tbsmall" x="9200.0" y="5456.0" text-anchor="start">F-04</text>
 <text class="tbsmall" x="9200.0" y="5838.0" text-anchor="start">Мащаб 1:50</text>

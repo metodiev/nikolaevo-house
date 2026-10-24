@@ -45,6 +45,7 @@
 <rect class="win" x="7690.0" y="0.0" width="1200.0" height="350.0"/>
 <rect class="win" x="11650.0" y="3500.0" width="350.0" height="1600.0"/>
 <rect class="win" x="0.0" y="5200.0" width="350.0" height="1000.0"/>
+<rect class="win" x="11650.0" y="5900.0" width="350.0" height="1400.0"/>
 <rect class="part" x="350.0" y="2350.0" width="1850.0" height="150.0"/>
 <rect class="part" x="3100.0" y="2350.0" width="3700.0" height="150.0"/>
 <rect class="part" x="350.0" y="3600.0" width="550.0" height="150.0"/>
@@ -73,28 +74,28 @@
 <line class="sym-l" x1="1970.0" y1="4160.0" x2="3430.0" y2="4160.0"/>
 <line class="sym-l" x1="2700.0" y1="3820.0" x2="2700.0" y2="4160.0"/>
 <text class="lbl-f" x="2700.0" y="4085.0" text-anchor="middle">ГАРДЕРОБ 1600</text>
-<rect class="sym-f" x="1300.0" y="4800.0" width="2200.0" height="2000.0"/>
-<rect class="sym" x="3410.0" y="4800.0" width="90.0" height="2000.0"/>
-<rect class="sym" x="3010.0" y="4960.0" width="340.0" height="760.0"/>
-<rect class="sym" x="3010.0" y="5880.0" width="340.0" height="760.0"/>
-<line class="sym-l" x1="2890.0" y1="4850.0" x2="2890.0" y2="6750.0"/>
-<text class="lbl-f" x="2400.0" y="6100.0" text-anchor="middle">ЛЕГЛО 2000×2200</text>
-<rect class="sym" x="3050.0" y="4350.0" width="450.0" height="450.0"/>
-<rect class="sym" x="3050.0" y="6800.0" width="450.0" height="450.0"/>
-<rect class="soft" x="450.0" y="5100.0" width="700.0" height="1200.0"/>
-<text class="lbl-s" x="3275.0" y="4575.0" text-anchor="middle">нощно</text>
+<rect class="sym-f" x="1500.0" y="4750.0" width="2000.0" height="1600.0"/>
+<rect class="sym" x="3410.0" y="4750.0" width="90.0" height="1600.0"/>
+<rect class="sym" x="3010.0" y="4878.0" width="340.0" height="608.0"/>
+<rect class="sym" x="3010.0" y="5614.0" width="340.0" height="608.0"/>
+<line class="sym-l" x1="2890.0" y1="4800.0" x2="2890.0" y2="6300.0"/>
+<text class="lbl-f" x="2500.0" y="5850.0" text-anchor="middle">ЛЕГЛО 1600×2000</text>
+<rect class="sym" x="3050.0" y="4350.0" width="450.0" height="400.0"/>
+<rect class="sym" x="3050.0" y="6350.0" width="450.0" height="400.0"/>
+<rect class="soft" x="700.0" y="5000.0" width="700.0" height="1200.0"/>
+<text class="lbl-s" x="3275.0" y="4550.0" text-anchor="middle">нощно</text>
 <rect class="sym-f" x="5600.0" y="3750.0" width="1200.0" height="550.0"/>
 <line class="sym-l" x1="5670.0" y1="4160.0" x2="6730.0" y2="4160.0"/>
 <line class="sym-l" x1="6200.0" y1="3820.0" x2="6200.0" y2="4160.0"/>
 <text class="lbl-f" x="6200.0" y="4085.0" text-anchor="middle">ГАРДЕРОБ 1200</text>
-<rect class="sym-f" x="3650.0" y="4800.0" width="2200.0" height="2000.0"/>
-<rect class="sym" x="3650.0" y="4800.0" width="90.0" height="2000.0"/>
-<rect class="sym" x="3740.0" y="4960.0" width="340.0" height="760.0"/>
-<rect class="sym" x="3740.0" y="5880.0" width="340.0" height="760.0"/>
-<line class="sym-l" x1="4200.0" y1="4850.0" x2="4200.0" y2="6750.0"/>
-<text class="lbl-f" x="4750.0" y="6100.0" text-anchor="middle">ЛЕГЛО 2000×2200</text>
-<rect class="sym" x="3650.0" y="4350.0" width="400.0" height="450.0"/>
-<rect class="sym" x="3650.0" y="6800.0" width="400.0" height="450.0"/>
+<rect class="sym-f" x="3650.0" y="4900.0" width="2000.0" height="1600.0"/>
+<rect class="sym" x="3650.0" y="4900.0" width="90.0" height="1600.0"/>
+<rect class="sym" x="3740.0" y="5028.0" width="340.0" height="608.0"/>
+<rect class="sym" x="3740.0" y="5764.0" width="340.0" height="608.0"/>
+<line class="sym-l" x1="4200.0" y1="4950.0" x2="4200.0" y2="6450.0"/>
+<text class="lbl-f" x="4650.0" y="6000.0" text-anchor="middle">ЛЕГЛО 1600×2000</text>
+<rect class="sym" x="3650.0" y="4450.0" width="400.0" height="450.0"/>
+<rect class="sym" x="3650.0" y="6500.0" width="400.0" height="450.0"/>
 <rect class="mask" x="-1000.0" y="-1000.0" width="14000.0" height="4650.0"/>
 <rect class="plate" x="257.5" y="4530.0" width="1485.0" height="170.0"/>
 <text class="lbl" x="1000.0" y="4650.0" text-anchor="middle">СПАЛНЯ 1 · 3150 × 4100</text>
@@ -110,16 +111,16 @@
 <line class="dim" x1="-137.5" y1="3787.5" x2="-62.5" y2="3712.5"/>
 <line class="dim" x1="-137.5" y1="7887.5" x2="-62.5" y2="7812.5"/>
 <text class="dimt" x="-155.0" y="5800.0" text-anchor="middle" transform="rotate(-90.0 -155.0 5800.0)">4100</text>
-<text class="note" x="350.0" y="9000.0" text-anchor="start">1. Легло 2000 × 2200 mm в двете спални, табла на вътрешната преграда — без прозорец зад главата.</text>
-<text class="note" x="350.0" y="9250.0" text-anchor="start">2. Нощни шкафчета 450 mm от двете страни на леглото.</text>
+<text class="note" x="350.0" y="9000.0" text-anchor="start">1. Легло 1600 × 2000 mm в двете спални, табла на вътрешната преграда — без прозорец зад главата.</text>
+<text class="note" x="350.0" y="9250.0" text-anchor="start">2. Нощни шкафчета от двете страни на леглото.</text>
 <text class="note" x="350.0" y="9500.0" text-anchor="start">3. Гардероб с плъзгащи врати: 1600 mm в спалня 1, 1200 mm в спалня 2.</text>
-<text class="note" x="350.0" y="9750.0" text-anchor="start">4. Проходът до леглото е 950 mm, пред гардероба — 500 mm.</text>
+<text class="note" x="350.0" y="9750.0" text-anchor="start">4. Проходът до леглото е 1150 mm, пред гардероба — 450 mm.</text>
 <text class="note" x="350.0" y="10000.0" text-anchor="start">5. Без скрин — съхранението е изцяло в гардероба.</text>
 <rect class="tb" x="350.0" y="10800.0" width="6450.0" height="1210.0"/>
 <line class="tb" x1="350.0" y1="11200.0" x2="6800.0" y2="11200.0"/>
 <line class="tb" x1="350.0" y1="11550.0" x2="6800.0" y2="11550.0"/>
 <line class="tb" x1="4200.0" y1="10800.0" x2="4200.0" y2="11550.0"/>
-<text class="tbmain" x="500.0" y="11064.0" text-anchor="start">NIKOLAEVO HOUSE — ОБЗАВЕЖДАНЕ</text>
+<text class="tbmain" x="500.0" y="11046.8" text-anchor="start" style="font-size:130.0px">NIKOLAEVO HOUSE — ОБЗАВЕЖДАНЕ</text>
 <text class="tbsub" x="500.0" y="11438.0" text-anchor="start">Спални · лист F-03</text>
 <text class="tbsmall" x="4350.0" y="11056.0" text-anchor="start">F-03</text>
 <text class="tbsmall" x="4350.0" y="11438.0" text-anchor="start">Мащаб 1:50</text>

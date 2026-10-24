@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="utf-8">
+<title>Николаево — 3D модел на къщата</title>
+<style>
+  :root { --ink:#1d2025; --muted:#666e78; --line:#d5d8dd; }
+  * { box-sizing: border-box; }
+  html, body { margin:0; height:100%; }
+  body {
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    color: var(--ink); background:#f2f3f5; overflow:hidden;
+  }
+  #cv { display:block; width:100%; height:100%; cursor:grab; }
+  #cv.drag { cursor:grabbing; }
+  #panel {
+    position:fixed; top:14px; left:14px; width:262px;
+    background:rgba(255,255,255,.95); border:1px solid var(--line);
+    border-radius:10px; padding:14px 16px 16px;
+    box-shadow:0 4px 18px rgba(20,25,35,.10); font-size:13px;
+    max-height:calc(100% - 28px); overflow:auto;
+  }
+  #panel h1 { font-size:15px; margin:0 0 2px; letter-spacing:.2px; }
+  #panel .sub { color:var(--muted); font-size:11.5px; margin-bottom:12px; }
+  .group { margin:0 0 12px; }
+  .group .t { font-size:11px; text-transform:uppercase; letter-spacing:.6px;
+              color:var(--muted); margin-bottom:6px; }
+  label.chk { display:flex; align-items:center; gap:7px; padding:3px 0; cursor:pointer; }
+  label.chk input { accent-color:#2f6f4f; }
+  .views { display:grid; grid-template-columns:1fr 1fr; gap:6px; }
+  .views button {
+    font:inherit; font-size:11.5px; padding:6px 4px; cursor:pointer;
+    border:1px solid var(--line); border-radius:6px; background:#fff; color:var(--ink);
+  }
+  .views button:hover { background:#eef3ef; border-color:#9dbbaa; }
+  .views button.wide { grid-column:1 / -1; }
+  .hint { color:var(--muted); font-size:11px; line-height:1.45; margin-top:10px;
+          border-top:1px solid var(--line); padding-top:9px; }
+</style>
+</head>
+<body>
+<canvas id="cv"></canvas>
+
+<div id="panel">
+  <h1>Николаево — 3D модел</h1>
+  <div class="sub">Едноетажна ICF къща · 12,00 × 8,20 m · 98,40 m²</div>
+
+  <div class="group">
+    <div class="t">Покажи</div>
+    <label class="chk"><input type="checkbox" id="c-mebel" checked> Обзавеждане</label>
+    <label class="chk"><input type="checkbox" id="c-pokriv" checked> Покрив</label>
+    <label class="chk"><input type="checkbox" id="c-tavan" checked> Таван</label>
+    <label class="chk"><input type="checkbox" id="c-steni" checked> Стени и дограма</label>
+    <label class="chk"><input type="checkbox" id="c-osnova" checked> Основа и подове</label>
+    <label class="chk"><input type="checkbox" id="c-veranda" checked> Веранда</label>
+  </div>
+
+  <div class="group">
+    <div class="t">Гледни точки</div>
+    <div class="views">
+      <button data-v="se">Външен ЮИ</button>
+      <button data-v="ne">Външен СИ</button>
+      <button data-v="top" class="wide">Отгоре (план)</button>
+      <button data-v="hall">Вътре — хол</button>
+      <button data-v="kitchen">Вътре — кухня</button>
+      <button data-v="bed" class="wide">Вътре — спалня</button>
+    </div>
+  </div>
+
+  <div class="hint">
+    Влачене с мишката — завъртане.<br>
+    Колело — увеличение. Десен бутон — преместване.
+  </div>
+</div>
+
+<script src="model-data.js"></script>
+<script>
+(function () {
+  "use strict";
+
+  const GROUPS = {
+    mebel:  "c-mebel",
+    pokriv: "c-pokriv",
+    tavan:  "c-tavan",
+    steni:  "c-steni",
+    dograma:"c-steni",
+    osnova: "c-osnova",
+    pod:    "c-osnova",
+    veranda: "c-veranda",
+    vglass:  "c-veranda",
+    vroof:   "c-veranda"
+  };
+
+  // --- подготовка на триъгълниците -------------------------------------
+  const KEY  = norm([-0.30, 0.55, 0.78]);
+  const FILL = norm([ 0.62, -0.35, 0.70]);
+  const AMB = 0.44, KK = 0.44, KF = 0.24;
+
+  function norm(v) {
+    const l = Math.hypot(v[0], v[1], v[2]) || 1;
+    return [v[0] / l, v[1] / l, v[2] / l];
+  }
+
+  const tris = [];   // {p:[9], c:[r,g,b], g:group}
+
+  (function build() {
+    const faces = (window.HOUSE_DATA && window.HOUSE_DATA.faces) || [];
+    for (const f of faces) {
+      const pts = f.p, col = f.c, g = f.g;
+      // нормал от първите три върха
+      const ax = pts[1][0] - pts[0][0], ay = pts[1][1] - pts[0][1], az = pts[1][2] - pts[0][2];
+      const bx = pts[2][0] - pts[0][0], by = pts[2][1] - pts[0][1], bz = pts[2][2] - pts[0][2];
+      let nx = ay * bz - az * by, ny = az * bx - ax * bz, nz = ax * by - ay * bx;
+      const nl = Math.hypot(nx, ny, nz) || 1;
+      nx /= nl; ny /= nl; nz /= nl;
+
+      let shade = AMB + KK * Math.max(0, nx * KEY[0] + ny * KEY[1] + nz * KEY[2])
+                      + KF * Math.max(0, nx * FILL[0] + ny * FILL[1] + nz * FILL[2]);
+      // двете страни на стената да не остават черни
+      if (shade < 0.42) shade = 0.42 + (shade - 0.42) * 0.35;
+      if (g === "tavan") shade = Math.max(shade, 0.93);
+
+      const c = [Math.min(255, col[0] * shade * 255) | 0,
+                 Math.min(255, col[1] * shade * 255) | 0,
+                 Math.min(255, col[2] * shade * 255) | 0];
+
+      for (let i = 1; i < pts.length - 1; i++) {
+        tris.push({
+          p: [pts[0][0], pts[0][1], pts[0][2],
+              pts[i][0], pts[i][1], pts[i][2],
+              pts[i + 1][0], pts[i + 1][1], pts[i + 1][2]],
+          c: c, g: g
+        });
+      }
+    }
+  })();
+
+  // --- камера -----------------------------------------------------------
+  const cv = document.getElementById("cv");
+  const ctx = cv.getContext("2d", { alpha: false });
+  let W = 1, H = 1, img = null, depth = null;
+
+  const cam = { target: [5.6, 3.6, 1.7], yaw: 0.72, pitch: 0.36, dist: 30, fov: 40 };
+
+  function eyeOf() {
+    const cp = Math.cos(cam.pitch), sp = Math.sin(cam.pitch);
+    return [
+      cam.target[0] + cam.dist * Math.sin(cam.yaw) * cp,
+      cam.target[1] + cam.dist * Math.cos(cam.yaw) * cp,
+      cam.target[2] + cam.dist * sp
+    ];
+  }
+
+  function setView(eye, target, fov) {
+    cam.target = target.slice();
+    cam.fov = fov || 40;
+    const dx = eye[0] - target[0], dy = eye[1] - target[1], dz = eye[2] - target[2];
+    cam.dist = Math.hypot(dx, dy, dz);
+    cam.pitch = Math.asin(Math.max(-1, Math.min(1, dz / cam.dist)));
+    cam.pitch = Math.max(-1.52, Math.min(1.52, cam.pitch));
+    cam.yaw = Math.atan2(dx, dy);
+  }
+
+  const VIEWS = {
+    se:      [[24.5, 18.5, 8.2], [6.6, 3.6, 1.7], 34, 9.4],
+    ne:      [[-11.0, -10.0, 8.4], [6.4, 4.4, 1.7], 34, 9.4],
+    top:     [[7.0, 4.15, 30.0], [7.0, 4.15, 0.0], 30, 9.4],
+    hall:    [[10.70, 3.50, 1.60], [6.95, 3.28, 1.30], 63, 0],
+    kitchen: [[8.60, 7.60, 1.55], [8.20, 2.60, 1.10], 62, 0],
+    bed:     [[0.75, 4.35, 1.50], [3.30, 7.40, 0.85], 66, 0]
+  };
+  let activeView = "se";
+
+  // разстояние, при което сфера с даден радиус се побира в кадъра
+  function fitDistance(fov, radius) {
+    const aspect = Math.max(0.35, W / H);
+    const vhalf = fov * Math.PI / 360;
+    const hhalf = Math.atan(Math.tan(vhalf) * aspect);
+    return radius / Math.sin(Math.min(vhalf, hhalf));
+  }
+
+  // --- размери на платното ---------------------------------------------
+  function resize() {
+    const dpr = 1;                              // фиксирано — за скорост
+    W = Math.max(320, Math.floor(cv.clientWidth * dpr));
+    H = Math.max(240, Math.floor(cv.clientHeight * dpr));
+    cv.width = W; cv.height = H;
+    img = ctx.createImageData(W, H);
+    depth = new Float32Array(W * H);
+    const radius = VIEWS[activeView] ? VIEWS[activeView][3] : 0;
+    if (radius > 0) cam.dist = fitDistance(cam.fov, radius);
+    draw();
+  }
+
+  // --- изрязване по близката равнина ------------------------------------
+  function clipNear(poly, near) {
+    const out = [];
+    for (let i = 0; i < poly.length; i++) {
+      const a = poly[i], b = poly[(i + 1) % poly.length];
+      const ina = a[2] >= near, inb = b[2] >= near;
+      if (ina) out.push(a);
+      if (ina !== inb) {
+        const t = (near - a[2]) / (b[2] - a[2]);
+        out.push([a[0] + t * (b[0] - a[0]), a[1] + t * (b[1] - a[1]), near]);
+      }
+    }
+    return out;
+  }
+
+  // --- основен рендер ---------------------------------------------------
+  function draw() {
+    const d = img.data;
+    d.fill(243);                                  // фон #f3f3f3
+    for (let i = 3; i < d.length; i += 4) d[i] = 255;
+    depth.fill(Infinity);
+
+    const eye = eyeOf();
+    const f = norm([cam.target[0] - eye[0], cam.target[1] - eye[1], cam.target[2] - eye[2]]);
+    let r = [-f[1], f[0], 0];                       // cross([0,0,1], f)
+    if (Math.hypot(r[0], r[1], r[2]) < 1e-6) r = [1, 0, 0];
+    r = norm(r);
+    const u = norm([f[1] * r[2] - f[2] * r[1], f[2] * r[0] - f[0] * r[2], f[0] * r[1] - f[1] * r[0]]);
+    const fpx = (H / 2) / Math.tan((cam.fov * Math.PI / 180) / 2);
+    const NEAR = 0.05;
+
+    const vis = {};
+    for (const g in GROUPS) {
+      const el = document.getElementById(GROUPS[g]);
+      vis[g] = el ? el.checked : true;
+    }
+
+    for (let t = 0; t < tris.length; t++) {
+      const tr = tris[t];
+      if (!vis[tr.g]) continue;
+      const p = tr.p;
+
+      const cam3 = [];
+      let anyFront = false;
+      for (let k = 0; k < 3; k++) {
+        const dx = p[k * 3] - eye[0], dy = p[k * 3 + 1] - eye[1], dz = p[k * 3 + 2] - eye[2];
+        const cx = dx * r[0] + dy * r[1] + dz * r[2];
+        const cy = dx * u[0] + dy * u[1] + dz * u[2];
+        const cz = dx * f[0] + dy * f[1] + dz * f[2];
+        cam3.push([cx, cy, cz]);
+        if (cz >= NEAR) anyFront = true;
+      }
+      if (!anyFront) continue;
+
+      const poly = clipNear(cam3, NEAR);
+      if (poly.length < 3) continue;
+
+      const sc = [];
+      for (let k = 0; k < poly.length; k++) {
+        const q = poly[k];
+        sc.push([W / 2 + fpx * q[0] / q[2], H / 2 - fpx * q[1] / q[2], q[2]]);
+      }
+      for (let k = 1; k < sc.length - 1; k++) {
+        raster(sc[0], sc[k], sc[k + 1], tr.c);
+      }
+    }
+    ctx.putImageData(img, 0, 0);
+  }
+
+  function raster(a, b, c, col) {
+    const x0 = a[0], y0 = a[1], z0 = a[2];
+    const x1 = b[0], y1 = b[1], z1 = b[2];
+    const x2 = c[0], y2 = c[1], z2 = c[2];
+    if (z0 <= 0 || z1 <= 0 || z2 <= 0) return;
+
+    let minX = Math.floor(Math.min(x0, x1, x2)), maxX = Math.ceil(Math.max(x0, x1, x2));
+    let minY = Math.floor(Math.min(y0, y1, y2)), maxY = Math.ceil(Math.max(y0, y1, y2));
+    if (minX < 0) minX = 0;
+    if (minY < 0) minY = 0;
+    if (maxX > W - 1) maxX = W - 1;
+    if (maxY > H - 1) maxY = H - 1;
+    if (maxX < minX || maxY < minY) return;
+
+    const den = (y1 - y2) * (x0 - x2) + (x2 - x1) * (y0 - y2);
+    if (Math.abs(den) < 1e-9) return;
+
+    const d = img.data, cr = col[0], cg = col[1], cb = col[2];
+    const i0 = 1 / z0, i1 = 1 / z1, i2 = 1 / z2;
+
+    for (let y = minY; y <= maxY; y++) {
+      const py = y + 0.5;
+      const rowBase = y * W;
+      for (let x = minX; x <= maxX; x++) {
+        const px = x + 0.5;
+        const w0 = ((y1 - y2) * (px - x2) + (x2 - x1) * (py - y2)) / den;
+        if (w0 < 0) continue;
+        const w1 = ((y2 - y0) * (px - x2) + (x0 - x2) * (py - y2)) / den;
+        if (w1 < 0) continue;
+        const w2 = 1 - w0 - w1;
+        if (w2 < 0) continue;
+
+        const iz = w0 * i0 + w1 * i1 + w2 * i2;
+        if (iz <= 0) continue;
+        const z = 1 / iz;
+        const idx = rowBase + x;
+        if (z >= depth[idx]) continue;
+        depth[idx] = z;
+        const o = idx * 4;
+        d[o] = cr; d[o + 1] = cg; d[o + 2] = cb; d[o + 3] = 255;
+      }
+    }
+  }
+
+  // --- управление -------------------------------------------------------
+  let dragging = 0, lastX = 0, lastY = 0, pending = false;
+
+  function schedule() {
+    if (pending) return;
+    pending = true;
+    const run = function () {
+      if (!pending) return;
+      pending = false;
+      draw();
+    };
+    requestAnimationFrame(run);
+    setTimeout(run, 120);          // резерва, ако rAF е спрян (скрит таб)
+  }
+
+  cv.addEventListener("mousedown", function (e) {
+    dragging = e.button === 2 ? 2 : 1;
+    lastX = e.clientX; lastY = e.clientY;
+    cv.classList.add("drag");
+    e.preventDefault();
+  });
+  window.addEventListener("mousemove", function (e) {
+    if (!dragging) return;
+    const dx = e.clientX - lastX, dy = e.clientY - lastY;
+    lastX = e.clientX; lastY = e.clientY;
+    if (dragging === 1) {
+      cam.yaw -= dx * 0.008;
+      cam.pitch = Math.max(-1.45, Math.min(1.53, cam.pitch + dy * 0.006));
+    } else {
+      const eye = eyeOf();
+      const f = norm([cam.target[0] - eye[0], cam.target[1] - eye[1], cam.target[2] - eye[2]]);
+      let rt = [-f[1], f[0], 0];
+      if (Math.hypot(rt[0], rt[1], rt[2]) < 1e-6) rt = [1, 0, 0];
+      rt = norm(rt);
+      const up = [0, 0, 1];
+      const k = cam.dist * 0.0016;
+      for (let i = 0; i < 3; i++) {
+        cam.target[i] -= rt[i] * dx * k;
+        cam.target[i] += up[i] * dy * k;
+      }
+    }
+    schedule();
+  });
+  window.addEventListener("mouseup", function () {
+    dragging = 0; cv.classList.remove("drag");
+  });
+  cv.addEventListener("contextmenu", function (e) { e.preventDefault(); });
+  cv.addEventListener("wheel", function (e) {
+    cam.dist = Math.max(1.2, Math.min(70, cam.dist * (1 + Math.sign(e.deltaY) * 0.12)));
+    e.preventDefault();
+    schedule();
+  }, { passive: false });
+
+  document.querySelectorAll("#panel .views button").forEach(function (b) {
+    b.addEventListener("click", function () {
+      const v = VIEWS[b.dataset.v];
+      if (!v) return;
+      activeView = b.dataset.v;
+      setView(v[0], v[1], v[2]);
+      if (v[3] > 0) cam.dist = fitDistance(cam.fov, v[3]);
+      // вътрешните изгледи — без покрив, но с таван; планът — без двете
+      const key = b.dataset.v;
+      const inside = key === "hall" || key === "kitchen" || key === "bed";
+      document.getElementById("c-pokriv").checked = !(inside || key === "top");
+      document.getElementById("c-tavan").checked = key !== "top";
+      document.getElementById("c-mebel").checked = true;
+      schedule();
+    });
+  });
+
+  document.querySelectorAll("#panel input[type=checkbox]").forEach(function (c) {
+    c.addEventListener("change", schedule);
+  });
+
+  window.addEventListener("resize", resize);
+
+  setView(VIEWS.se[0], VIEWS.se[1], VIEWS.se[2]);
+  resize();
+  activeView = "se";
+  if (!tris.length) {
+    ctx.fillStyle = "#333"; ctx.font = "16px sans-serif";
+    ctx.fillText("model-data.js не е зареден — пусни generate_3d.py", 24, 40);
+  }
+})();
+</script>
+</body>
+</html>

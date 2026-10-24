@@ -45,6 +45,7 @@
 <rect class="win" x="7690.0" y="0.0" width="1200.0" height="350.0"/>
 <rect class="win" x="11650.0" y="3500.0" width="350.0" height="1600.0"/>
 <rect class="win" x="0.0" y="5200.0" width="350.0" height="1000.0"/>
+<rect class="win" x="11650.0" y="5900.0" width="350.0" height="1400.0"/>
 <rect class="part" x="350.0" y="2350.0" width="1850.0" height="150.0"/>
 <rect class="part" x="3100.0" y="2350.0" width="3700.0" height="150.0"/>
 <rect class="part" x="350.0" y="3600.0" width="550.0" height="150.0"/>
@@ -105,18 +106,18 @@
 <line class="el-d" x1="11378.5" y1="2600.0" x2="11521.5" y2="2600.0"/>
 <circle class="el" cx="11723.0" cy="2600.0" r="130.0"/>
 <line class="el-d" x1="11651.5" y1="2600.0" x2="11794.5" y2="2600.0"/>
-<circle class="el" cx="11450.0" cy="6000.0" r="130.0"/>
-<line class="el-d" x1="11378.5" y1="6000.0" x2="11521.5" y2="6000.0"/>
-<circle class="el" cx="11723.0" cy="6000.0" r="130.0"/>
-<line class="el-d" x1="11651.5" y1="6000.0" x2="11794.5" y2="6000.0"/>
+<circle class="el" cx="11450.0" cy="6350.0" r="130.0"/>
+<line class="el-d" x1="11378.5" y1="6350.0" x2="11521.5" y2="6350.0"/>
+<circle class="el" cx="11723.0" cy="6350.0" r="130.0"/>
+<line class="el-d" x1="11651.5" y1="6350.0" x2="11794.5" y2="6350.0"/>
 <circle class="el" cx="11450.0" cy="7000.0" r="130.0"/>
 <line class="el-d" x1="11378.5" y1="7000.0" x2="11521.5" y2="7000.0"/>
 <circle class="el" cx="11723.0" cy="7000.0" r="130.0"/>
 <line class="el-d" x1="11651.5" y1="7000.0" x2="11794.5" y2="7000.0"/>
-<rect class="el" x="6890.0" y="5000.0" width="520.0" height="300.0"/>
-<text class="lbl-f" x="7150.0" y="5240.0" text-anchor="middle">ТВ</text>
-<rect class="el" x="6890.0" y="5350.0" width="520.0" height="300.0"/>
-<text class="lbl-f" x="7150.0" y="5590.0" text-anchor="middle">LAN</text>
+<rect class="el" x="6890.0" y="5650.0" width="520.0" height="300.0"/>
+<text class="lbl-f" x="7150.0" y="5890.0" text-anchor="middle">ТВ</text>
+<rect class="el" x="6890.0" y="5900.0" width="520.0" height="300.0"/>
+<text class="lbl-f" x="7150.0" y="6140.0" text-anchor="middle">LAN</text>
 <circle class="el" cx="1000.0" cy="3400.0" r="120.0"/>
 <line class="el-d" x1="1000.0" y1="3400.0" x2="1228.0" y2="3172.0"/>
 <circle class="el" cx="600.0" cy="4200.0" r="130.0"/>
@@ -269,7 +270,7 @@
 <line class="tb" x1="-225.0" y1="13300.0" x2="12825.0" y2="13300.0"/>
 <line class="tb" x1="-225.0" y1="13825.0" x2="12825.0" y2="13825.0"/>
 <line class="tb" x1="8925.0" y1="12700.0" x2="8925.0" y2="13825.0"/>
-<text class="tbmain" x="0.0" y="13096.0" text-anchor="start">NIKOLAEVO HOUSE — ЕЛЕКТРОИНСТАЛАЦИЯ</text>
+<text class="tbmain" x="0.0" y="13070.2" text-anchor="start" style="font-size:195.0px">NIKOLAEVO HOUSE — ЕЛЕКТРОИНСТАЛАЦИЯ</text>
 <text class="tbsub" x="0.0" y="13657.0" text-anchor="start">План на контакти, ключове и осветление · лист E-01</text>
 <text class="tbsmall" x="9150.0" y="13084.0" text-anchor="start">E-01</text>
 <text class="tbsmall" x="9150.0" y="13657.0" text-anchor="start">Мащаб 1:75</text>

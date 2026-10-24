@@ -1,0 +1,144 @@
+# Материали за 3D модела
+newmtl vanshna-mazilka
+Kd 0.870 0.850 0.810
+Ka 0.200 0.200 0.200
+Ks 0.000 0.000 0.000
+illum 1
+
+newmtl vatreshna-mazilka
+Kd 0.940 0.930 0.900
+Ka 0.200 0.200 0.200
+Ks 0.000 0.000 0.000
+illum 1
+
+newmtl beton
+Kd 0.620 0.620 0.600
+Ka 0.200 0.200 0.200
+Ks 0.000 0.000 0.000
+illum 1
+
+newmtl teren
+Kd 0.720 0.760 0.660
+Ka 0.200 0.200 0.200
+Ks 0.000 0.000 0.000
+illum 1
+
+newmtl keremidi
+Kd 0.560 0.310 0.250
+Ka 0.200 0.200 0.200
+Ks 0.000 0.000 0.000
+illum 1
+
+newmtl tavan
+Kd 0.970 0.970 0.960
+Ka 0.200 0.200 0.200
+Ks 0.000 0.000 0.000
+illum 1
+
+newmtl stuklo
+Kd 0.660 0.820 0.880
+Ka 0.200 0.200 0.200
+Ks 0.000 0.000 0.000
+illum 1
+
+newmtl profil
+Kd 0.320 0.340 0.370
+Ka 0.200 0.200 0.200
+Ks 0.000 0.000 0.000
+illum 1
+
+newmtl vrata
+Kd 0.660 0.500 0.340
+Ka 0.200 0.200 0.200
+Ks 0.000 0.000 0.000
+illum 1
+
+newmtl vhodna-vrata
+Kd 0.360 0.260 0.200
+Ka 0.200 0.200 0.200
+Ks 0.000 0.000 0.000
+illum 1
+
+newmtl pod-darvo
+Kd 0.790 0.660 0.500
+Ka 0.200 0.200 0.200
+Ks 0.000 0.000 0.000
+illum 1
+
+newmtl pod-plochki
+Kd 0.840 0.860 0.870
+Ka 0.200 0.200 0.200
+Ks 0.000 0.000 0.000
+illum 1
+
+newmtl mebel-darvo
+Kd 0.640 0.470 0.320
+Ka 0.200 0.200 0.200
+Ks 0.000 0.000 0.000
+illum 1
+
+newmtl mebel-svetal
+Kd 0.860 0.800 0.700
+Ka 0.200 0.200 0.200
+Ks 0.000 0.000 0.000
+illum 1
+
+newmtl tapiceria
+Kd 0.520 0.580 0.660
+Ka 0.200 0.200 0.200
+Ks 0.000 0.000 0.000
+illum 1
+
+newmtl leglo
+Kd 0.930 0.930 0.950
+Ka 0.200 0.200 0.200
+Ks 0.000 0.000 0.000
+illum 1
+
+newmtl byalo
+Kd 0.960 0.960 0.960
+Ka 0.200 0.200 0.200
+Ks 0.000 0.000 0.000
+illum 1
+
+newmtl tyomno
+Kd 0.180 0.190 0.210
+Ka 0.200 0.200 0.200
+Ks 0.000 0.000 0.000
+illum 1
+
+newmtl metal
+Kd 0.700 0.720 0.740
+Ka 0.200 0.200 0.200
+Ks 0.000 0.000 0.000
+illum 1
+
+newmtl kilim
+Kd 0.720 0.660 0.600
+Ka 0.200 0.200 0.200
+Ks 0.000 0.000 0.000
+illum 1
+
+newmtl rasteanie
+Kd 0.360 0.520 0.300
+Ka 0.200 0.200 0.200
+Ks 0.000 0.000 0.000
+illum 1
+
+newmtl veranda-darvo
+Kd 0.580 0.400 0.260
+Ka 0.200 0.200 0.200
+Ks 0.000 0.000 0.000
+illum 1
+
+newmtl veranda-pokriv
+Kd 0.300 0.330 0.320
+Ka 0.200 0.200 0.200
+Ks 0.000 0.000 0.000
+illum 1
+
+newmtl veranda-pod
+Kd 0.700 0.550 0.400
+Ka 0.200 0.200 0.200
+Ks 0.000 0.000 0.000
+illum 1

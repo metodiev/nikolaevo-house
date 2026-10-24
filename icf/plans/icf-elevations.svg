@@ -232,6 +232,8 @@
 <text class="code" x="1225.0" y="9280.0" text-anchor="middle">O7</text>
 <rect class="open" x="3500.0" y="9300.0" width="1600.0" height="1400.0"/>
 <text class="code" x="4300.0" y="9180.0" text-anchor="middle">O8</text>
+<rect class="open" x="5900.0" y="9300.0" width="1400.0" height="1400.0"/>
+<text class="code" x="6600.0" y="9180.0" text-anchor="middle">O10</text>
 <line class="wall-l" x1="-300.0" y1="11500.0" x2="8500.0" y2="11500.0"/>
 <text class="lbl-s" x="0.0" y="8350.0" text-anchor="start">СЕВЕР</text>
 <text class="lbl-s" x="8200.0" y="8350.0" text-anchor="end">ЮГ</text>
@@ -259,12 +261,24 @@
 <line class="dim" x1="3500.0" y1="11500.0" x2="3500.0" y2="12300.0"/>
 <line class="dim" x1="5100.0" y1="11500.0" x2="5100.0" y2="12300.0"/>
 <text class="dimt" x="4300.0" y="12200.0" text-anchor="middle">1600</text>
-<line class="dim" x1="5100.0" y1="12300.0" x2="8200.0" y2="12300.0"/>
+<line class="dim" x1="5100.0" y1="12300.0" x2="5900.0" y2="12300.0"/>
 <line class="dim" x1="5025.0" y1="12375.0" x2="5175.0" y2="12225.0"/>
-<line class="dim" x1="8125.0" y1="12375.0" x2="8275.0" y2="12225.0"/>
+<line class="dim" x1="5825.0" y1="12375.0" x2="5975.0" y2="12225.0"/>
 <line class="dim" x1="5100.0" y1="11500.0" x2="5100.0" y2="12300.0"/>
+<line class="dim" x1="5900.0" y1="11500.0" x2="5900.0" y2="12300.0"/>
+<text class="dimt" x="5500.0" y="12200.0" text-anchor="middle">800</text>
+<line class="dim" x1="5900.0" y1="12300.0" x2="7300.0" y2="12300.0"/>
+<line class="dim" x1="5825.0" y1="12375.0" x2="5975.0" y2="12225.0"/>
+<line class="dim" x1="7225.0" y1="12375.0" x2="7375.0" y2="12225.0"/>
+<line class="dim" x1="5900.0" y1="11500.0" x2="5900.0" y2="12300.0"/>
+<line class="dim" x1="7300.0" y1="11500.0" x2="7300.0" y2="12300.0"/>
+<text class="dimt" x="6600.0" y="12200.0" text-anchor="middle">1400</text>
+<line class="dim" x1="7300.0" y1="12300.0" x2="8200.0" y2="12300.0"/>
+<line class="dim" x1="7225.0" y1="12375.0" x2="7375.0" y2="12225.0"/>
+<line class="dim" x1="8125.0" y1="12375.0" x2="8275.0" y2="12225.0"/>
+<line class="dim" x1="7300.0" y1="11500.0" x2="7300.0" y2="12300.0"/>
 <line class="dim" x1="8200.0" y1="11500.0" x2="8200.0" y2="12300.0"/>
-<text class="dimt" x="6650.0" y="12200.0" text-anchor="middle">3100</text>
+<text class="dimt" x="7750.0" y="12200.0" text-anchor="middle">900</text>
 <line class="dim" x1="0.0" y1="13100.0" x2="8200.0" y2="13100.0"/>
 <line class="dim" x1="-75.0" y1="13175.0" x2="75.0" y2="13025.0"/>
 <line class="dim" x1="8125.0" y1="13175.0" x2="8275.0" y2="13025.0"/>
@@ -287,6 +301,10 @@
 <text class="note" x="1200.0" y="14840.0" text-anchor="start">1600 × 1400</text>
 <text class="note" x="5200.0" y="14840.0" text-anchor="start">800</text>
 <text class="note" x="8000.0" y="14840.0" text-anchor="start">2200</text>
+<text class="note" x="0.0" y="15260.0" text-anchor="start">O10</text>
+<text class="note" x="1200.0" y="15260.0" text-anchor="start">1400 × 1400</text>
+<text class="note" x="5200.0" y="15260.0" text-anchor="start">800</text>
+<text class="note" x="8000.0" y="15260.0" text-anchor="start">2200</text>
 <rect class="tb" x="-1600.0" y="16300.0" width="29600.0" height="3460.0"/>
 <line class="tb" x1="-1600.0" y1="17100.0" x2="28000.0" y2="17100.0"/>
 <line class="tb" x1="-1600.0" y1="17800.0" x2="28000.0" y2="17800.0"/>

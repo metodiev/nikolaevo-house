@@ -10,6 +10,7 @@
 | [02-areas.md](./02-areas.md) | Списък на площите и площна сметка |
 | [03-openings.md](./03-openings.md) | Дограма — прозорци, врати, позиции, размери |
 | [04-diagrams.md](./04-diagrams.md) | Диаграми: зониране, циркулация, разпределение на площта |
+| [05-veranda.md](./05-veranda.md) | Отворена веранда 1,80 × 8,20 m по цялата източна фасада |
 
 ## Чертежи
 
@@ -18,6 +19,7 @@
 | [plans/floor-plan.svg](./plans/floor-plan.svg) | План на разположението, мащаб 1:100 при печат, с размери |
 | [plans/site-orientation.svg](./plans/site-orientation.svg) | Ориентация и положение в парцела (схема, не е в мащаб) |
 | [plans/A-03-dograma.svg](./plans/A-03-dograma.svg) | Дограма и врати — фасади на отворите с посока на отваряне |
+| [plans/A-04-veranda.svg](./plans/A-04-veranda.svg) | Веранда — план 1:100 с обзавеждане за 6 души |
 
 ## CAD / DXF
 

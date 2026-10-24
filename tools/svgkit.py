@@ -84,11 +84,12 @@ class Canvas:
         tag = "polygon" if closed else "polyline"
         self.els.append(f'<{tag} class="{cls}" points="{points}"/>')
 
-    def text(self, x, y, s, cls="lbl", anchor="middle", rot=0.0) -> None:
+    def text(self, x, y, s, cls="lbl", anchor="middle", rot=0.0, size=None) -> None:
         tr = f' transform="rotate({rot:.1f} {x:.1f} {y:.1f})"' if rot else ""
+        st = f' style="font-size:{size:.1f}px"' if size is not None else ""
         self.els.append(
             f'<text class="{cls}" x="{x:.1f}" y="{y:.1f}" '
-            f'text-anchor="{anchor}"{tr}>{esc(s)}</text>'
+            f'text-anchor="{anchor}"{tr}{st}>{esc(s)}</text>'
         )
 
     # --- размери ----------------------------------------------------------
@@ -130,7 +131,14 @@ class Canvas:
         split = x + w - self.u(52)
         self.line(split, y, split, y + h1 + h2, "tb")
 
-        self.text(x + self.u(3), y + h1 * 0.66, lines[0], "tbmain", "start")
+        # заглавието се смалява, ако не се побира в лявата клетка
+        avail = split - x - self.u(6)
+        fs = self.u(2.6)
+        need = len(lines[0]) * 0.63 * fs
+        if need > avail:
+            fs = avail / (len(lines[0]) * 0.63)
+        self.text(x + self.u(3), y + h1 * 0.5 + fs * 0.36, lines[0],
+                  "tbmain", "start", size=fs)
         self.text(x + self.u(3), y + h1 + h2 * 0.68, lines[1], "tbsub", "start")
         self.text(split + self.u(3), y + h1 * 0.64, sheet, "tbsmall", "start")
         self.text(split + self.u(3), y + h1 + h2 * 0.68, scale_text,

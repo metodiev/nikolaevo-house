@@ -41,6 +41,7 @@
 <rect class="open" x="7690.0" y="0.0" width="1200.0" height="350.0"/>
 <rect class="open" x="11650.0" y="700.0" width="350.0" height="1050.0"/>
 <rect class="open" x="11650.0" y="3500.0" width="350.0" height="1600.0"/>
+<rect class="open" x="11650.0" y="5900.0" width="350.0" height="1400.0"/>
 <rect class="openopt" x="0.0" y="5200.0" width="350.0" height="1000.0"/>
 <line class="axis" x1="0.0" y1="8025.0" x2="12000.0" y2="8025.0"/>
 <line class="axis" x1="0.0" y1="175.0" x2="12000.0" y2="175.0"/>
@@ -69,6 +70,7 @@
 <text class="code" x="8290.0" y="-192.5" text-anchor="middle">O6</text>
 <text class="code" x="12192.5" y="1225.0" text-anchor="middle" transform="rotate(-90.0 12192.5 1225.0)">O7</text>
 <text class="code" x="12192.5" y="4300.0" text-anchor="middle" transform="rotate(-90.0 12192.5 4300.0)">O8</text>
+<text class="code" x="12192.5" y="6600.0" text-anchor="middle" transform="rotate(-90.0 12192.5 6600.0)">O10</text>
 <text class="code" x="-192.5" y="5700.0" text-anchor="middle" transform="rotate(-90.0 -192.5 5700.0)">O9</text>
 <line class="dim" x1="0.0" y1="-1200.0" x2="1625.0" y2="-1200.0"/>
 <line class="dim" x1="-75.0" y1="-1125.0" x2="75.0" y2="-1275.0"/>
@@ -208,12 +210,24 @@
 <line class="dim" x1="12000.0" y1="3500.0" x2="13200.0" y2="3500.0"/>
 <line class="dim" x1="12000.0" y1="5100.0" x2="13200.0" y2="5100.0"/>
 <text class="dimt" x="13310.0" y="4300.0" text-anchor="middle" transform="rotate(-90.0 13310.0 4300.0)">1600</text>
-<line class="dim" x1="13200.0" y1="5100.0" x2="13200.0" y2="8200.0"/>
+<line class="dim" x1="13200.0" y1="5100.0" x2="13200.0" y2="5900.0"/>
 <line class="dim" x1="13125.0" y1="5175.0" x2="13275.0" y2="5025.0"/>
-<line class="dim" x1="13125.0" y1="8275.0" x2="13275.0" y2="8125.0"/>
+<line class="dim" x1="13125.0" y1="5975.0" x2="13275.0" y2="5825.0"/>
 <line class="dim" x1="12000.0" y1="5100.0" x2="13200.0" y2="5100.0"/>
+<line class="dim" x1="12000.0" y1="5900.0" x2="13200.0" y2="5900.0"/>
+<text class="dimt" x="13310.0" y="5500.0" text-anchor="middle" transform="rotate(-90.0 13310.0 5500.0)">800</text>
+<line class="dim" x1="13200.0" y1="5900.0" x2="13200.0" y2="7300.0"/>
+<line class="dim" x1="13125.0" y1="5975.0" x2="13275.0" y2="5825.0"/>
+<line class="dim" x1="13125.0" y1="7375.0" x2="13275.0" y2="7225.0"/>
+<line class="dim" x1="12000.0" y1="5900.0" x2="13200.0" y2="5900.0"/>
+<line class="dim" x1="12000.0" y1="7300.0" x2="13200.0" y2="7300.0"/>
+<text class="dimt" x="13310.0" y="6600.0" text-anchor="middle" transform="rotate(-90.0 13310.0 6600.0)">1400</text>
+<line class="dim" x1="13200.0" y1="7300.0" x2="13200.0" y2="8200.0"/>
+<line class="dim" x1="13125.0" y1="7375.0" x2="13275.0" y2="7225.0"/>
+<line class="dim" x1="13125.0" y1="8275.0" x2="13275.0" y2="8125.0"/>
+<line class="dim" x1="12000.0" y1="7300.0" x2="13200.0" y2="7300.0"/>
 <line class="dim" x1="12000.0" y1="8200.0" x2="13200.0" y2="8200.0"/>
-<text class="dimt" x="13310.0" y="6650.0" text-anchor="middle" transform="rotate(-90.0 13310.0 6650.0)">3100</text>
+<text class="dimt" x="13310.0" y="7750.0" text-anchor="middle" transform="rotate(-90.0 13310.0 7750.0)">900</text>
 <line class="dim" x1="14600.0" y1="0.0" x2="14600.0" y2="8200.0"/>
 <line class="dim" x1="14525.0" y1="75.0" x2="14675.0" y2="-75.0"/>
 <line class="dim" x1="14525.0" y1="8275.0" x2="14675.0" y2="8125.0"/>

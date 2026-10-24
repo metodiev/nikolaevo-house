@@ -88,6 +88,8 @@
   <!-- изток: трапезария -->
   <rect class="win" x="11650" y="3500" width="350" height="1600"/>
   <line class="glass" x1="11825" y1="3500" x2="11825" y2="5100"/>
+  <rect class="win" x="11650" y="5900" width="350" height="1400"/>
+  <line class="glass" x1="11825" y1="5900" x2="11825" y2="7300"/>
   <!-- запад: опция спалня 1 -->
   <rect class="winopt" x="0" y="5200" width="350" height="1000"/>
   <line class="glass" x1="175" y1="5200" x2="175" y2="6200"/>

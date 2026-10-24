@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="180.0mm" height="195.0mm" viewBox="-1500 -2400 18000 19500" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif">
+<title>A-04 Веранда — 1:100</title>
+<style type="text/css"><![CDATA[
+.wall   { fill:#dcdcdc; stroke:#111; stroke-width:28.00; }
+.wall-l { fill:none; stroke:#111; stroke-width:22.00; }
+.part   { fill:#eeeeee; stroke:#111; stroke-width:16.00; }
+.win    { fill:#ffffff; stroke:#111; stroke-width:24.00; }
+.glass  { fill:none; stroke:#111; stroke-width:14.00; }
+.sym    { fill:#ffffff; stroke:#111; stroke-width:20.00; }
+.sym-f  { fill:#f2f2f2; stroke:#111; stroke-width:20.00; }
+.sym-l  { fill:none; stroke:#111; stroke-width:18.00; }
+.soft   { fill:none; stroke:#777; stroke-width:16.00; stroke-dasharray:90.00 55.00; }
+.ghost  { fill:none; stroke:#aaa; stroke-width:15.00; stroke-dasharray:120.00 60.00; }
+.door   { fill:none; stroke:#111; stroke-width:22.00; }
+.door-a { fill:none; stroke:#888; stroke-width:15.00; stroke-dasharray:70.00 50.00; }
+.dim    { fill:none; stroke:#666; stroke-width:14.00; }
+.dimt   { fill:#333; font-size:195.00px;  }
+.lbl    { fill:#111; font-size:250.00px;  }
+.lbl-s  { fill:#555; font-size:195.00px;  }
+.lbl-f  { fill:#222; font-size:170.00px;  }
+.code   { fill:#111; font-size:200.00px; font-weight:bold; }
+.sub    { fill:#555; font-size:220.00px; }
+.note   { fill:#222; font-size:195.00px; }
+.el     { fill:#fff; stroke:#111; stroke-width:22.00; }
+.el-f   { fill:#111; stroke:#111; stroke-width:22.00; }
+.el-d   { fill:none; stroke:#111; stroke-width:22.00; }
+.tb     { fill:none; stroke:#111; stroke-width:25.00; }
+.tbmain { fill:#111; font-size:260.00px; font-weight:bold; }
+.tbsub  { fill:#333; font-size:240.00px; }
+.tbsmall{ fill:#444; font-size:195.00px; }
+.plate  { fill:#ffffff; fill-opacity:0.92; stroke:none; }
+.mask   { fill:#ffffff; stroke:none; }
+]]></style>
+<rect x="-1500" y="-2400" width="18000" height="19500" fill="#ffffff"/>
+<rect class="wall" x="0.0" y="0.0" width="12000.0" height="8200.0"/>
+<rect class="sym-l" x="350.0" y="350.0" width="3150.0" height="2000.0"/>
+<text class="lbl-f" x="1925.0" y="1350.0" text-anchor="middle">БАНЯ</text>
+<rect class="sym-l" x="3650.0" y="350.0" width="3150.0" height="2000.0"/>
+<text class="lbl-f" x="5225.0" y="1350.0" text-anchor="middle">МОКРО</text>
+<rect class="sym-l" x="350.0" y="2500.0" width="6450.0" height="1100.0"/>
+<text class="lbl-f" x="3575.0" y="3050.0" text-anchor="middle">КОРИДОР</text>
+<rect class="sym-l" x="350.0" y="3750.0" width="3150.0" height="4100.0"/>
+<text class="lbl-f" x="1925.0" y="5800.0" text-anchor="middle">СПАЛНЯ 1</text>
+<rect class="sym-l" x="3650.0" y="3750.0" width="3150.0" height="4100.0"/>
+<text class="lbl-f" x="5225.0" y="5800.0" text-anchor="middle">СПАЛНЯ 2</text>
+<rect class="sym-l" x="6950.0" y="350.0" width="2680.0" height="2220.0"/>
+<text class="lbl-f" x="8290.0" y="1460.0" text-anchor="middle">КУХНЯ</text>
+<rect class="sym-l" x="9750.0" y="350.0" width="1900.0" height="2100.0"/>
+<text class="lbl-f" x="10700.0" y="1400.0" text-anchor="middle">АНТРЕ</text>
+<rect class="sym-l" x="6950.0" y="2570.0" width="4700.0" height="5280.0"/>
+<text class="lbl-f" x="9300.0" y="5210.0" text-anchor="middle">ХОЛ + ТРАПЕЗАРИЯ</text>
+<rect class="soft" x="350.0" y="350.0" width="11300.0" height="7500.0"/>
+<rect class="soft" x="12000.0" y="0.0" width="1800.0" height="8200.0"/>
+<line class="ghost" x1="12000.0" y1="400.0" x2="13800.0" y2="400.0"/>
+<line class="ghost" x1="12000.0" y1="800.0" x2="13800.0" y2="800.0"/>
+<line class="ghost" x1="12000.0" y1="1200.0" x2="13800.0" y2="1200.0"/>
+<line class="ghost" x1="12000.0" y1="1600.0" x2="13800.0" y2="1600.0"/>
+<line class="ghost" x1="12000.0" y1="2000.0" x2="13800.0" y2="2000.0"/>
+<line class="ghost" x1="12000.0" y1="2400.0" x2="13800.0" y2="2400.0"/>
+<line class="ghost" x1="12000.0" y1="2800.0" x2="13800.0" y2="2800.0"/>
+<line class="ghost" x1="12000.0" y1="3200.0" x2="13800.0" y2="3200.0"/>
+<line class="ghost" x1="12000.0" y1="3600.0" x2="13800.0" y2="3600.0"/>
+<line class="ghost" x1="12000.0" y1="4000.0" x2="13800.0" y2="4000.0"/>
+<line class="ghost" x1="12000.0" y1="4400.0" x2="13800.0" y2="4400.0"/>
+<line class="ghost" x1="12000.0" y1="4800.0" x2="13800.0" y2="4800.0"/>
+<line class="ghost" x1="12000.0" y1="5200.0" x2="13800.0" y2="5200.0"/>
+<line class="ghost" x1="12000.0" y1="5600.0" x2="13800.0" y2="5600.0"/>
+<line class="ghost" x1="12000.0" y1="6000.0" x2="13800.0" y2="6000.0"/>
+<line class="ghost" x1="12000.0" y1="6400.0" x2="13800.0" y2="6400.0"/>
+<line class="ghost" x1="12000.0" y1="6800.0" x2="13800.0" y2="6800.0"/>
+<line class="ghost" x1="12000.0" y1="7200.0" x2="13800.0" y2="7200.0"/>
+<line class="ghost" x1="12000.0" y1="7600.0" x2="13800.0" y2="7600.0"/>
+<line class="ghost" x1="12000.0" y1="8000.0" x2="13800.0" y2="8000.0"/>
+<line class="door" x1="13710.0" y1="2300.0" x2="13710.0" y2="8140.0"/>
+<rect class="sym-f" x="13660.0" y="60.0" width="100.0" height="100.0"/>
+<rect class="sym-f" x="13660.0" y="2100.0" width="100.0" height="100.0"/>
+<rect class="sym-f" x="13660.0" y="4100.0" width="100.0" height="100.0"/>
+<rect class="sym-f" x="13660.0" y="6100.0" width="100.0" height="100.0"/>
+<rect class="sym-f" x="13660.0" y="8040.0" width="100.0" height="100.0"/>
+<rect class="sym-l" x="13800.0" y="200.0" width="550.0" height="1700.0"/>
+<rect class="sym-f" x="12040.0" y="5900.0" width="440.0" height="1500.0"/>
+<line class="dim" x1="12000.0" y1="-1000.0" x2="13800.0" y2="-1000.0"/>
+<line class="dim" x1="11925.0" y1="-925.0" x2="12075.0" y2="-1075.0"/>
+<line class="dim" x1="13725.0" y1="-925.0" x2="13875.0" y2="-1075.0"/>
+<text class="dimt" x="12900.0" y="-1100.0" text-anchor="middle">1800</text>
+<line class="dim" x1="15200.0" y1="0.0" x2="15200.0" y2="8200.0"/>
+<line class="dim" x1="15125.0" y1="75.0" x2="15275.0" y2="-75.0"/>
+<line class="dim" x1="15125.0" y1="8275.0" x2="15275.0" y2="8125.0"/>
+<text class="dimt" x="15090.0" y="4100.0" text-anchor="middle" transform="rotate(-90.0 15090.0 4100.0)">8200</text>
+<text class="lbl" x="12900.0" y="1600.0" text-anchor="middle" transform="rotate(-90.0 12900.0 1600.0)">ВЕРАНДА</text>
+<text class="lbl-s" x="12900.0" y="4000.0" text-anchor="middle" transform="rotate(-90.0 12900.0 4000.0)">1,80 × 8,20 = 14,76 m²</text>
+<text class="lbl-s" x="12900.0" y="6300.0" text-anchor="middle" transform="rotate(-90.0 12900.0 6300.0)">отворена, дървена</text>
+<text class="note" x="0.0" y="10600.0" text-anchor="start">1. Отворена веранда по цялата източна фасада — собствена конструкция, без намеса в ICF стените.</text>
+<text class="note" x="0.0" y="11140.0" text-anchor="start">2. Дървена: подова скара, подпори 100 × 100 mm на ~2,0 m, парапет 1,00 m.</text>
+<text class="note" x="0.0" y="11680.0" text-anchor="start">3. Собствен едноскатен покрив: 2,90 m при къщата → 2,45 m при външния ръб.</text>
+<text class="note" x="0.0" y="12220.0" text-anchor="start">4. Стъпало при северния край — до входната врата В1.</text>
+<text class="note" x="0.0" y="12760.0" text-anchor="start">5. Входната врата В1 и прозорците П7 и П9 са под навеса.</text>
+<rect class="tb" x="-600.0" y="14200.0" width="15000.0" height="2420.0"/>
+<line class="tb" x1="-600.0" y1="15000.0" x2="14400.0" y2="15000.0"/>
+<line class="tb" x1="-600.0" y1="15700.0" x2="14400.0" y2="15700.0"/>
+<line class="tb" x1="9200.0" y1="14200.0" x2="9200.0" y2="15700.0"/>
+<text class="tbmain" x="-300.0" y="14693.6" text-anchor="start" style="font-size:260.0px">NIKOLAEVO HOUSE — ВЕРАНДА</text>
+<text class="tbsub" x="-300.0" y="15476.0" text-anchor="start">План 1:100 · лист A-04</text>
+<text class="tbsmall" x="9500.0" y="14712.0" text-anchor="start">A-04</text>
+<text class="tbsmall" x="9500.0" y="15476.0" text-anchor="start">Мащаб 1:100</text>
+<text class="tbsmall" x="-300.0" y="16100.0" text-anchor="start">Размери в mm. Концепция за обсъждане, не е строителен чертеж.</text>
+</svg>
