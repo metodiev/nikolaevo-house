@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900"
+     font-family="Arial, Helvetica, sans-serif">
+  <title>Николаево — схематичен разрез на външна ICF стена, подова плоча и фундамент</title>
+  <desc>Схематичен детайл (не е в мащаб). Слоеве на стената, топлоизолация на пода и покрива.</desc>
+
+  <defs>
+    <style type="text/css"><![CDATA[
+      .bg      { fill:#ffffff; }
+      .fin     { fill:#f2ecdf; stroke:#8a8a8a; stroke-width:1.5; }
+      .eps     { fill:#ffe28a; stroke:#b8912a; stroke-width:1.5; }
+      .conc    { fill:#cfd4da; stroke:#5b6570; stroke-width:1.5; }
+      .xps     { fill:#ffc46b; stroke:#b8862a; stroke-width:1.5; }
+      .slab    { fill:#dde1e6; stroke:#5b6570; stroke-width:1.5; }
+      .foot    { fill:#b8bdc5; stroke:#4a545e; stroke-width:1.5; }
+      .soil    { fill:#e3d9c6; stroke:none; }
+      .roofc   { fill:#8d6b4a; stroke:#5d452e; stroke-width:1.5; }
+      .ceil    { fill:#f2ecdf; stroke:#8a8a8a; stroke-width:1.5; }
+      .gline   { stroke:#6b5b45; stroke-width:2.5; }
+      .hatch   { stroke:#b9a98e; stroke-width:1.2; }
+      .reb     { fill:#3f4a55; stroke:none; }
+      .lead    { stroke:#777777; stroke-width:1.2; fill:none; }
+      .t       { fill:#111111; font-size:15px; }
+      .th      { fill:#111111; font-size:20px; font-weight:bold; text-anchor:middle; }
+      .ts      { fill:#555555; font-size:13px; text-anchor:middle; }
+      .lg      { fill:#222222; font-size:13.5px; }
+      .lgs     { fill:#666666; font-size:12px; }
+      .dim     { stroke:#6b6b6b; stroke-width:1.3; fill:none; }
+      .dimt    { fill:#555555; font-size:13px; text-anchor:middle; }
+      .box     { fill:none; stroke:#c9c9c9; stroke-width:1.5; }
+    ]]></style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1400" height="900"/>
+
+  <text class="th" x="470" y="38">ВЪНШНА ICF СТЕНА — СХЕМАТИЧЕН РАЗРЕЗ</text>
+  <text class="ts" x="470" y="60">не е в мащаб · слоеве по работно допускане, подлежат на уточняване по избраната ICF система</text>
+
+  <!-- терен -->
+  <rect class="soil" x="40" y="660" width="340" height="200"/>
+  <g class="hatch">
+    <line x1="60" y1="690" x2="95" y2="660"/>
+    <line x1="110" y1="690" x2="145" y2="660"/>
+    <line x1="160" y1="690" x2="195" y2="660"/>
+    <line x1="210" y1="690" x2="245" y2="660"/>
+    <line x1="260" y1="690" x2="295" y2="660"/>
+    <line x1="310" y1="690" x2="345" y2="660"/>
+    <line x1="70" y1="740" x2="115" y2="690"/>
+    <line x1="130" y1="740" x2="175" y2="690"/>
+    <line x1="190" y1="740" x2="235" y2="690"/>
+    <line x1="250" y1="740" x2="295" y2="690"/>
+    <line x1="310" y1="740" x2="355" y2="690"/>
+  </g>
+  <line class="gline" x1="40" y1="660" x2="370" y2="660"/>
+
+  <!-- фундамент -->
+  <rect class="foot" x="330" y="660" width="240" height="130"/>
+  <!-- плоча и подложни слоеве -->
+  <rect class="slab" x="548" y="540" width="352" height="60"/>
+  <rect class="xps"  x="548" y="600" width="352" height="28"/>
+  <rect class="soil" x="548" y="628" width="352" height="32"/>
+  <line class="gline" x1="900" y1="660" x2="940" y2="660"/>
+
+  <!-- стена -->
+  <rect class="fin"  x="380" y="150" width="10" height="510"/>
+  <rect class="eps"  x="390" y="150" width="40" height="510"/>
+  <rect class="conc" x="430" y="150" width="70" height="510"/>
+  <rect class="eps"  x="500" y="150" width="38" height="510"/>
+  <rect class="fin"  x="538" y="150" width="10" height="510"/>
+
+  <!-- армировка -->
+  <g class="reb">
+    <circle cx="455" cy="230" r="7"/>
+    <circle cx="478" cy="230" r="7"/>
+    <circle cx="455" cy="400" r="7"/>
+    <circle cx="478" cy="400" r="7"/>
+    <circle cx="455" cy="570" r="7"/>
+    <circle cx="478" cy="570" r="7"/>
+  </g>
+
+  <!-- покрив -->
+  <rect class="roofc" x="250" y="60"  width="650" height="25"/>
+  <rect class="eps"   x="250" y="85"  width="650" height="45"/>
+  <rect class="ceil"  x="350" y="130" width="550" height="20"/>
+
+  <!-- кота -->
+  <path d="M330,660 L346,644 L346,676 Z" fill="#333333"/>
+
+  <!-- ============ ЛЕГЕНДА ============ -->
+  <rect class="box" x="960" y="90" width="410" height="470"/>
+  <text x="975" y="118" font-size="15" font-weight="bold">СЛОЕВЕ</text>
+
+  <rect class="fin"  x="975" y="140" width="26" height="16"/>
+  <text class="lg"   x="1012" y="153">1 · Външно фасадно покритие</text>
+
+  <rect class="eps"  x="975" y="175" width="26" height="16"/>
+  <text class="lg"   x="1012" y="188">2 · EPS — външен слой на ICF блока</text>
+
+  <rect class="conc" x="975" y="210" width="26" height="16"/>
+  <text class="lg"   x="1012" y="223">3 · Стоманобетон ~150 mm + армировка</text>
+
+  <rect class="eps"  x="975" y="245" width="26" height="16"/>
+  <text class="lg"   x="1012" y="258">4 · EPS — вътрешен слой на ICF блока</text>
+
+  <rect class="fin"  x="975" y="280" width="26" height="16"/>
+  <text class="lg"   x="1012" y="293">5 · Вътрешна мазилка</text>
+
+  <rect class="roofc" x="975" y="315" width="26" height="16"/>
+  <text class="lg"   x="1012" y="328">6 · Покривно покритие и конструкция</text>
+
+  <rect class="eps"  x="975" y="350" width="26" height="16"/>
+  <text class="lg"   x="1012" y="363">7 · Топлоизолация на покрива</text>
+
+  <rect class="slab" x="975" y="385" width="26" height="16"/>
+  <text class="lg"   x="1012" y="398">8 · Подова плоча върху земя</text>
+
+  <rect class="xps"  x="975" y="420" width="26" height="16"/>
+  <text class="lg"   x="1012" y="433">9 · XPS под плочата — непрекъсната</text>
+
+  <rect class="foot" x="975" y="455" width="26" height="16"/>
+  <text class="lg"   x="1012" y="468">10 · Ивичен фундамент</text>
+
+  <rect class="soil" x="975" y="490" width="26" height="16"/>
+  <text class="lg"   x="1012" y="503">11 · Уплътнен терен + дренаж</text>
+
+  <text class="lgs" x="975" y="536">Дебелини: 20 + 80 + 150 + 80 + 20 = 350 mm</text>
+
+  <!-- ============ БЕЛЕЖКИ ============ -->
+  <text x="975" y="600" font-size="15" font-weight="bold">КРИТИЧНИ ТОЧКИ</text>
+  <text class="lg"  x="975" y="626">· Изолацията на пода трябва да е непрекъсната</text>
+  <text class="lg"  x="990" y="646">и да се свърже с изолацията на стената.</text>
+  <text class="lg"  x="975" y="674">· Без XPS по периметъра се получава</text>
+  <text class="lg"  x="990" y="694">„студен мост“ по ръба на плочата.</text>
+  <text class="lg"  x="975" y="722">· Кофите на фундамента — по геоложки доклад.</text>
+  <text class="lg"  x="975" y="750">· ICF е херметична: нужна е вентилация.</text>
+
+  <!-- размер на стената -->
+  <line class="dim" x1="380" y1="800" x2="548" y2="800"/>
+  <line class="dim" x1="380" y1="788" x2="380" y2="812"/>
+  <line class="dim" x1="548" y1="788" x2="548" y2="812"/>
+  <text class="dimt" x="464" y="828">≈ 350 mm</text>
+  <text class="dimt" x="464" y="850" font-size="11.5">(по избраната ICF система)</text>
+</svg>

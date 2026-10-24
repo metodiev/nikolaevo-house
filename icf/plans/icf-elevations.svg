@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="306.0mm" height="228.0mm" viewBox="-2600 -2200 30600 22800" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif">
+<title>Фасади на ICF стените — 1:100</title>
+<style type="text/css"><![CDATA[
+.wall    { fill:#e3e3e3; stroke:#111; stroke-width:30.00; }
+.wall-l  { fill:none; stroke:#111; stroke-width:22.00; }
+.open    { fill:#fff; stroke:#111; stroke-width:26.00; }
+.openopt { fill:#fff; stroke:#111; stroke-width:26.00; stroke-dasharray:100.00 60.00; }
+.core    { fill:none; stroke:#111; stroke-width:16.00; }
+.axis    { fill:none; stroke:#777; stroke-width:13.00; stroke-dasharray:160.00 50.00 30.00 50.00; }
+.part    { fill:none; stroke:#9a9a9a; stroke-width:18.00; stroke-dasharray:100.00 50.00; }
+.hidden  { fill:none; stroke:#aaa; stroke-width:16.00; stroke-dasharray:70.00 50.00; }
+.dim     { fill:none; stroke:#666; stroke-width:14.00; }
+.dimt    { fill:#333; font-size:200.00px; text-anchor:middle; }
+.lbl     { fill:#111; font-size:270.00px; text-anchor:middle; }
+.lbl-s   { fill:#555; font-size:205.00px; text-anchor:middle; }
+.code    { fill:#111; font-size:210.00px; font-weight:bold; text-anchor:middle; }
+.ttl     { fill:#111; font-size:420.00px; font-weight:bold; text-anchor:middle; }
+.sub     { fill:#555; font-size:230.00px; text-anchor:middle; }
+.note    { fill:#222; font-size:205.00px; }
+.tb      { fill:none; stroke:#111; stroke-width:25.00; }
+.tbmain  { fill:#111; font-size:300.00px; font-weight:bold; }
+.tbsub   { fill:#333; font-size:240.00px; }
+.tbsmall { fill:#444; font-size:195.00px; }
+.plate   { fill:#ffffff; stroke:none; }
+]]></style>
+<rect x="-2600" y="-2200" width="30600" height="22800" fill="#ffffff"/>
+<text class="code" x="0.0" y="250.0" text-anchor="start">W1 · ЮЖНА ФАСАДА</text>
+<rect class="wall" x="0.0" y="700.0" width="12000.0" height="3000.0"/>
+<rect class="open" x="9325.0" y="1500.0" width="1500.0" height="1400.0"/>
+<text class="code" x="10075.0" y="1380.0" text-anchor="middle">O1</text>
+<rect class="open" x="6025.0" y="1500.0" width="1500.0" height="1400.0"/>
+<text class="code" x="6775.0" y="1380.0" text-anchor="middle">O2</text>
+<rect class="open" x="1300.0" y="1450.0" width="2800.0" height="2250.0"/>
+<text class="code" x="2700.0" y="1330.0" text-anchor="middle">O3</text>
+<line class="wall-l" x1="-300.0" y1="3700.0" x2="12300.0" y2="3700.0"/>
+<text class="lbl-s" x="0.0" y="550.0" text-anchor="start">ИЗТОК</text>
+<text class="lbl-s" x="12000.0" y="550.0" text-anchor="end">ЗАПАД</text>
+<line class="dim" x1="0.0" y1="4500.0" x2="1300.0" y2="4500.0"/>
+<line class="dim" x1="-75.0" y1="4575.0" x2="75.0" y2="4425.0"/>
+<line class="dim" x1="1225.0" y1="4575.0" x2="1375.0" y2="4425.0"/>
+<line class="dim" x1="0.0" y1="3700.0" x2="0.0" y2="4500.0"/>
+<line class="dim" x1="1300.0" y1="3700.0" x2="1300.0" y2="4500.0"/>
+<text class="dimt" x="650.0" y="4400.0" text-anchor="middle">1300</text>
+<line class="dim" x1="1300.0" y1="4500.0" x2="4100.0" y2="4500.0"/>
+<line class="dim" x1="1225.0" y1="4575.0" x2="1375.0" y2="4425.0"/>
+<line class="dim" x1="4025.0" y1="4575.0" x2="4175.0" y2="4425.0"/>
+<line class="dim" x1="1300.0" y1="3700.0" x2="1300.0" y2="4500.0"/>
+<line class="dim" x1="4100.0" y1="3700.0" x2="4100.0" y2="4500.0"/>
+<text class="dimt" x="2700.0" y="4400.0" text-anchor="middle">2800</text>
+<line class="dim" x1="4100.0" y1="4500.0" x2="6025.0" y2="4500.0"/>
+<line class="dim" x1="4025.0" y1="4575.0" x2="4175.0" y2="4425.0"/>
+<line class="dim" x1="5950.0" y1="4575.0" x2="6100.0" y2="4425.0"/>
+<line class="dim" x1="4100.0" y1="3700.0" x2="4100.0" y2="4500.0"/>
+<line class="dim" x1="6025.0" y1="3700.0" x2="6025.0" y2="4500.0"/>
+<text class="dimt" x="5062.5" y="4400.0" text-anchor="middle">1925</text>
+<line class="dim" x1="6025.0" y1="4500.0" x2="7525.0" y2="4500.0"/>
+<line class="dim" x1="5950.0" y1="4575.0" x2="6100.0" y2="4425.0"/>
+<line class="dim" x1="7450.0" y1="4575.0" x2="7600.0" y2="4425.0"/>
+<line class="dim" x1="6025.0" y1="3700.0" x2="6025.0" y2="4500.0"/>
+<line class="dim" x1="7525.0" y1="3700.0" x2="7525.0" y2="4500.0"/>
+<text class="dimt" x="6775.0" y="4400.0" text-anchor="middle">1500</text>
+<line class="dim" x1="7525.0" y1="4500.0" x2="9325.0" y2="4500.0"/>
+<line class="dim" x1="7450.0" y1="4575.0" x2="7600.0" y2="4425.0"/>
+<line class="dim" x1="9250.0" y1="4575.0" x2="9400.0" y2="4425.0"/>
+<line class="dim" x1="7525.0" y1="3700.0" x2="7525.0" y2="4500.0"/>
+<line class="dim" x1="9325.0" y1="3700.0" x2="9325.0" y2="4500.0"/>
+<text class="dimt" x="8425.0" y="4400.0" text-anchor="middle">1800</text>
+<line class="dim" x1="9325.0" y1="4500.0" x2="10825.0" y2="4500.0"/>
+<line class="dim" x1="9250.0" y1="4575.0" x2="9400.0" y2="4425.0"/>
+<line class="dim" x1="10750.0" y1="4575.0" x2="10900.0" y2="4425.0"/>
+<line class="dim" x1="9325.0" y1="3700.0" x2="9325.0" y2="4500.0"/>
+<line class="dim" x1="10825.0" y1="3700.0" x2="10825.0" y2="4500.0"/>
+<text class="dimt" x="10075.0" y="4400.0" text-anchor="middle">1500</text>
+<line class="dim" x1="10825.0" y1="4500.0" x2="12000.0" y2="4500.0"/>
+<line class="dim" x1="10750.0" y1="4575.0" x2="10900.0" y2="4425.0"/>
+<line class="dim" x1="11925.0" y1="4575.0" x2="12075.0" y2="4425.0"/>
+<line class="dim" x1="10825.0" y1="3700.0" x2="10825.0" y2="4500.0"/>
+<line class="dim" x1="12000.0" y1="3700.0" x2="12000.0" y2="4500.0"/>
+<text class="dimt" x="11412.5" y="4400.0" text-anchor="middle">1175</text>
+<line class="dim" x1="0.0" y1="5300.0" x2="12000.0" y2="5300.0"/>
+<line class="dim" x1="-75.0" y1="5375.0" x2="75.0" y2="5225.0"/>
+<line class="dim" x1="11925.0" y1="5375.0" x2="12075.0" y2="5225.0"/>
+<text class="dimt" x="6000.0" y="5200.0" text-anchor="middle">12000</text>
+<line class="dim" x1="-500.0" y1="700.0" x2="-500.0" y2="3700.0"/>
+<line class="dim" x1="-575.0" y1="775.0" x2="-425.0" y2="625.0"/>
+<line class="dim" x1="-575.0" y1="3775.0" x2="-425.0" y2="3625.0"/>
+<line class="dim" x1="0.0" y1="700.0" x2="-500.0" y2="700.0"/>
+<line class="dim" x1="0.0" y1="3700.0" x2="-500.0" y2="3700.0"/>
+<text class="dimt" x="-610.0" y="2200.0" text-anchor="middle" transform="rotate(-90.0 -610.0 2200.0)">3000</text>
+<text class="lbl-s" x="0.0" y="6200.0" text-anchor="start">код</text>
+<text class="lbl-s" x="1200.0" y="6200.0" text-anchor="start">ширина × височина</text>
+<text class="lbl-s" x="5200.0" y="6200.0" text-anchor="start">подпрозорец</text>
+<text class="lbl-s" x="8000.0" y="6200.0" text-anchor="start">горен ръб</text>
+<text class="note" x="0.0" y="6620.0" text-anchor="start">O1</text>
+<text class="note" x="1200.0" y="6620.0" text-anchor="start">1500 × 1400</text>
+<text class="note" x="5200.0" y="6620.0" text-anchor="start">800</text>
+<text class="note" x="8000.0" y="6620.0" text-anchor="start">2200</text>
+<text class="note" x="0.0" y="7040.0" text-anchor="start">O2</text>
+<text class="note" x="1200.0" y="7040.0" text-anchor="start">1500 × 1400</text>
+<text class="note" x="5200.0" y="7040.0" text-anchor="start">800</text>
+<text class="note" x="8000.0" y="7040.0" text-anchor="start">2200</text>
+<text class="note" x="0.0" y="7460.0" text-anchor="start">O3</text>
+<text class="note" x="1200.0" y="7460.0" text-anchor="start">2800 × 2250</text>
+<text class="note" x="5200.0" y="7460.0" text-anchor="start">0</text>
+<text class="note" x="8000.0" y="7460.0" text-anchor="start">2250</text>
+<text class="code" x="14000.0" y="250.0" text-anchor="start">W2 · СЕВЕРНА ФАСАДА</text>
+<rect class="wall" x="14000.0" y="700.0" width="12000.0" height="3000.0"/>
+<rect class="open" x="15625.0" y="1500.0" width="600.0" height="600.0"/>
+<text class="code" x="15925.0" y="1380.0" text-anchor="middle">O4</text>
+<rect class="open" x="18925.0" y="1600.0" width="600.0" height="600.0"/>
+<text class="code" x="19225.0" y="1480.0" text-anchor="middle">O5</text>
+<rect class="open" x="21690.0" y="1300.0" width="1200.0" height="1400.0"/>
+<text class="code" x="22290.0" y="1180.0" text-anchor="middle">O6</text>
+<line class="wall-l" x1="13700.0" y1="3700.0" x2="26300.0" y2="3700.0"/>
+<text class="lbl-s" x="14000.0" y="550.0" text-anchor="start">ЗАПАД</text>
+<text class="lbl-s" x="26000.0" y="550.0" text-anchor="end">ИЗТОК</text>
+<line class="dim" x1="14000.0" y1="4500.0" x2="15625.0" y2="4500.0"/>
+<line class="dim" x1="13925.0" y1="4575.0" x2="14075.0" y2="4425.0"/>
+<line class="dim" x1="15550.0" y1="4575.0" x2="15700.0" y2="4425.0"/>
+<line class="dim" x1="14000.0" y1="3700.0" x2="14000.0" y2="4500.0"/>
+<line class="dim" x1="15625.0" y1="3700.0" x2="15625.0" y2="4500.0"/>
+<text class="dimt" x="14812.5" y="4400.0" text-anchor="middle">1625</text>
+<line class="dim" x1="15625.0" y1="4500.0" x2="16225.0" y2="4500.0"/>
+<line class="dim" x1="15550.0" y1="4575.0" x2="15700.0" y2="4425.0"/>
+<line class="dim" x1="16150.0" y1="4575.0" x2="16300.0" y2="4425.0"/>
+<line class="dim" x1="15625.0" y1="3700.0" x2="15625.0" y2="4500.0"/>
+<line class="dim" x1="16225.0" y1="3700.0" x2="16225.0" y2="4500.0"/>
+<text class="dimt" x="15925.0" y="4400.0" text-anchor="middle">600</text>
+<line class="dim" x1="16225.0" y1="4500.0" x2="18925.0" y2="4500.0"/>
+<line class="dim" x1="16150.0" y1="4575.0" x2="16300.0" y2="4425.0"/>
+<line class="dim" x1="18850.0" y1="4575.0" x2="19000.0" y2="4425.0"/>
+<line class="dim" x1="16225.0" y1="3700.0" x2="16225.0" y2="4500.0"/>
+<line class="dim" x1="18925.0" y1="3700.0" x2="18925.0" y2="4500.0"/>
+<text class="dimt" x="17575.0" y="4400.0" text-anchor="middle">2700</text>
+<line class="dim" x1="18925.0" y1="4500.0" x2="19525.0" y2="4500.0"/>
+<line class="dim" x1="18850.0" y1="4575.0" x2="19000.0" y2="4425.0"/>
+<line class="dim" x1="19450.0" y1="4575.0" x2="19600.0" y2="4425.0"/>
+<line class="dim" x1="18925.0" y1="3700.0" x2="18925.0" y2="4500.0"/>
+<line class="dim" x1="19525.0" y1="3700.0" x2="19525.0" y2="4500.0"/>
+<text class="dimt" x="19225.0" y="4400.0" text-anchor="middle">600</text>
+<line class="dim" x1="19525.0" y1="4500.0" x2="21690.0" y2="4500.0"/>
+<line class="dim" x1="19450.0" y1="4575.0" x2="19600.0" y2="4425.0"/>
+<line class="dim" x1="21615.0" y1="4575.0" x2="21765.0" y2="4425.0"/>
+<line class="dim" x1="19525.0" y1="3700.0" x2="19525.0" y2="4500.0"/>
+<line class="dim" x1="21690.0" y1="3700.0" x2="21690.0" y2="4500.0"/>
+<text class="dimt" x="20607.5" y="4400.0" text-anchor="middle">2165</text>
+<line class="dim" x1="21690.0" y1="4500.0" x2="22890.0" y2="4500.0"/>
+<line class="dim" x1="21615.0" y1="4575.0" x2="21765.0" y2="4425.0"/>
+<line class="dim" x1="22815.0" y1="4575.0" x2="22965.0" y2="4425.0"/>
+<line class="dim" x1="21690.0" y1="3700.0" x2="21690.0" y2="4500.0"/>
+<line class="dim" x1="22890.0" y1="3700.0" x2="22890.0" y2="4500.0"/>
+<text class="dimt" x="22290.0" y="4400.0" text-anchor="middle">1200</text>
+<line class="dim" x1="22890.0" y1="4500.0" x2="26000.0" y2="4500.0"/>
+<line class="dim" x1="22815.0" y1="4575.0" x2="22965.0" y2="4425.0"/>
+<line class="dim" x1="25925.0" y1="4575.0" x2="26075.0" y2="4425.0"/>
+<line class="dim" x1="22890.0" y1="3700.0" x2="22890.0" y2="4500.0"/>
+<line class="dim" x1="26000.0" y1="3700.0" x2="26000.0" y2="4500.0"/>
+<text class="dimt" x="24445.0" y="4400.0" text-anchor="middle">3110</text>
+<line class="dim" x1="14000.0" y1="5300.0" x2="26000.0" y2="5300.0"/>
+<line class="dim" x1="13925.0" y1="5375.0" x2="14075.0" y2="5225.0"/>
+<line class="dim" x1="25925.0" y1="5375.0" x2="26075.0" y2="5225.0"/>
+<text class="dimt" x="20000.0" y="5200.0" text-anchor="middle">12000</text>
+<line class="dim" x1="13500.0" y1="700.0" x2="13500.0" y2="3700.0"/>
+<line class="dim" x1="13425.0" y1="775.0" x2="13575.0" y2="625.0"/>
+<line class="dim" x1="13425.0" y1="3775.0" x2="13575.0" y2="3625.0"/>
+<line class="dim" x1="14000.0" y1="700.0" x2="13500.0" y2="700.0"/>
+<line class="dim" x1="14000.0" y1="3700.0" x2="13500.0" y2="3700.0"/>
+<text class="dimt" x="13390.0" y="2200.0" text-anchor="middle" transform="rotate(-90.0 13390.0 2200.0)">3000</text>
+<text class="lbl-s" x="14000.0" y="6200.0" text-anchor="start">код</text>
+<text class="lbl-s" x="15200.0" y="6200.0" text-anchor="start">ширина × височина</text>
+<text class="lbl-s" x="19200.0" y="6200.0" text-anchor="start">подпрозорец</text>
+<text class="lbl-s" x="22000.0" y="6200.0" text-anchor="start">горен ръб</text>
+<text class="note" x="14000.0" y="6620.0" text-anchor="start">O4</text>
+<text class="note" x="15200.0" y="6620.0" text-anchor="start">600 × 600</text>
+<text class="note" x="19200.0" y="6620.0" text-anchor="start">1600</text>
+<text class="note" x="22000.0" y="6620.0" text-anchor="start">2200</text>
+<text class="note" x="14000.0" y="7040.0" text-anchor="start">O5</text>
+<text class="note" x="15200.0" y="7040.0" text-anchor="start">600 × 600</text>
+<text class="note" x="19200.0" y="7040.0" text-anchor="start">1500</text>
+<text class="note" x="22000.0" y="7040.0" text-anchor="start">2100</text>
+<text class="note" x="14000.0" y="7460.0" text-anchor="start">O6</text>
+<text class="note" x="15200.0" y="7460.0" text-anchor="start">1200 × 1400</text>
+<text class="note" x="19200.0" y="7460.0" text-anchor="start">1000</text>
+<text class="note" x="22000.0" y="7460.0" text-anchor="start">2400</text>
+<text class="code" x="14000.0" y="8050.0" text-anchor="start">W3 · ЗАПАДНА ФАСАДА</text>
+<rect class="wall" x="14000.0" y="8500.0" width="8200.0" height="3000.0"/>
+<rect class="openopt" x="16000.0" y="9300.0" width="1000.0" height="1400.0"/>
+<text class="code" x="16500.0" y="9180.0" text-anchor="middle">O9</text>
+<line class="wall-l" x1="13700.0" y1="11500.0" x2="22500.0" y2="11500.0"/>
+<text class="lbl-s" x="14000.0" y="8350.0" text-anchor="start">ЮГ</text>
+<text class="lbl-s" x="22200.0" y="8350.0" text-anchor="end">СЕВЕР</text>
+<line class="dim" x1="14000.0" y1="12300.0" x2="16000.0" y2="12300.0"/>
+<line class="dim" x1="13925.0" y1="12375.0" x2="14075.0" y2="12225.0"/>
+<line class="dim" x1="15925.0" y1="12375.0" x2="16075.0" y2="12225.0"/>
+<line class="dim" x1="14000.0" y1="11500.0" x2="14000.0" y2="12300.0"/>
+<line class="dim" x1="16000.0" y1="11500.0" x2="16000.0" y2="12300.0"/>
+<text class="dimt" x="15000.0" y="12200.0" text-anchor="middle">2000</text>
+<line class="dim" x1="16000.0" y1="12300.0" x2="17000.0" y2="12300.0"/>
+<line class="dim" x1="15925.0" y1="12375.0" x2="16075.0" y2="12225.0"/>
+<line class="dim" x1="16925.0" y1="12375.0" x2="17075.0" y2="12225.0"/>
+<line class="dim" x1="16000.0" y1="11500.0" x2="16000.0" y2="12300.0"/>
+<line class="dim" x1="17000.0" y1="11500.0" x2="17000.0" y2="12300.0"/>
+<text class="dimt" x="16500.0" y="12200.0" text-anchor="middle">1000</text>
+<line class="dim" x1="17000.0" y1="12300.0" x2="22200.0" y2="12300.0"/>
+<line class="dim" x1="16925.0" y1="12375.0" x2="17075.0" y2="12225.0"/>
+<line class="dim" x1="22125.0" y1="12375.0" x2="22275.0" y2="12225.0"/>
+<line class="dim" x1="17000.0" y1="11500.0" x2="17000.0" y2="12300.0"/>
+<line class="dim" x1="22200.0" y1="11500.0" x2="22200.0" y2="12300.0"/>
+<text class="dimt" x="19600.0" y="12200.0" text-anchor="middle">5200</text>
+<line class="dim" x1="14000.0" y1="13100.0" x2="22200.0" y2="13100.0"/>
+<line class="dim" x1="13925.0" y1="13175.0" x2="14075.0" y2="13025.0"/>
+<line class="dim" x1="22125.0" y1="13175.0" x2="22275.0" y2="13025.0"/>
+<text class="dimt" x="18100.0" y="13000.0" text-anchor="middle">8200</text>
+<line class="dim" x1="13500.0" y1="8500.0" x2="13500.0" y2="11500.0"/>
+<line class="dim" x1="13425.0" y1="8575.0" x2="13575.0" y2="8425.0"/>
+<line class="dim" x1="13425.0" y1="11575.0" x2="13575.0" y2="11425.0"/>
+<line class="dim" x1="14000.0" y1="8500.0" x2="13500.0" y2="8500.0"/>
+<line class="dim" x1="14000.0" y1="11500.0" x2="13500.0" y2="11500.0"/>
+<text class="dimt" x="13390.0" y="10000.0" text-anchor="middle" transform="rotate(-90.0 13390.0 10000.0)">3000</text>
+<text class="lbl-s" x="14000.0" y="14000.0" text-anchor="start">код</text>
+<text class="lbl-s" x="15200.0" y="14000.0" text-anchor="start">ширина × височина</text>
+<text class="lbl-s" x="19200.0" y="14000.0" text-anchor="start">подпрозорец</text>
+<text class="lbl-s" x="22000.0" y="14000.0" text-anchor="start">горен ръб</text>
+<text class="note" x="14000.0" y="14420.0" text-anchor="start">O9</text>
+<text class="note" x="15200.0" y="14420.0" text-anchor="start">1000 × 1400  (опция)</text>
+<text class="note" x="19200.0" y="14420.0" text-anchor="start">800</text>
+<text class="note" x="22000.0" y="14420.0" text-anchor="start">2200</text>
+<text class="code" x="0.0" y="8050.0" text-anchor="start">W4 · ИЗТОЧНА ФАСАДА</text>
+<rect class="wall" x="0.0" y="8500.0" width="8200.0" height="3000.0"/>
+<rect class="open" x="700.0" y="9400.0" width="1050.0" height="2100.0"/>
+<text class="code" x="1225.0" y="9280.0" text-anchor="middle">O7</text>
+<rect class="open" x="3500.0" y="9300.0" width="1600.0" height="1400.0"/>
+<text class="code" x="4300.0" y="9180.0" text-anchor="middle">O8</text>
+<line class="wall-l" x1="-300.0" y1="11500.0" x2="8500.0" y2="11500.0"/>
+<text class="lbl-s" x="0.0" y="8350.0" text-anchor="start">СЕВЕР</text>
+<text class="lbl-s" x="8200.0" y="8350.0" text-anchor="end">ЮГ</text>
+<line class="dim" x1="0.0" y1="12300.0" x2="700.0" y2="12300.0"/>
+<line class="dim" x1="-75.0" y1="12375.0" x2="75.0" y2="12225.0"/>
+<line class="dim" x1="625.0" y1="12375.0" x2="775.0" y2="12225.0"/>
+<line class="dim" x1="0.0" y1="11500.0" x2="0.0" y2="12300.0"/>
+<line class="dim" x1="700.0" y1="11500.0" x2="700.0" y2="12300.0"/>
+<text class="dimt" x="350.0" y="12200.0" text-anchor="middle">700</text>
+<line class="dim" x1="700.0" y1="12300.0" x2="1750.0" y2="12300.0"/>
+<line class="dim" x1="625.0" y1="12375.0" x2="775.0" y2="12225.0"/>
+<line class="dim" x1="1675.0" y1="12375.0" x2="1825.0" y2="12225.0"/>
+<line class="dim" x1="700.0" y1="11500.0" x2="700.0" y2="12300.0"/>
+<line class="dim" x1="1750.0" y1="11500.0" x2="1750.0" y2="12300.0"/>
+<text class="dimt" x="1225.0" y="12200.0" text-anchor="middle">1050</text>
+<line class="dim" x1="1750.0" y1="12300.0" x2="3500.0" y2="12300.0"/>
+<line class="dim" x1="1675.0" y1="12375.0" x2="1825.0" y2="12225.0"/>
+<line class="dim" x1="3425.0" y1="12375.0" x2="3575.0" y2="12225.0"/>
+<line class="dim" x1="1750.0" y1="11500.0" x2="1750.0" y2="12300.0"/>
+<line class="dim" x1="3500.0" y1="11500.0" x2="3500.0" y2="12300.0"/>
+<text class="dimt" x="2625.0" y="12200.0" text-anchor="middle">1750</text>
+<line class="dim" x1="3500.0" y1="12300.0" x2="5100.0" y2="12300.0"/>
+<line class="dim" x1="3425.0" y1="12375.0" x2="3575.0" y2="12225.0"/>
+<line class="dim" x1="5025.0" y1="12375.0" x2="5175.0" y2="12225.0"/>
+<line class="dim" x1="3500.0" y1="11500.0" x2="3500.0" y2="12300.0"/>
+<line class="dim" x1="5100.0" y1="11500.0" x2="5100.0" y2="12300.0"/>
+<text class="dimt" x="4300.0" y="12200.0" text-anchor="middle">1600</text>
+<line class="dim" x1="5100.0" y1="12300.0" x2="8200.0" y2="12300.0"/>
+<line class="dim" x1="5025.0" y1="12375.0" x2="5175.0" y2="12225.0"/>
+<line class="dim" x1="8125.0" y1="12375.0" x2="8275.0" y2="12225.0"/>
+<line class="dim" x1="5100.0" y1="11500.0" x2="5100.0" y2="12300.0"/>
+<line class="dim" x1="8200.0" y1="11500.0" x2="8200.0" y2="12300.0"/>
+<text class="dimt" x="6650.0" y="12200.0" text-anchor="middle">3100</text>
+<line class="dim" x1="0.0" y1="13100.0" x2="8200.0" y2="13100.0"/>
+<line class="dim" x1="-75.0" y1="13175.0" x2="75.0" y2="13025.0"/>
+<line class="dim" x1="8125.0" y1="13175.0" x2="8275.0" y2="13025.0"/>
+<text class="dimt" x="4100.0" y="13000.0" text-anchor="middle">8200</text>
+<line class="dim" x1="-500.0" y1="8500.0" x2="-500.0" y2="11500.0"/>
+<line class="dim" x1="-575.0" y1="8575.0" x2="-425.0" y2="8425.0"/>
+<line class="dim" x1="-575.0" y1="11575.0" x2="-425.0" y2="11425.0"/>
+<line class="dim" x1="0.0" y1="8500.0" x2="-500.0" y2="8500.0"/>
+<line class="dim" x1="0.0" y1="11500.0" x2="-500.0" y2="11500.0"/>
+<text class="dimt" x="-610.0" y="10000.0" text-anchor="middle" transform="rotate(-90.0 -610.0 10000.0)">3000</text>
+<text class="lbl-s" x="0.0" y="14000.0" text-anchor="start">код</text>
+<text class="lbl-s" x="1200.0" y="14000.0" text-anchor="start">ширина × височина</text>
+<text class="lbl-s" x="5200.0" y="14000.0" text-anchor="start">подпрозорец</text>
+<text class="lbl-s" x="8000.0" y="14000.0" text-anchor="start">горен ръб</text>
+<text class="note" x="0.0" y="14420.0" text-anchor="start">O7</text>
+<text class="note" x="1200.0" y="14420.0" text-anchor="start">1050 × 2100</text>
+<text class="note" x="5200.0" y="14420.0" text-anchor="start">0</text>
+<text class="note" x="8000.0" y="14420.0" text-anchor="start">2100</text>
+<text class="note" x="0.0" y="14840.0" text-anchor="start">O8</text>
+<text class="note" x="1200.0" y="14840.0" text-anchor="start">1600 × 1400</text>
+<text class="note" x="5200.0" y="14840.0" text-anchor="start">800</text>
+<text class="note" x="8000.0" y="14840.0" text-anchor="start">2200</text>
+<rect class="tb" x="-1600.0" y="16300.0" width="29600.0" height="3460.0"/>
+<line class="tb" x1="-1600.0" y1="17100.0" x2="28000.0" y2="17100.0"/>
+<line class="tb" x1="-1600.0" y1="17800.0" x2="28000.0" y2="17800.0"/>
+<line class="tb" x1="21800.0" y1="16300.0" x2="21800.0" y2="17800.0"/>
+<text class="tbmain" x="-1300.0" y="16828.0" text-anchor="start">NIKOLAEVO HOUSE — ПАКЕТ ЗА ICF ДОСТАВЧИК</text>
+<text class="tbsub" x="-1300.0" y="17576.0" text-anchor="start">Фасади на ICF стените · лист ICF-02</text>
+<text class="tbsmall" x="22100.0" y="16812.0" text-anchor="start">ICF-02</text>
+<text class="tbsmall" x="22100.0" y="17576.0" text-anchor="start">Мащаб 1:100</text>
+<text class="tbsmall" x="-1300.0" y="18200.0" text-anchor="start">Изгледи отвън. Размери в mm, височини от кота ±0,00 (терен).</text>
+<text class="tbsmall" x="-1300.0" y="18720.0" text-anchor="start">Стената е до кота +3000. Фронтоните над нея НЕ са ICF — лека конструкция.</text>
+<text class="tbsmall" x="-1300.0" y="19240.0" text-anchor="start">O9 е опция — да се оферира отделно.  Скица за оферта, не е работен проект.</text>
+</svg>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="159mm" height="131mm" viewBox="-1700 -1500 15900 13100"
+     font-family="Arial, Helvetica, sans-serif">
+  <title>Николаево — концептуален план 1:100, едноетажна ICF къща 12,00 x 8,20 m</title>
+  <desc>План на разположението. Мащаб 1:100 при печат в реален размер. Размерите са в mm.</desc>
+
+  <defs>
+    <style type="text/css"><![CDATA[
+      .sheet  { fill:#ffffff; }
+      .ext    { fill:#d5d5d5; stroke:#111111; stroke-width:26; }
+      .int    { fill:#e8e8e8; stroke:#111111; stroke-width:18; }
+      .win    { fill:#ffffff; stroke:#111111; stroke-width:18; }
+      .winopt { fill:#ffffff; stroke:#111111; stroke-width:18; stroke-dasharray:100 70; }
+      .glass  { stroke:#111111; stroke-width:12; fill:none; }
+      .door   { stroke:#111111; stroke-width:16; fill:none; }
+      .swing  { stroke:#7a7a7a; stroke-width:12; fill:none; stroke-dasharray:70 45; }
+      .dim    { stroke:#6b6b6b; stroke-width:12; fill:none; }
+      .dimt   { fill:#555555; font-size:230px; text-anchor:middle; }
+      .nam    { fill:#111111; font-size:300px; font-weight:bold; text-anchor:middle; }
+      .nam-s  { fill:#111111; font-size:250px; font-weight:bold; text-anchor:middle; }
+      .sub    { fill:#5a5a5a; font-size:225px; text-anchor:middle; }
+      .area   { fill:#14561a; font-size:255px; font-weight:bold; text-anchor:middle; }
+      .tb     { fill:none; stroke:#111111; stroke-width:24; }
+      .tbt    { fill:#111111; font-size:330px; }
+      .tbtt   { fill:#111111; font-size:280px; }
+      .tbs    { fill:#3d3d3d; font-size:200px; }
+      .tbn    { fill:#6b6b6b; font-size:190px; }
+      .card   { fill:#111111; font-size:240px; text-anchor:middle; }
+    ]]></style>
+  </defs>
+
+  <rect class="sheet" x="-1700" y="-1500" width="15900" height="13100"/>
+
+  <!-- ============ ПОДОВИ ПЛОЩИ ПО ЗОНИ ============ -->
+  <rect x="350"  y="350"  width="3150" height="2000" fill="#eaf2f9"/>
+  <rect x="3650" y="350"  width="3150" height="2000" fill="#eaf2f9"/>
+  <rect x="350"  y="2500" width="6450" height="1100" fill="#f4f4f4"/>
+  <rect x="350"  y="3750" width="3150" height="4100" fill="#fbfaf4"/>
+  <rect x="3650" y="3750" width="3150" height="4100" fill="#fbfaf4"/>
+  <rect x="6950" y="350"  width="4700" height="7500" fill="#fdfbf0"/>
+  <rect x="9750" y="350"  width="1900" height="2100" fill="#f4f4f4"/>
+
+  <!-- ============ ВЪНШНИ ICF СТЕНИ ============ -->
+  <path class="ext" fill-rule="evenodd"
+        d="M0,0 H12000 V8200 H0 Z M350,350 H11650 V7850 H350 Z"/>
+
+  <!-- ============ ВЪТРЕШНИ ПРЕГРАДИ ============ -->
+  <!-- дневна зона / спална зона, с проход към коридора -->
+  <rect class="int" x="6800" y="350"  width="150" height="2150"/>
+  <rect class="int" x="6800" y="3600" width="150" height="4250"/>
+  <!-- баня / мокро помещение -->
+  <rect class="int" x="3500" y="350" width="150" height="2000"/>
+  <!-- северна лента / коридор (с врати) -->
+  <rect class="int" x="350"  y="2350" width="1850" height="150"/>
+  <rect class="int" x="3100" y="2350" width="700"  height="150"/>
+  <rect class="int" x="4700" y="2350" width="2100" height="150"/>
+  <!-- коридор / спални (с врати) -->
+  <rect class="int" x="350"  y="3600" width="550"  height="150"/>
+  <rect class="int" x="1800" y="3600" width="2900" height="150"/>
+  <rect class="int" x="5600" y="3600" width="1200" height="150"/>
+  <!-- между спалните -->
+  <rect class="int" x="3500" y="3750" width="150" height="4100"/>
+  <!-- антре -->
+  <rect class="int" x="9630" y="350"  width="120" height="2100"/>
+  <rect class="int" x="9630" y="2450" width="770" height="120"/>
+  <rect class="int" x="11300" y="2450" width="350" height="120"/>
+
+  <!-- ============ ПРОЗОРЦИ И ВРАТИ ============ -->
+  <!-- юг: спалня 1 -->
+  <rect class="win" x="1175" y="7850" width="1500" height="350"/>
+  <line class="glass" x1="1175" y1="8025" x2="2675" y2="8025"/>
+  <!-- юг: спалня 2 -->
+  <rect class="win" x="4475" y="7850" width="1500" height="350"/>
+  <line class="glass" x1="4475" y1="8025" x2="5975" y2="8025"/>
+  <!-- юг: плъзгаща врата хол -->
+  <rect class="win" x="7900" y="7850" width="2800" height="350"/>
+  <line class="glass" x1="7900" y1="7960" x2="9300" y2="7960"/>
+  <line class="glass" x1="9300" y1="8090" x2="10700" y2="8090"/>
+  <!-- север: баня -->
+  <rect class="win" x="1625" y="0" width="600" height="350"/>
+  <line class="glass" x1="1625" y1="175" x2="2225" y2="175"/>
+  <!-- север: мокро помещение -->
+  <rect class="win" x="4925" y="0" width="600" height="350"/>
+  <line class="glass" x1="4925" y1="175" x2="5525" y2="175"/>
+  <!-- север: кухня -->
+  <rect class="win" x="7690" y="0" width="1200" height="350"/>
+  <line class="glass" x1="7690" y1="175" x2="8890" y2="175"/>
+  <!-- изток: трапезария -->
+  <rect class="win" x="11650" y="3500" width="350" height="1600"/>
+  <line class="glass" x1="11825" y1="3500" x2="11825" y2="5100"/>
+  <!-- запад: опция спалня 1 -->
+  <rect class="winopt" x="0" y="5200" width="350" height="1000"/>
+  <line class="glass" x1="175" y1="5200" x2="175" y2="6200"/>
+
+  <!-- входна врата (изток) -->
+  <rect x="11650" y="700" width="350" height="1050" fill="#ffffff" stroke="#111111" stroke-width="18"/>
+  <line class="door" x1="11650" y1="1750" x2="10600" y2="1750"/>
+  <path class="swing" d="M11650,700 A1050,1050 0 0 0 10600,1750"/>
+
+  <!-- вътрешни врати -->
+  <line class="door" x1="3100" y1="2350" x2="3100" y2="1450"/>
+  <path class="swing" d="M2200,2350 A900,900 0 0 1 3100,1450"/>
+  <line class="door" x1="3800" y1="2350" x2="3800" y2="1450"/>
+  <path class="swing" d="M4700,2350 A900,900 0 0 0 3800,1450"/>
+  <line class="door" x1="900" y1="3750" x2="900" y2="4650"/>
+  <path class="swing" d="M1800,3750 A900,900 0 0 1 900,4650"/>
+  <line class="door" x1="5600" y1="3750" x2="5600" y2="4650"/>
+  <path class="swing" d="M4700,3750 A900,900 0 0 0 5600,4650"/>
+  <line class="door" x1="10400" y1="2570" x2="10400" y2="3470"/>
+  <path class="swing" d="M11300,2570 A900,900 0 0 1 10400,3470"/>
+
+  <!-- мека граница кухня / хол -->
+  <line x1="6950" y1="2450" x2="9630" y2="2450" stroke="#a0a0a0" stroke-width="14" stroke-dasharray="90 70"/>
+
+  <!-- ============ НАДПИСИ ============ -->
+  <text class="nam"  x="1925" y="1180">БАНЯ</text>
+  <text class="sub"  x="1925" y="1450">3150 × 2000</text>
+  <text class="area" x="1925" y="1720">6,3 m²</text>
+
+  <text class="nam"  x="5225" y="1180">МОКРО / КИЛЕР</text>
+  <text class="sub"  x="5225" y="1450">3150 × 2000</text>
+  <text class="area" x="5225" y="1720">6,3 m²</text>
+
+  <text class="nam-s" x="3560" y="3040">КОРИДОР</text>
+  <text class="sub"   x="3560" y="3340">6,45 × 1,10 · 7,1 m²</text>
+
+  <text class="nam"  x="1925" y="5750">СПАЛНЯ 1</text>
+  <text class="sub"  x="1925" y="6030">3150 × 4100</text>
+  <text class="area" x="1925" y="6310">12,9 m²</text>
+
+  <text class="nam"  x="5225" y="5750">СПАЛНЯ 2</text>
+  <text class="sub"  x="5225" y="6030">3150 × 4100</text>
+  <text class="area" x="5225" y="6310">12,9 m²</text>
+
+  <text class="nam"  x="8280" y="1280">КУХНЯ</text>
+  <text class="sub"  x="8280" y="1550">отворена зона</text>
+
+  <text class="nam"      x="10700" y="1240">АНТРЕ</text>
+  <text class="sub"      x="10700" y="1500">1900 × 2100</text>
+  <text class="area"     x="10700" y="1760">4,0 m²</text>
+
+  <text class="nam"  x="9200" y="5250">ХОЛ + ТРАПЕЗАРИЯ</text>
+  <text class="sub"  x="9200" y="5560">отворено пространство с кухнята</text>
+  <text class="area" x="9200" y="5860">30,8 m²</text>
+
+  <text class="sub" x="6000" y="8600" fill="#7a7a7a" font-size="260">ЮГ — ЮЖЕН ФАСАД</text>
+
+  <!-- ============ РАЗМЕРНИ ЛИНИ ============ -->
+  <!-- горна верига -->
+  <line class="dim" x1="0"     y1="-450" x2="12000" y2="-450"/>
+  <line class="dim" x1="0"     y1="-560" x2="0"     y2="-120"/>
+  <line class="dim" x1="350"   y1="-560" x2="350"   y2="-120"/>
+  <line class="dim" x1="3500"  y1="-560" x2="3500"  y2="-120"/>
+  <line class="dim" x1="3650"  y1="-560" x2="3650"  y2="-120"/>
+  <line class="dim" x1="6800"  y1="-560" x2="6800"  y2="-120"/>
+  <line class="dim" x1="6950"  y1="-560" x2="6950"  y2="-120"/>
+  <line class="dim" x1="11650" y1="-560" x2="11650" y2="-120"/>
+  <line class="dim" x1="12000" y1="-560" x2="12000" y2="-120"/>
+  <line class="dim" x1="0" y1="-520" x2="0" y2="-380"/>
+  <line class="dim" x1="350" y1="-520" x2="350" y2="-380"/>
+  <line class="dim" x1="3500" y1="-520" x2="3500" y2="-380"/>
+  <line class="dim" x1="3650" y1="-520" x2="3650" y2="-380"/>
+  <line class="dim" x1="6800" y1="-520" x2="6800" y2="-380"/>
+  <line class="dim" x1="6950" y1="-520" x2="6950" y2="-380"/>
+  <line class="dim" x1="11650" y1="-520" x2="11650" y2="-380"/>
+  <line class="dim" x1="12000" y1="-520" x2="12000" y2="-380"/>
+  <text class="dimt" x="1925" y="-570">3150</text>
+  <text class="dimt" x="5225" y="-570">3150</text>
+  <text class="dimt" x="9300" y="-570">4700</text>
+  <!-- общ размер -->
+  <line class="dim" x1="0" y1="-1100" x2="12000" y2="-1100"/>
+  <line class="dim" x1="0" y1="-1220" x2="0" y2="-560"/>
+  <line class="dim" x1="12000" y1="-1220" x2="12000" y2="-560"/>
+  <text class="dimt" x="6000" y="-1210">12 000</text>
+
+  <!-- лява верига -->
+  <line class="dim" x1="-450" y1="0" x2="-450" y2="8200"/>
+  <line class="dim" x1="-560" y1="0"    x2="-120" y2="0"/>
+  <line class="dim" x1="-560" y1="350"  x2="-120" y2="350"/>
+  <line class="dim" x1="-560" y1="2350" x2="-120" y2="2350"/>
+  <line class="dim" x1="-560" y1="2500" x2="-120" y2="2500"/>
+  <line class="dim" x1="-560" y1="3600" x2="-120" y2="3600"/>
+  <line class="dim" x1="-560" y1="3750" x2="-120" y2="3750"/>
+  <line class="dim" x1="-560" y1="7850" x2="-120" y2="7850"/>
+  <line class="dim" x1="-560" y1="8200" x2="-120" y2="8200"/>
+  <line class="dim" x1="-520" y1="0"    x2="-380" y2="0"/>
+  <line class="dim" x1="-520" y1="350"  x2="-380" y2="350"/>
+  <line class="dim" x1="-520" y1="2350" x2="-380" y2="2350"/>
+  <line class="dim" x1="-520" y1="2500" x2="-380" y2="2500"/>
+  <line class="dim" x1="-520" y1="3600" x2="-380" y2="3600"/>
+  <line class="dim" x1="-520" y1="3750" x2="-380" y2="3750"/>
+  <line class="dim" x1="-520" y1="7850" x2="-380" y2="7850"/>
+  <line class="dim" x1="-520" y1="8200" x2="-380" y2="8200"/>
+  <text class="dimt" x="-570" y="1350" transform="rotate(-90 -570 1350)">2000</text>
+  <text class="dimt" x="-570" y="3050" transform="rotate(-90 -570 3050)">1100</text>
+  <text class="dimt" x="-570" y="5800" transform="rotate(-90 -570 5800)">4100</text>
+  <!-- общ размер -->
+  <line class="dim" x1="-1100" y1="0" x2="-1100" y2="8200"/>
+  <line class="dim" x1="-1220" y1="0" x2="-560" y2="0"/>
+  <line class="dim" x1="-1220" y1="8200" x2="-560" y2="8200"/>
+  <text class="dimt" x="-1210" y="4100" transform="rotate(-90 -1210 4100)">8 200</text>
+
+  <!-- дясна верига -->
+  <line class="dim" x1="12500" y1="0" x2="12500" y2="8200"/>
+  <line class="dim" x1="12000" y1="0"    x2="12560" y2="0"/>
+  <line class="dim" x1="12000" y1="350"  x2="12560" y2="350"/>
+  <line class="dim" x1="12000" y1="2450" x2="12560" y2="2450"/>
+  <line class="dim" x1="12000" y1="7850" x2="12560" y2="7850"/>
+  <line class="dim" x1="12000" y1="8200" x2="12560" y2="8200"/>
+  <line class="dim" x1="12460" y1="0"    x2="12540" y2="0"/>
+  <line class="dim" x1="12460" y1="350"  x2="12540" y2="350"/>
+  <line class="dim" x1="12460" y1="2450" x2="12540" y2="2450"/>
+  <line class="dim" x1="12460" y1="7850" x2="12540" y2="7850"/>
+  <line class="dim" x1="12460" y1="8200" x2="12540" y2="8200"/>
+  <text class="dimt" x="12620" y="1400" transform="rotate(-90 12620 1400)">2100</text>
+  <text class="dimt" x="12620" y="5150" transform="rotate(-90 12620 5150)">5400</text>
+
+  <!-- ============ СЕВЕР ============ -->
+  <g transform="translate(13520,-560)">
+    <circle r="430" fill="#ffffff" stroke="#333333" stroke-width="18"/>
+    <path d="M0,-330 L150,250 L0,130 L-150,250 Z" fill="#111111"/>
+    <text x="0" y="-500" fill="#111111" font-size="270" font-weight="bold" text-anchor="middle">С</text>
+  </g>
+
+  <!-- ============ ТИТУЛЕН БЛОК ============ -->
+  <rect class="tb" x="0" y="9000" width="12000" height="2300"/>
+  <line class="tb" x1="0" y1="9700" x2="12000" y2="9700"/>
+  <line class="tb" x1="0" y1="10300" x2="12000" y2="10300"/>
+  <line class="tb" x1="8600" y1="9700" x2="8600" y2="10300"/>
+
+  <text class="tbt"  x="300" y="9440">NIKOLAEVO HOUSE — едноетажна ICF къща</text>
+  <text class="tbs"  x="8850" y="9440">Лист А-01 · 24.10.2026</text>
+
+  <text class="tbtt" x="300"  y="10000">КОНЦЕПТУАЛЕН ПЛАН — РАЗПОЛОЖЕНИЕ</text>
+  <text class="tbs"  x="8850" y="10000">Мащаб 1:100 при печат</text>
+
+  <text class="tbn" x="300" y="10580">Застроена площ 98,40 m² (12,00 × 8,20 m) · Чиста използваема площ ≈ 80,3 m² · Отворено хол + кухня 30,8 m²</text>
+  <text class="tbn" x="300" y="10840">Размери в mm. Вътрешни прегради 150 mm (120 mm при антрето). Външни ICF стени 350 mm — работно допускане.</text>
+  <text class="tbn" x="300" y="11100">Концептуален план за обсъждане с проектант. Не е строителен чертеж.</text>
+</svg>

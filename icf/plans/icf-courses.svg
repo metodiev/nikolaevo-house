@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="235.0mm" height="190.0mm" viewBox="-1200 -700 9400 7600" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif">
+<title>Редене на блокове — 1:40</title>
+<style type="text/css"><![CDATA[
+.wall    { fill:#e3e3e3; stroke:#111; stroke-width:12.00; }
+.wall-l  { fill:none; stroke:#111; stroke-width:8.80; }
+.open    { fill:#fff; stroke:#111; stroke-width:10.40; }
+.openopt { fill:#fff; stroke:#111; stroke-width:10.40; stroke-dasharray:40.00 24.00; }
+.core    { fill:none; stroke:#111; stroke-width:6.40; }
+.axis    { fill:none; stroke:#777; stroke-width:5.20; stroke-dasharray:64.00 20.00 12.00 20.00; }
+.part    { fill:none; stroke:#9a9a9a; stroke-width:7.20; stroke-dasharray:40.00 20.00; }
+.hidden  { fill:none; stroke:#aaa; stroke-width:6.40; stroke-dasharray:28.00 20.00; }
+.dim     { fill:none; stroke:#666; stroke-width:5.60; }
+.dimt    { fill:#333; font-size:80.00px; text-anchor:middle; }
+.lbl     { fill:#111; font-size:108.00px; text-anchor:middle; }
+.lbl-s   { fill:#555; font-size:82.00px; text-anchor:middle; }
+.code    { fill:#111; font-size:84.00px; font-weight:bold; text-anchor:middle; }
+.ttl     { fill:#111; font-size:168.00px; font-weight:bold; text-anchor:middle; }
+.sub     { fill:#555; font-size:92.00px; text-anchor:middle; }
+.note    { fill:#222; font-size:82.00px; }
+.tb      { fill:none; stroke:#111; stroke-width:10.00; }
+.tbmain  { fill:#111; font-size:120.00px; font-weight:bold; }
+.tbsub   { fill:#333; font-size:96.00px; }
+.tbsmall { fill:#444; font-size:78.00px; }
+.plate   { fill:#ffffff; stroke:none; }
+]]></style>
+<rect x="-1200" y="-700" width="9400" height="7600" fill="#ffffff"/>
+<text class="code" x="0.0" y="280.0" text-anchor="start">ТИПОВО РЕДЕНЕ — ПОКАЗАН УЧАСТЪК 4,00 m</text>
+<rect class="wall-l" x="0.0" y="400.0" width="4000.0" height="3000.0"/>
+<line class="core" x1="0.0" y1="400.0" x2="4000.0" y2="400.0"/>
+<line class="core" x1="0.0" y1="650.0" x2="4000.0" y2="650.0"/>
+<line class="core" x1="0.0" y1="900.0" x2="4000.0" y2="900.0"/>
+<line class="core" x1="0.0" y1="1150.0" x2="4000.0" y2="1150.0"/>
+<line class="core" x1="0.0" y1="1400.0" x2="4000.0" y2="1400.0"/>
+<line class="core" x1="0.0" y1="1650.0" x2="4000.0" y2="1650.0"/>
+<line class="core" x1="0.0" y1="1900.0" x2="4000.0" y2="1900.0"/>
+<line class="core" x1="0.0" y1="2150.0" x2="4000.0" y2="2150.0"/>
+<line class="core" x1="0.0" y1="2400.0" x2="4000.0" y2="2400.0"/>
+<line class="core" x1="0.0" y1="2650.0" x2="4000.0" y2="2650.0"/>
+<line class="core" x1="0.0" y1="2900.0" x2="4000.0" y2="2900.0"/>
+<line class="core" x1="0.0" y1="3150.0" x2="4000.0" y2="3150.0"/>
+<line class="core" x1="0.0" y1="3400.0" x2="4000.0" y2="3400.0"/>
+<line class="core" x1="500.0" y1="400.0" x2="500.0" y2="650.0"/>
+<line class="core" x1="1000.0" y1="400.0" x2="1000.0" y2="650.0"/>
+<line class="core" x1="1500.0" y1="400.0" x2="1500.0" y2="650.0"/>
+<line class="core" x1="2000.0" y1="400.0" x2="2000.0" y2="650.0"/>
+<line class="core" x1="2500.0" y1="400.0" x2="2500.0" y2="650.0"/>
+<line class="core" x1="3000.0" y1="400.0" x2="3000.0" y2="650.0"/>
+<line class="core" x1="3500.0" y1="400.0" x2="3500.0" y2="650.0"/>
+<line class="core" x1="250.0" y1="650.0" x2="250.0" y2="900.0"/>
+<line class="core" x1="750.0" y1="650.0" x2="750.0" y2="900.0"/>
+<line class="core" x1="1250.0" y1="650.0" x2="1250.0" y2="900.0"/>
+<line class="core" x1="1750.0" y1="650.0" x2="1750.0" y2="900.0"/>
+<line class="core" x1="2250.0" y1="650.0" x2="2250.0" y2="900.0"/>
+<line class="core" x1="2750.0" y1="650.0" x2="2750.0" y2="900.0"/>
+<line class="core" x1="3250.0" y1="650.0" x2="3250.0" y2="900.0"/>
+<line class="core" x1="3750.0" y1="650.0" x2="3750.0" y2="900.0"/>
+<line class="core" x1="500.0" y1="900.0" x2="500.0" y2="1150.0"/>
+<line class="core" x1="1000.0" y1="900.0" x2="1000.0" y2="1150.0"/>
+<line class="core" x1="1500.0" y1="900.0" x2="1500.0" y2="1150.0"/>
+<line class="core" x1="2000.0" y1="900.0" x2="2000.0" y2="1150.0"/>
+<line class="core" x1="2500.0" y1="900.0" x2="2500.0" y2="1150.0"/>
+<line class="core" x1="3000.0" y1="900.0" x2="3000.0" y2="1150.0"/>
+<line class="core" x1="3500.0" y1="900.0" x2="3500.0" y2="1150.0"/>
+<line class="core" x1="250.0" y1="1150.0" x2="250.0" y2="1400.0"/>
+<line class="core" x1="750.0" y1="1150.0" x2="750.0" y2="1400.0"/>
+<line class="core" x1="1250.0" y1="1150.0" x2="1250.0" y2="1400.0"/>
+<line class="core" x1="1750.0" y1="1150.0" x2="1750.0" y2="1400.0"/>
+<line class="core" x1="2250.0" y1="1150.0" x2="2250.0" y2="1400.0"/>
+<line class="core" x1="2750.0" y1="1150.0" x2="2750.0" y2="1400.0"/>
+<line class="core" x1="3250.0" y1="1150.0" x2="3250.0" y2="1400.0"/>
+<line class="core" x1="3750.0" y1="1150.0" x2="3750.0" y2="1400.0"/>
+<line class="core" x1="500.0" y1="1400.0" x2="500.0" y2="1650.0"/>
+<line class="core" x1="1000.0" y1="1400.0" x2="1000.0" y2="1650.0"/>
+<line class="core" x1="1500.0" y1="1400.0" x2="1500.0" y2="1650.0"/>
+<line class="core" x1="2000.0" y1="1400.0" x2="2000.0" y2="1650.0"/>
+<line class="core" x1="2500.0" y1="1400.0" x2="2500.0" y2="1650.0"/>
+<line class="core" x1="3000.0" y1="1400.0" x2="3000.0" y2="1650.0"/>
+<line class="core" x1="3500.0" y1="1400.0" x2="3500.0" y2="1650.0"/>
+<line class="core" x1="250.0" y1="1650.0" x2="250.0" y2="1900.0"/>
+<line class="core" x1="750.0" y1="1650.0" x2="750.0" y2="1900.0"/>
+<line class="core" x1="1250.0" y1="1650.0" x2="1250.0" y2="1900.0"/>
+<line class="core" x1="1750.0" y1="1650.0" x2="1750.0" y2="1900.0"/>
+<line class="core" x1="2250.0" y1="1650.0" x2="2250.0" y2="1900.0"/>
+<line class="core" x1="2750.0" y1="1650.0" x2="2750.0" y2="1900.0"/>
+<line class="core" x1="3250.0" y1="1650.0" x2="3250.0" y2="1900.0"/>
+<line class="core" x1="3750.0" y1="1650.0" x2="3750.0" y2="1900.0"/>
+<line class="core" x1="500.0" y1="1900.0" x2="500.0" y2="2150.0"/>
+<line class="core" x1="1000.0" y1="1900.0" x2="1000.0" y2="2150.0"/>
+<line class="core" x1="1500.0" y1="1900.0" x2="1500.0" y2="2150.0"/>
+<line class="core" x1="2000.0" y1="1900.0" x2="2000.0" y2="2150.0"/>
+<line class="core" x1="2500.0" y1="1900.0" x2="2500.0" y2="2150.0"/>
+<line class="core" x1="3000.0" y1="1900.0" x2="3000.0" y2="2150.0"/>
+<line class="core" x1="3500.0" y1="1900.0" x2="3500.0" y2="2150.0"/>
+<line class="core" x1="250.0" y1="2150.0" x2="250.0" y2="2400.0"/>
+<line class="core" x1="750.0" y1="2150.0" x2="750.0" y2="2400.0"/>
+<line class="core" x1="1250.0" y1="2150.0" x2="1250.0" y2="2400.0"/>
+<line class="core" x1="1750.0" y1="2150.0" x2="1750.0" y2="2400.0"/>
+<line class="core" x1="2250.0" y1="2150.0" x2="2250.0" y2="2400.0"/>
+<line class="core" x1="2750.0" y1="2150.0" x2="2750.0" y2="2400.0"/>
+<line class="core" x1="3250.0" y1="2150.0" x2="3250.0" y2="2400.0"/>
+<line class="core" x1="3750.0" y1="2150.0" x2="3750.0" y2="2400.0"/>
+<line class="core" x1="500.0" y1="2400.0" x2="500.0" y2="2650.0"/>
+<line class="core" x1="1000.0" y1="2400.0" x2="1000.0" y2="2650.0"/>
+<line class="core" x1="1500.0" y1="2400.0" x2="1500.0" y2="2650.0"/>
+<line class="core" x1="2000.0" y1="2400.0" x2="2000.0" y2="2650.0"/>
+<line class="core" x1="2500.0" y1="2400.0" x2="2500.0" y2="2650.0"/>
+<line class="core" x1="3000.0" y1="2400.0" x2="3000.0" y2="2650.0"/>
+<line class="core" x1="3500.0" y1="2400.0" x2="3500.0" y2="2650.0"/>
+<line class="core" x1="250.0" y1="2650.0" x2="250.0" y2="2900.0"/>
+<line class="core" x1="750.0" y1="2650.0" x2="750.0" y2="2900.0"/>
+<line class="core" x1="1250.0" y1="2650.0" x2="1250.0" y2="2900.0"/>
+<line class="core" x1="1750.0" y1="2650.0" x2="1750.0" y2="2900.0"/>
+<line class="core" x1="2250.0" y1="2650.0" x2="2250.0" y2="2900.0"/>
+<line class="core" x1="2750.0" y1="2650.0" x2="2750.0" y2="2900.0"/>
+<line class="core" x1="3250.0" y1="2650.0" x2="3250.0" y2="2900.0"/>
+<line class="core" x1="3750.0" y1="2650.0" x2="3750.0" y2="2900.0"/>
+<line class="core" x1="500.0" y1="2900.0" x2="500.0" y2="3150.0"/>
+<line class="core" x1="1000.0" y1="2900.0" x2="1000.0" y2="3150.0"/>
+<line class="core" x1="1500.0" y1="2900.0" x2="1500.0" y2="3150.0"/>
+<line class="core" x1="2000.0" y1="2900.0" x2="2000.0" y2="3150.0"/>
+<line class="core" x1="2500.0" y1="2900.0" x2="2500.0" y2="3150.0"/>
+<line class="core" x1="3000.0" y1="2900.0" x2="3000.0" y2="3150.0"/>
+<line class="core" x1="3500.0" y1="2900.0" x2="3500.0" y2="3150.0"/>
+<line class="core" x1="250.0" y1="3150.0" x2="250.0" y2="3400.0"/>
+<line class="core" x1="750.0" y1="3150.0" x2="750.0" y2="3400.0"/>
+<line class="core" x1="1250.0" y1="3150.0" x2="1250.0" y2="3400.0"/>
+<line class="core" x1="1750.0" y1="3150.0" x2="1750.0" y2="3400.0"/>
+<line class="core" x1="2250.0" y1="3150.0" x2="2250.0" y2="3400.0"/>
+<line class="core" x1="2750.0" y1="3150.0" x2="2750.0" y2="3400.0"/>
+<line class="core" x1="3250.0" y1="3150.0" x2="3250.0" y2="3400.0"/>
+<line class="core" x1="3750.0" y1="3150.0" x2="3750.0" y2="3400.0"/>
+<line class="dim" x1="-280.0" y1="400.0" x2="-280.0" y2="3400.0"/>
+<line class="dim" x1="-310.0" y1="430.0" x2="-250.0" y2="370.0"/>
+<line class="dim" x1="-310.0" y1="3430.0" x2="-250.0" y2="3370.0"/>
+<line class="dim" x1="0.0" y1="400.0" x2="-280.0" y2="400.0"/>
+<line class="dim" x1="0.0" y1="3400.0" x2="-280.0" y2="3400.0"/>
+<text class="dimt" x="-324.0" y="1900.0" text-anchor="middle" transform="rotate(-90.0 -324.0 1900.0)">3000</text>
+<line class="dim" x1="0.0" y1="40.0" x2="4000.0" y2="40.0"/>
+<line class="dim" x1="-30.0" y1="70.0" x2="30.0" y2="10.0"/>
+<line class="dim" x1="3970.0" y1="70.0" x2="4030.0" y2="10.0"/>
+<line class="dim" x1="0.0" y1="400.0" x2="0.0" y2="40.0"/>
+<line class="dim" x1="4000.0" y1="400.0" x2="4000.0" y2="40.0"/>
+<text class="dimt" x="2000.0" y="0.0" text-anchor="middle">4000</text>
+<line class="dim" x1="4360.0" y1="400.0" x2="4360.0" y2="650.0"/>
+<line class="dim" x1="4330.0" y1="430.0" x2="4390.0" y2="370.0"/>
+<line class="dim" x1="4330.0" y1="680.0" x2="4390.0" y2="620.0"/>
+<text class="dimt" x="4316.0" y="525.0" text-anchor="middle" transform="rotate(-90.0 4316.0 525.0)">250</text>
+<text class="lbl-s" x="4440.0" y="930.0" text-anchor="start">модул 250</text>
+<text class="code" x="5300.0" y="280.0" text-anchor="start">ЪГЛОВ ЗАХВАТ — ПЛАН</text>
+<rect class="wall" x="5300.0" y="400.0" width="350.0" height="900.0"/>
+<rect class="wall" x="5300.0" y="400.0" width="900.0" height="350.0"/>
+<line class="core" x1="5530.0" y1="630.0" x2="6200.0" y2="630.0"/>
+<line class="core" x1="5530.0" y1="630.0" x2="5530.0" y2="1300.0"/>
+<text class="lbl-s" x="5300.0" y="1620.0" text-anchor="start">непрекъснато ядро;</text>
+<text class="lbl-s" x="5300.0" y="1800.0" text-anchor="start">блоковете се редуват по височина</text>
+<text class="sub" x="0.0" y="4120.0" text-anchor="start">ВАЖНО ЗА ОФЕРТАТА</text>
+<text class="note" x="0.0" y="4440.0" text-anchor="start">1. Модулът 0,50 × 0,25 m е примерен — реалният се дава от доставчика.</text>
+<text class="note" x="0.0" y="4660.0" text-anchor="start">2. Броят блокове зависи от модула и от разположението на отворите.</text>
+<text class="note" x="0.0" y="4880.0" text-anchor="start">3. Да се посочи процент отпадък от рязане.</text>
+<text class="note" x="0.0" y="5100.0" text-anchor="start">4. Ъглите и Т-възлите се решават с елементи от системата.</text>
+<text class="note" x="0.0" y="5320.0" text-anchor="start">5. Реденето започва от ъгъл.</text>
+<rect class="tb" x="-320.0" y="5640.0" width="6720.0" height="968.0"/>
+<line class="tb" x1="-320.0" y1="5960.0" x2="6400.0" y2="5960.0"/>
+<line class="tb" x1="-320.0" y1="6240.0" x2="6400.0" y2="6240.0"/>
+<line class="tb" x1="3920.0" y1="5640.0" x2="3920.0" y2="6240.0"/>
+<text class="tbmain" x="-200.0" y="5851.2" text-anchor="start">NIKOLAEVO HOUSE — ПАКЕТ ЗА ICF ДОСТАВЧИК</text>
+<text class="tbsub" x="-200.0" y="6150.4" text-anchor="start">Редене на блокове · лист ICF-04</text>
+<text class="tbsmall" x="4040.0" y="5844.8" text-anchor="start">ICF-04</text>
+<text class="tbsmall" x="4040.0" y="6150.4" text-anchor="start">Мащаб 1:40</text>
+<text class="tbsmall" x="-200.0" y="6400.0" text-anchor="start">Схематично — модулът се потвърждава от доставчика.</text>
+</svg>

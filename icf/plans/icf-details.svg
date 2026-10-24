@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="165.0mm" height="212.5mm" viewBox="-1200 -400 6600 8500" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif">
+<title>Детайли на ICF възела — 1:30</title>
+<style type="text/css"><![CDATA[
+.wall    { fill:#e3e3e3; stroke:#111; stroke-width:12.00; }
+.wall-l  { fill:none; stroke:#111; stroke-width:8.80; }
+.open    { fill:#fff; stroke:#111; stroke-width:10.40; }
+.openopt { fill:#fff; stroke:#111; stroke-width:10.40; stroke-dasharray:40.00 24.00; }
+.core    { fill:none; stroke:#111; stroke-width:6.40; }
+.axis    { fill:none; stroke:#777; stroke-width:5.20; stroke-dasharray:64.00 20.00 12.00 20.00; }
+.part    { fill:none; stroke:#9a9a9a; stroke-width:7.20; stroke-dasharray:40.00 20.00; }
+.hidden  { fill:none; stroke:#aaa; stroke-width:6.40; stroke-dasharray:28.00 20.00; }
+.dim     { fill:none; stroke:#666; stroke-width:5.60; }
+.dimt    { fill:#333; font-size:80.00px; text-anchor:middle; }
+.lbl     { fill:#111; font-size:108.00px; text-anchor:middle; }
+.lbl-s   { fill:#555; font-size:82.00px; text-anchor:middle; }
+.code    { fill:#111; font-size:84.00px; font-weight:bold; text-anchor:middle; }
+.ttl     { fill:#111; font-size:168.00px; font-weight:bold; text-anchor:middle; }
+.sub     { fill:#555; font-size:92.00px; text-anchor:middle; }
+.note    { fill:#222; font-size:82.00px; }
+.tb      { fill:none; stroke:#111; stroke-width:10.00; }
+.tbmain  { fill:#111; font-size:120.00px; font-weight:bold; }
+.tbsub   { fill:#333; font-size:96.00px; }
+.tbsmall { fill:#444; font-size:78.00px; }
+.plate   { fill:#ffffff; stroke:none; }
+]]></style>
+<rect x="-1200" y="-400" width="6600" height="8500" fill="#ffffff"/>
+<text class="code" x="0.0" y="280.0" text-anchor="start">Д1 · ВЪНШЕН ЪГЪЛ 90° — ПЛАН</text>
+<rect class="wall" x="0.0" y="400.0" width="350.0" height="1300.0"/>
+<rect class="wall" x="0.0" y="400.0" width="1300.0" height="350.0"/>
+<line class="core" x1="80.0" y1="630.0" x2="80.0" y2="1700.0"/>
+<line class="core" x1="230.0" y1="480.0" x2="1300.0" y2="480.0"/>
+<line class="core" x1="230.0" y1="630.0" x2="1300.0" y2="630.0"/>
+<line class="core" x1="230.0" y1="630.0" x2="230.0" y2="1700.0"/>
+<text class="lbl-s" x="0.0" y="1940.0" text-anchor="start">непрекъснато ядро,</text>
+<text class="lbl-s" x="0.0" y="2100.0" text-anchor="start">доп. армировка в ъгъла</text>
+<line class="dim" x1="0.0" y1="120.0" x2="350.0" y2="120.0"/>
+<line class="dim" x1="-30.0" y1="150.0" x2="30.0" y2="90.0"/>
+<line class="dim" x1="320.0" y1="150.0" x2="380.0" y2="90.0"/>
+<text class="dimt" x="175.0" y="80.0" text-anchor="middle">350</text>
+<line class="dim" x1="-280.0" y1="400.0" x2="-280.0" y2="750.0"/>
+<line class="dim" x1="-310.0" y1="430.0" x2="-250.0" y2="370.0"/>
+<line class="dim" x1="-310.0" y1="780.0" x2="-250.0" y2="720.0"/>
+<text class="dimt" x="-324.0" y="575.0" text-anchor="middle" transform="rotate(-90.0 -324.0 575.0)">350</text>
+<text class="code" x="2260.0" y="280.0" text-anchor="start">Д2 · РЪБ НА ОТВОР — ПЛАН</text>
+<rect class="wall" x="2260.0" y="400.0" width="950.0" height="350.0"/>
+<line class="wall-l" x1="3210.0" y1="280.0" x2="3210.0" y2="870.0"/>
+<text class="lbl-s" x="2260.0" y="1030.0" text-anchor="start">стена</text>
+<text class="lbl-s" x="3310.0" y="615.0" text-anchor="start">отвор →</text>
+<text class="lbl-s" x="2260.0" y="1270.0" text-anchor="start">затварящ блок / челен капак</text>
+<text class="lbl-s" x="2260.0" y="1430.0" text-anchor="start">по системата на доставчика</text>
+<text class="code" x="0.0" y="2510.0" text-anchor="start">Д3 · ПРЕГРАДА КЪМ ICF СТЕНА — ПЛАН</text>
+<rect class="wall" x="0.0" y="2630.0" width="1300.0" height="350.0"/>
+<line class="part" x1="550.0" y1="2980.0" x2="550.0" y2="3580.0"/>
+<line class="part" x1="670.0" y1="2980.0" x2="670.0" y2="3580.0"/>
+<line class="part" x1="550.0" y1="3580.0" x2="670.0" y2="3580.0"/>
+<text class="lbl-s" x="610.0" y="3780.0" text-anchor="start">преграда 120 mm</text>
+<text class="lbl-s" x="0.0" y="4100.0" text-anchor="start">не прекъсва ядрото и не носи покрива</text>
+<text class="code" x="2260.0" y="2510.0" text-anchor="start">Д4 · НАДГРЕДА НАД ОТВОР — РАЗРЕЗ</text>
+<rect class="wall" x="2260.0" y="2630.0" width="350.0" height="550.0"/>
+<line class="hidden" x1="2260.0" y1="3180.0" x2="2260.0" y2="4030.0"/>
+<line class="hidden" x1="2610.0" y1="3180.0" x2="2610.0" y2="4030.0"/>
+<line class="hidden" x1="2260.0" y1="4030.0" x2="2610.0" y2="4030.0"/>
+<text class="lbl-s" x="2435.0" y="3610.0" text-anchor="middle" transform="rotate(-90.0 2435.0 3610.0)">отвор</text>
+<text class="lbl-s" x="2730.0" y="3250.0" text-anchor="start">надгреда по</text>
+<text class="lbl-s" x="2730.0" y="3430.0" text-anchor="start">конструктивен</text>
+<text class="lbl-s" x="2730.0" y="3610.0" text-anchor="start">проект</text>
+<line class="dim" x1="1980.0" y1="2630.0" x2="1980.0" y2="3180.0"/>
+<line class="dim" x1="1950.0" y1="2660.0" x2="2010.0" y2="2600.0"/>
+<line class="dim" x1="1950.0" y1="3210.0" x2="2010.0" y2="3150.0"/>
+<text class="dimt" x="1936.0" y="2905.0" text-anchor="middle" transform="rotate(-90.0 1936.0 2905.0)">≥550</text>
+<text class="sub" x="0.0" y="4870.0" text-anchor="start">БЕЛЕЖКИ</text>
+<text class="note" x="0.0" y="5190.0" text-anchor="start">1. Дебелината 350 mm е работно допускане — уточнява се по избраната ICF система (250–400 mm).</text>
+<text class="note" x="0.0" y="5410.0" text-anchor="start">2. Армировката и класът бетон се определят от конструктор, не от доставчика на панелите.</text>
+<text class="note" x="0.0" y="5630.0" text-anchor="start">3. Отворите се оформят в кофража — не се изрязват след бетониране.</text>
+<text class="note" x="0.0" y="5850.0" text-anchor="start">4. Надгредата над плъзгащата врата O3 (2800 mm) е задължителна — да влезе в офертата.</text>
+<text class="note" x="0.0" y="6070.0" text-anchor="start">5. Размери в mm. Детайлите са схематични, не са работни чертежи.</text>
+<rect class="tb" x="-320.0" y="6230.0" width="6080.0" height="968.0"/>
+<line class="tb" x1="-320.0" y1="6550.0" x2="5760.0" y2="6550.0"/>
+<line class="tb" x1="-320.0" y1="6830.0" x2="5760.0" y2="6830.0"/>
+<line class="tb" x1="3280.0" y1="6230.0" x2="3280.0" y2="6830.0"/>
+<text class="tbmain" x="-200.0" y="6441.2" text-anchor="start">NIKOLAEVO HOUSE — ПАКЕТ ЗА ICF ДОСТАВЧИК</text>
+<text class="tbsub" x="-200.0" y="6740.4" text-anchor="start">Детайли на ICF възела · лист ICF-03</text>
+<text class="tbsmall" x="3400.0" y="6434.8" text-anchor="start">ICF-03</text>
+<text class="tbsmall" x="3400.0" y="6740.4" text-anchor="start">Мащаб 1:40</text>
+<text class="tbsmall" x="-200.0" y="6990.0" text-anchor="start">Концептуални схеми за оферта — не са работни детайли.</text>
+</svg>
