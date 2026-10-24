@@ -127,26 +127,26 @@
 <line class="el-d" x1="528.5" y1="6900.0" x2="671.5" y2="6900.0"/>
 <circle class="el" cx="873.0" cy="6900.0" r="130.0"/>
 <line class="el-d" x1="801.5" y1="6900.0" x2="944.5" y2="6900.0"/>
-<circle class="el" cx="3250.0" cy="4150.0" r="130.0"/>
-<line class="el-d" x1="3178.5" y1="4150.0" x2="3321.5" y2="4150.0"/>
-<circle class="el" cx="3523.0" cy="4150.0" r="130.0"/>
-<line class="el-d" x1="3451.5" y1="4150.0" x2="3594.5" y2="4150.0"/>
-<rect class="el" x="2990.0" y="5300.0" width="520.0" height="300.0"/>
-<text class="lbl-f" x="3250.0" y="5540.0" text-anchor="middle">ТВ</text>
+<circle class="el" cx="3250.0" cy="4550.0" r="130.0"/>
+<line class="el-d" x1="3178.5" y1="4550.0" x2="3321.5" y2="4550.0"/>
+<circle class="el" cx="3523.0" cy="4550.0" r="130.0"/>
+<line class="el-d" x1="3451.5" y1="4550.0" x2="3594.5" y2="4550.0"/>
+<rect class="el" x="340.0" y="5650.0" width="520.0" height="300.0"/>
+<text class="lbl-f" x="600.0" y="5890.0" text-anchor="middle">ТВ</text>
 <circle class="el" cx="5450.0" cy="4150.0" r="120.0"/>
 <line class="el-d" x1="5450.0" y1="4150.0" x2="5678.0" y2="3922.0"/>
-<circle class="el" cx="6650.0" cy="4200.0" r="130.0"/>
-<line class="el-d" x1="6578.5" y1="4200.0" x2="6721.5" y2="4200.0"/>
-<circle class="el" cx="6923.0" cy="4200.0" r="130.0"/>
-<line class="el-d" x1="6851.5" y1="4200.0" x2="6994.5" y2="4200.0"/>
+<circle class="el" cx="6650.0" cy="4550.0" r="130.0"/>
+<line class="el-d" x1="6578.5" y1="4550.0" x2="6721.5" y2="4550.0"/>
+<circle class="el" cx="6923.0" cy="4550.0" r="130.0"/>
+<line class="el-d" x1="6851.5" y1="4550.0" x2="6994.5" y2="4550.0"/>
 <circle class="el" cx="6650.0" cy="6900.0" r="130.0"/>
 <line class="el-d" x1="6578.5" y1="6900.0" x2="6721.5" y2="6900.0"/>
 <circle class="el" cx="6923.0" cy="6900.0" r="130.0"/>
 <line class="el-d" x1="6851.5" y1="6900.0" x2="6994.5" y2="6900.0"/>
-<circle class="el" cx="3900.0" cy="4150.0" r="130.0"/>
-<line class="el-d" x1="3828.5" y1="4150.0" x2="3971.5" y2="4150.0"/>
-<circle class="el" cx="4173.0" cy="4150.0" r="130.0"/>
-<line class="el-d" x1="4101.5" y1="4150.0" x2="4244.5" y2="4150.0"/>
+<circle class="el" cx="3900.0" cy="4550.0" r="130.0"/>
+<line class="el-d" x1="3828.5" y1="4550.0" x2="3971.5" y2="4550.0"/>
+<circle class="el" cx="4173.0" cy="4550.0" r="130.0"/>
+<line class="el-d" x1="4101.5" y1="4550.0" x2="4244.5" y2="4550.0"/>
 <circle class="el" cx="2150.0" cy="2600.0" r="120.0"/>
 <line class="el-d" x1="2150.0" y1="2600.0" x2="2378.0" y2="2372.0"/>
 <circle class="el" cx="2450.0" cy="2150.0" r="130.0"/>

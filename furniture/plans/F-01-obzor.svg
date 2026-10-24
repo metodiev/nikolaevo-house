@@ -120,26 +120,24 @@
 <rect class="sym-f" x="1900.0" y="3750.0" width="1600.0" height="550.0"/>
 <line class="sym-l" x1="1970.0" y1="4160.0" x2="3430.0" y2="4160.0"/>
 <line class="sym-l" x1="2700.0" y1="3820.0" x2="2700.0" y2="4160.0"/>
-<rect class="sym-f" x="1500.0" y="4750.0" width="2000.0" height="1600.0"/>
-<rect class="sym" x="3410.0" y="4750.0" width="90.0" height="1600.0"/>
-<rect class="sym" x="3010.0" y="4878.0" width="340.0" height="608.0"/>
-<rect class="sym" x="3010.0" y="5614.0" width="340.0" height="608.0"/>
-<line class="sym-l" x1="2890.0" y1="4800.0" x2="2890.0" y2="6300.0"/>
-<rect class="sym" x="3050.0" y="4350.0" width="450.0" height="400.0"/>
-<rect class="sym" x="3050.0" y="6350.0" width="450.0" height="400.0"/>
-<rect class="sym-f" x="350.0" y="6600.0" width="450.0" height="1200.0"/>
-<rect class="soft" x="700.0" y="5000.0" width="700.0" height="1200.0"/>
+<rect class="sym-f" x="1300.0" y="4800.0" width="2200.0" height="2000.0"/>
+<rect class="sym" x="3410.0" y="4800.0" width="90.0" height="2000.0"/>
+<rect class="sym" x="3010.0" y="4960.0" width="340.0" height="760.0"/>
+<rect class="sym" x="3010.0" y="5880.0" width="340.0" height="760.0"/>
+<line class="sym-l" x1="2890.0" y1="4850.0" x2="2890.0" y2="6750.0"/>
+<rect class="sym" x="3050.0" y="4350.0" width="450.0" height="450.0"/>
+<rect class="sym" x="3050.0" y="6800.0" width="450.0" height="450.0"/>
+<rect class="soft" x="450.0" y="5100.0" width="700.0" height="1200.0"/>
 <rect class="sym-f" x="5600.0" y="3750.0" width="1200.0" height="550.0"/>
 <line class="sym-l" x1="5670.0" y1="4160.0" x2="6730.0" y2="4160.0"/>
 <line class="sym-l" x1="6200.0" y1="3820.0" x2="6200.0" y2="4160.0"/>
-<rect class="sym-f" x="3650.0" y="4900.0" width="2000.0" height="1600.0"/>
-<rect class="sym" x="3650.0" y="4900.0" width="90.0" height="1600.0"/>
-<rect class="sym" x="3740.0" y="5028.0" width="340.0" height="608.0"/>
-<rect class="sym" x="3740.0" y="5764.0" width="340.0" height="608.0"/>
-<line class="sym-l" x1="4200.0" y1="4950.0" x2="4200.0" y2="6450.0"/>
-<rect class="sym" x="3650.0" y="4500.0" width="400.0" height="450.0"/>
-<rect class="sym" x="3650.0" y="6500.0" width="400.0" height="450.0"/>
-<rect class="sym-f" x="4300.0" y="7300.0" width="1200.0" height="450.0"/>
+<rect class="sym-f" x="3650.0" y="4800.0" width="2200.0" height="2000.0"/>
+<rect class="sym" x="3650.0" y="4800.0" width="90.0" height="2000.0"/>
+<rect class="sym" x="3740.0" y="4960.0" width="340.0" height="760.0"/>
+<rect class="sym" x="3740.0" y="5880.0" width="340.0" height="760.0"/>
+<line class="sym-l" x1="4200.0" y1="4850.0" x2="4200.0" y2="6750.0"/>
+<rect class="sym" x="3650.0" y="4350.0" width="400.0" height="450.0"/>
+<rect class="sym" x="3650.0" y="6800.0" width="400.0" height="450.0"/>
 <rect class="sym-f" x="400.0" y="400.0" width="1150.0" height="850.0"/>
 <circle class="sym-l" cx="540.0" cy="540.0" r="60.0"/>
 <line class="soft" x1="1480.0" y1="470.0" x2="1480.0" y2="1180.0"/>
@@ -190,14 +188,14 @@
 <text class="note" x="1200.0" y="11360.0" text-anchor="start">килим</text>
 <rect class="el-f" x="0.0" y="11800.0" width="900.0" height="500.0"/>
 <text class="note" x="1200.0" y="12160.0" text-anchor="start">електрическо табло</text>
-<rect class="tb" x="-1000.0" y="12400.0" width="14200.0" height="2940.0"/>
-<line class="tb" x1="-1000.0" y1="13200.0" x2="13200.0" y2="13200.0"/>
-<line class="tb" x1="-1000.0" y1="13900.0" x2="13200.0" y2="13900.0"/>
-<line class="tb" x1="8000.0" y1="12400.0" x2="8000.0" y2="13900.0"/>
-<text class="tbmain" x="-700.0" y="12928.0" text-anchor="start">NIKOLAEVO HOUSE — ОБЗАВЕЖДАНЕ</text>
-<text class="tbsub" x="-700.0" y="13676.0" text-anchor="start">Общ план с обзавеждане · лист F-01</text>
-<text class="tbsmall" x="8300.0" y="12912.0" text-anchor="start">F-01</text>
-<text class="tbsmall" x="8300.0" y="13676.0" text-anchor="start">Мащаб 1:100</text>
-<text class="tbsmall" x="-700.0" y="14300.0" text-anchor="start">Ориентировъчна схема — размерите на мебелите са примерни.</text>
-<text class="tbsmall" x="-700.0" y="14820.0" text-anchor="start">Не е проект за изработка на мебели. Размери в mm.</text>
+<rect class="tb" x="-600.0" y="12400.0" width="14200.0" height="2940.0"/>
+<line class="tb" x1="-600.0" y1="13200.0" x2="13600.0" y2="13200.0"/>
+<line class="tb" x1="-600.0" y1="13900.0" x2="13600.0" y2="13900.0"/>
+<line class="tb" x1="8400.0" y1="12400.0" x2="8400.0" y2="13900.0"/>
+<text class="tbmain" x="-300.0" y="12928.0" text-anchor="start">NIKOLAEVO HOUSE — ОБЗАВЕЖДАНЕ</text>
+<text class="tbsub" x="-300.0" y="13676.0" text-anchor="start">Общ план с обзавеждане · лист F-01</text>
+<text class="tbsmall" x="8700.0" y="12912.0" text-anchor="start">F-01</text>
+<text class="tbsmall" x="8700.0" y="13676.0" text-anchor="start">Мащаб 1:100</text>
+<text class="tbsmall" x="-300.0" y="14300.0" text-anchor="start">Ориентировъчна схема — размерите на мебелите са примерни.</text>
+<text class="tbsmall" x="-300.0" y="14820.0" text-anchor="start">Не е проект за изработка на мебели. Размери в mm.</text>
 </svg>
