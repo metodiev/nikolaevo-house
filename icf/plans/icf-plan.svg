@@ -11,12 +11,12 @@
 .part    { fill:none; stroke:#9a9a9a; stroke-width:18.00; stroke-dasharray:100.00 50.00; }
 .hidden  { fill:none; stroke:#aaa; stroke-width:16.00; stroke-dasharray:70.00 50.00; }
 .dim     { fill:none; stroke:#666; stroke-width:14.00; }
-.dimt    { fill:#333; font-size:200.00px; text-anchor:middle; }
-.lbl     { fill:#111; font-size:270.00px; text-anchor:middle; }
-.lbl-s   { fill:#555; font-size:205.00px; text-anchor:middle; }
-.code    { fill:#111; font-size:210.00px; font-weight:bold; text-anchor:middle; }
-.ttl     { fill:#111; font-size:420.00px; font-weight:bold; text-anchor:middle; }
-.sub     { fill:#555; font-size:230.00px; text-anchor:middle; }
+.dimt    { fill:#333; font-size:200.00px;  }
+.lbl     { fill:#111; font-size:270.00px;  }
+.lbl-s   { fill:#555; font-size:205.00px;  }
+.code    { fill:#111; font-size:210.00px; font-weight:bold; }
+.ttl     { fill:#111; font-size:420.00px; font-weight:bold; }
+.sub     { fill:#555; font-size:230.00px; }
 .note    { fill:#222; font-size:205.00px; }
 .tb      { fill:none; stroke:#111; stroke-width:25.00; }
 .tbmain  { fill:#111; font-size:300.00px; font-weight:bold; }

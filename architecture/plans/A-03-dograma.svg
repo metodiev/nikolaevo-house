@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="222.0mm" height="312.0mm" viewBox="-6 -6 222 312" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif">
+<title>A-03 Дограма и врати — схема за поръчка</title>
+<style type="text/css"><![CDATA[
+.wall   { fill:#dcdcdc; stroke:#111; stroke-width:0.28; }
+.wall-l { fill:none; stroke:#111; stroke-width:0.22; }
+.part   { fill:#eeeeee; stroke:#111; stroke-width:0.16; }
+.win    { fill:#ffffff; stroke:#111; stroke-width:0.24; }
+.glass  { fill:none; stroke:#111; stroke-width:0.14; }
+.sym    { fill:#ffffff; stroke:#111; stroke-width:0.20; }
+.sym-f  { fill:#f2f2f2; stroke:#111; stroke-width:0.20; }
+.sym-l  { fill:none; stroke:#111; stroke-width:0.18; }
+.soft   { fill:none; stroke:#777; stroke-width:0.16; stroke-dasharray:0.90 0.55; }
+.ghost  { fill:none; stroke:#aaa; stroke-width:0.15; stroke-dasharray:1.20 0.60; }
+.door   { fill:none; stroke:#111; stroke-width:0.22; }
+.door-a { fill:none; stroke:#888; stroke-width:0.15; stroke-dasharray:0.70 0.50; }
+.dim    { fill:none; stroke:#666; stroke-width:0.14; }
+.dimt   { fill:#333; font-size:1.95px;  }
+.lbl    { fill:#111; font-size:2.50px;  }
+.lbl-s  { fill:#555; font-size:1.95px;  }
+.lbl-f  { fill:#222; font-size:1.70px;  }
+.code   { fill:#111; font-size:2.00px; font-weight:bold; }
+.sub    { fill:#555; font-size:2.20px; }
+.note   { fill:#222; font-size:1.95px; }
+.el     { fill:#fff; stroke:#111; stroke-width:0.22; }
+.el-f   { fill:#111; stroke:#111; stroke-width:0.22; }
+.el-d   { fill:none; stroke:#111; stroke-width:0.22; }
+.tb     { fill:none; stroke:#111; stroke-width:0.25; }
+.tbmain { fill:#111; font-size:2.60px; font-weight:bold; }
+.tbsub  { fill:#333; font-size:2.40px; }
+.tbsmall{ fill:#444; font-size:1.95px; }
+.plate  { fill:#ffffff; fill-opacity:0.92; stroke:none; }
+.mask   { fill:#ffffff; stroke:none; }
+]]></style>
+<rect x="-6" y="-6" width="222" height="312" fill="#ffffff"/>
+<text class="sub" x="12.0" y="14.0" text-anchor="start">ДОГРАМА — ФАСАДИ И ПОСОКИ НА ОТВАРЯНЕ</text>
+<text class="lbl-s" x="198.0" y="14.0" text-anchor="end">Триъгълникът сочи към пантата</text>
+<text class="lbl-s" x="43.0" y="24.0" text-anchor="middle">ЮГ ФАСАДА</text>
+<rect class="el" x="25.9" y="28.0" width="34.3" height="32.0"/>
+<rect class="el" x="27.1" y="29.2" width="31.9" height="29.6"/>
+<line class="el-d" x1="43.7" y1="29.2" x2="43.7" y2="58.8"/>
+<polygon class="el-d" points="27.1,44.0 36.6,31.2 36.6,56.8"/>
+<line class="soft" x1="36.6" y1="31.2" x2="36.6" y2="38.2"/>
+<text class="code" x="43.0" y="26.2" text-anchor="middle">П1 · Спалня 1</text>
+<text class="lbl-s" x="43.0" y="64.2" text-anchor="middle">1500 × 1400  ·  подпрозорец 800</text>
+<text class="lbl-s" x="105.0" y="24.0" text-anchor="middle">ЮГ ФАСАДА</text>
+<rect class="el" x="87.9" y="28.0" width="34.3" height="32.0"/>
+<rect class="el" x="89.1" y="29.2" width="31.9" height="29.6"/>
+<line class="el-d" x1="105.7" y1="29.2" x2="105.7" y2="58.8"/>
+<polygon class="el-d" points="121.0,44.0 112.3,31.2 112.3,56.8"/>
+<line class="soft" x1="112.3" y1="31.2" x2="112.3" y2="38.2"/>
+<text class="code" x="105.0" y="26.2" text-anchor="middle">П2 · Спалня 2</text>
+<text class="lbl-s" x="105.0" y="64.2" text-anchor="middle">1500 × 1400  ·  подпрозорец 800</text>
+<text class="lbl-s" x="167.0" y="24.0" text-anchor="middle">ЮГ ФАСАДА</text>
+<rect class="el" x="147.1" y="28.0" width="39.8" height="32.0"/>
+<rect class="el" x="148.3" y="29.2" width="37.4" height="29.6"/>
+<line class="el-d" x1="167.0" y1="29.2" x2="167.0" y2="58.8"/>
+<line class="soft" x1="151.1" y1="44.0" x2="181.3" y2="44.0"/>
+<polygon class="el-f" points="182.9,44.0 178.9,41.4 178.9,46.6"/>
+<text class="code" x="167.0" y="26.2" text-anchor="middle">П3 · Хол</text>
+<text class="lbl-s" x="167.0" y="64.2" text-anchor="middle">2800 × 2250</text>
+<text class="lbl-s" x="43.0" y="82.0" text-anchor="middle">СЕВЕР ФАСАДА</text>
+<rect class="el" x="29.3" y="86.0" width="27.4" height="32.0"/>
+<rect class="el" x="30.5" y="87.2" width="25.0" height="29.6"/>
+<line class="el-d" x1="43.5" y1="87.2" x2="43.5" y2="116.8"/>
+<polygon class="el-d" points="30.3,102.0 37.8,89.2 37.8,114.8"/>
+<text class="code" x="43.0" y="84.2" text-anchor="middle">П4 · Кухня</text>
+<text class="lbl-s" x="43.0" y="122.2" text-anchor="middle">1200 × 1400  ·  подпрозорец 1000</text>
+<text class="lbl-s" x="105.0" y="82.0" text-anchor="middle">СЕВЕР ФАСАДА</text>
+<rect class="el" x="89.0" y="86.0" width="32.0" height="32.0"/>
+<rect class="el" x="90.2" y="87.2" width="29.6" height="29.6"/>
+<line class="el-d" x1="105.6" y1="87.2" x2="105.6" y2="116.8"/>
+<polygon class="el-d" points="90.2,102.0 99.0,89.2 99.0,114.8"/>
+<text class="code" x="105.0" y="84.2" text-anchor="middle">П5 · Баня</text>
+<text class="lbl-s" x="105.0" y="122.2" text-anchor="middle">600 × 600  ·  подпрозорец 1600</text>
+<text class="lbl-s" x="167.0" y="82.0" text-anchor="middle">СЕВЕР ФАСАДА</text>
+<rect class="el" x="151.0" y="86.0" width="32.0" height="32.0"/>
+<rect class="el" x="152.2" y="87.2" width="29.6" height="29.6"/>
+<line class="el-d" x1="167.6" y1="87.2" x2="167.6" y2="116.8"/>
+<polygon class="el-d" points="181.9,102.0 173.8,89.2 173.8,114.8"/>
+<text class="code" x="167.0" y="84.2" text-anchor="middle">П6 · Мокро</text>
+<text class="lbl-s" x="167.0" y="122.2" text-anchor="middle">600 × 600  ·  подпрозорец 1500</text>
+<text class="lbl-s" x="43.0" y="140.0" text-anchor="middle">ИЗТОК ФАСАДА</text>
+<rect class="el" x="24.7" y="144.0" width="36.6" height="32.0"/>
+<rect class="el" x="25.9" y="145.2" width="34.2" height="29.6"/>
+<line class="el-d" x1="43.7" y1="145.2" x2="43.7" y2="174.8"/>
+<polygon class="el-d" points="26.0,160.0 36.1,147.2 36.1,172.8"/>
+<line class="soft" x1="36.1" y1="147.2" x2="36.1" y2="154.2"/>
+<text class="code" x="43.0" y="142.2" text-anchor="middle">П7 · Трапезария</text>
+<text class="lbl-s" x="43.0" y="180.2" text-anchor="middle">1600 × 1400  ·  подпрозорец 800</text>
+<text class="lbl-s" x="105.0" y="140.0" text-anchor="middle">ЗАПАД ФАСАДА</text>
+<rect class="el" x="93.6" y="144.0" width="22.9" height="32.0"/>
+<rect class="el" x="94.8" y="145.2" width="20.5" height="29.6"/>
+<line class="el-d" x1="105.5" y1="145.2" x2="105.5" y2="174.8"/>
+<polygon class="el-d" points="115.7,160.0 109.8,147.2 109.8,172.8"/>
+<text class="code" x="105.0" y="142.2" text-anchor="middle">П8 · Спалня 1 (опция)</text>
+<text class="lbl-s" x="105.0" y="180.2" text-anchor="middle">1000 × 1400  ·  подпрозорец 800</text>
+<text class="lbl-s" x="167.0" y="140.0" text-anchor="middle">ИЗТОК ФАСАДА</text>
+<rect class="el" x="159.0" y="144.0" width="16.0" height="32.0"/>
+<rect class="el" x="160.2" y="145.2" width="13.6" height="29.6"/>
+<polygon class="el-d" points="160.1,160.0 168.6,147.2 168.6,172.8"/>
+<text class="code" x="167.0" y="142.2" text-anchor="middle">В1 · Вход</text>
+<text class="lbl-s" x="167.0" y="180.2" text-anchor="middle">1050 × 2100</text>
+<text class="sub" x="12.0" y="199.0" text-anchor="start">ВЪТРЕШНИ ВРАТИ</text>
+<text class="lbl-s" x="198.0" y="199.0" text-anchor="end">0,9 m широки · отваряне в помещението</text>
+<text class="lbl-s" x="12.0" y="204.0" text-anchor="start">код</text>
+<text class="lbl-s" x="22.0" y="204.0" text-anchor="start">връзка</text>
+<text class="lbl-s" x="104.0" y="204.0" text-anchor="start">Ш × В</text>
+<text class="lbl-s" x="128.0" y="204.0" text-anchor="start">отваряне</text>
+<line class="dim" x1="12.0" y1="205.5" x2="198.0" y2="205.5"/>
+<text class="note" x="12.0" y="209.3" text-anchor="start">В2</text>
+<text class="note" x="22.0" y="209.3" text-anchor="start">Антре → хол</text>
+<text class="note" x="104.0" y="209.3" text-anchor="start">900 × 2100</text>
+<text class="note" x="128.0" y="209.3" text-anchor="start">в хола</text>
+<text class="note" x="12.0" y="214.7" text-anchor="start">В3</text>
+<text class="note" x="22.0" y="214.7" text-anchor="start">Коридор → спалня 1</text>
+<text class="note" x="104.0" y="214.7" text-anchor="start">900 × 2000</text>
+<text class="note" x="128.0" y="214.7" text-anchor="start">в спалнята</text>
+<text class="note" x="12.0" y="220.1" text-anchor="start">В4</text>
+<text class="note" x="22.0" y="220.1" text-anchor="start">Коридор → спалня 2</text>
+<text class="note" x="104.0" y="220.1" text-anchor="start">900 × 2000</text>
+<text class="note" x="128.0" y="220.1" text-anchor="start">в спалнята</text>
+<text class="note" x="12.0" y="225.5" text-anchor="start">В5</text>
+<text class="note" x="22.0" y="225.5" text-anchor="start">Коридор → баня</text>
+<text class="note" x="104.0" y="225.5" text-anchor="start">900 × 2000</text>
+<text class="note" x="128.0" y="225.5" text-anchor="start">в банята</text>
+<text class="note" x="12.0" y="230.9" text-anchor="start">В6</text>
+<text class="note" x="22.0" y="230.9" text-anchor="start">Коридор → мокро</text>
+<text class="note" x="104.0" y="230.9" text-anchor="start">900 × 2000</text>
+<text class="note" x="128.0" y="230.9" text-anchor="start">в помещението</text>
+<line class="dim" x1="12.0" y1="232.5" x2="198.0" y2="232.5"/>
+<text class="sub" x="12.0" y="241.5" text-anchor="start">БЕЛЕЖКИ</text>
+<text class="note" x="12.0" y="247.5" text-anchor="start">1. Триъгълникът показва страната на пантата и посоката на отваряне.</text>
+<text class="note" x="12.0" y="252.5" text-anchor="start">2. Външната дограма е с троен стъклопакет; на юг с нисък коефициент на слънчева пропускливост.</text>
+<text class="note" x="12.0" y="257.5" text-anchor="start">3. Южните отвори изискват външно засенчване — надвес, ролетки или пергола.</text>
+<text class="note" x="12.0" y="262.5" text-anchor="start">4. Размерите са номинални (отвор в светъл размер); реалните се снемат на място.</text>
+<text class="note" x="12.0" y="267.5" text-anchor="start">5. П8 е опция — да се оферира отделно.  П3 е плъзгаща, с две крила.</text>
+<rect class="tb" x="12.0" y="274.5" width="186.0" height="24.2"/>
+<line class="tb" x1="12.0" y1="282.5" x2="198.0" y2="282.5"/>
+<line class="tb" x1="12.0" y1="289.5" x2="198.0" y2="289.5"/>
+<line class="tb" x1="146.0" y1="274.5" x2="146.0" y2="289.5"/>
+<text class="tbmain" x="15.0" y="279.8" text-anchor="start">NIKOLAEVO HOUSE — ДОГРАМА</text>
+<text class="tbsub" x="15.0" y="287.3" text-anchor="start">Схема на отворите и посоките на отваряне · лист A-03</text>
+<text class="tbsmall" x="149.0" y="279.6" text-anchor="start">A-03</text>
+<text class="tbsmall" x="149.0" y="287.3" text-anchor="start">Схема — без мащаб</text>
+<text class="tbsmall" x="15.0" y="293.5" text-anchor="start">За поръчка на дограма. Не е работен чертеж на профилите. Размери в mm.</text>
+</svg>

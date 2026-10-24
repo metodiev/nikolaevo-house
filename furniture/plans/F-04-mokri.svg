@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="252.0mm" height="162.0mm" viewBox="-400 -500 12600 8100" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif">
+<title>F-04 Баня, мокро помещение и антре — 1:50</title>
+<style type="text/css"><![CDATA[
+.wall   { fill:#dcdcdc; stroke:#111; stroke-width:14.00; }
+.wall-l { fill:none; stroke:#111; stroke-width:11.00; }
+.part   { fill:#eeeeee; stroke:#111; stroke-width:8.00; }
+.win    { fill:#ffffff; stroke:#111; stroke-width:12.00; }
+.glass  { fill:none; stroke:#111; stroke-width:7.00; }
+.sym    { fill:#ffffff; stroke:#111; stroke-width:10.00; }
+.sym-f  { fill:#f2f2f2; stroke:#111; stroke-width:10.00; }
+.sym-l  { fill:none; stroke:#111; stroke-width:9.00; }
+.soft   { fill:none; stroke:#777; stroke-width:8.00; stroke-dasharray:45.00 27.50; }
+.ghost  { fill:none; stroke:#aaa; stroke-width:7.50; stroke-dasharray:60.00 30.00; }
+.door   { fill:none; stroke:#111; stroke-width:11.00; }
+.door-a { fill:none; stroke:#888; stroke-width:7.50; stroke-dasharray:35.00 25.00; }
+.dim    { fill:none; stroke:#666; stroke-width:7.00; }
+.dimt   { fill:#333; font-size:97.50px;  }
+.lbl    { fill:#111; font-size:125.00px;  }
+.lbl-s  { fill:#555; font-size:97.50px;  }
+.lbl-f  { fill:#222; font-size:85.00px;  }
+.code   { fill:#111; font-size:100.00px; font-weight:bold; }
+.sub    { fill:#555; font-size:110.00px; }
+.note   { fill:#222; font-size:97.50px; }
+.el     { fill:#fff; stroke:#111; stroke-width:11.00; }
+.el-f   { fill:#111; stroke:#111; stroke-width:11.00; }
+.el-d   { fill:none; stroke:#111; stroke-width:11.00; }
+.tb     { fill:none; stroke:#111; stroke-width:12.50; }
+.tbmain { fill:#111; font-size:130.00px; font-weight:bold; }
+.tbsub  { fill:#333; font-size:120.00px; }
+.tbsmall{ fill:#444; font-size:97.50px; }
+.plate  { fill:#ffffff; fill-opacity:0.92; stroke:none; }
+.mask   { fill:#ffffff; stroke:none; }
+]]></style>
+<rect x="-400" y="-500" width="12600" height="8100" fill="#ffffff"/>
+<rect class="wall" x="0.0" y="0.0" width="12000.0" height="350.0"/>
+<rect class="wall" x="0.0" y="7850.0" width="12000.0" height="350.0"/>
+<rect class="wall" x="0.0" y="350.0" width="350.0" height="7500.0"/>
+<rect class="wall" x="11650.0" y="350.0" width="350.0" height="7500.0"/>
+<rect class="win" x="1175.0" y="7850.0" width="1500.0" height="350.0"/>
+<rect class="win" x="4475.0" y="7850.0" width="1500.0" height="350.0"/>
+<rect class="win" x="7900.0" y="7850.0" width="2800.0" height="350.0"/>
+<rect class="win" x="1625.0" y="0.0" width="600.0" height="350.0"/>
+<rect class="win" x="4925.0" y="0.0" width="600.0" height="350.0"/>
+<rect class="win" x="7690.0" y="0.0" width="1200.0" height="350.0"/>
+<rect class="win" x="11650.0" y="3500.0" width="350.0" height="1600.0"/>
+<rect class="win" x="0.0" y="5200.0" width="350.0" height="1000.0"/>
+<rect class="part" x="350.0" y="2350.0" width="1850.0" height="150.0"/>
+<rect class="part" x="3100.0" y="2350.0" width="3700.0" height="150.0"/>
+<rect class="part" x="350.0" y="3600.0" width="550.0" height="150.0"/>
+<rect class="part" x="1800.0" y="3600.0" width="2900.0" height="150.0"/>
+<rect class="part" x="5600.0" y="3600.0" width="1200.0" height="150.0"/>
+<rect class="part" x="6800.0" y="350.0" width="150.0" height="2150.0"/>
+<rect class="part" x="6800.0" y="3600.0" width="150.0" height="4250.0"/>
+<rect class="part" x="3500.0" y="350.0" width="150.0" height="2000.0"/>
+<rect class="part" x="3500.0" y="3750.0" width="150.0" height="4100.0"/>
+<rect class="part" x="9630.0" y="350.0" width="120.0" height="2100.0"/>
+<rect class="part" x="9630.0" y="2450.0" width="770.0" height="120.0"/>
+<rect class="part" x="11300.0" y="2450.0" width="350.0" height="120.0"/>
+<rect class="win" x="11650.0" y="700.0" width="350.0" height="1050.0"/>
+<text class="code" x="11825.0" y="985.0" text-anchor="middle">В1</text>
+<rect class="win" x="10400.0" y="2450.0" width="900.0" height="120.0"/>
+<text class="code" x="10850.0" y="2270.0" text-anchor="middle">В2</text>
+<rect class="win" x="2200.0" y="2350.0" width="900.0" height="150.0"/>
+<text class="code" x="2650.0" y="2185.0" text-anchor="middle">В5</text>
+<rect class="win" x="3800.0" y="2350.0" width="900.0" height="150.0"/>
+<text class="code" x="4250.0" y="2185.0" text-anchor="middle">В6</text>
+<rect class="win" x="900.0" y="3600.0" width="900.0" height="150.0"/>
+<text class="code" x="1350.0" y="3435.0" text-anchor="middle">В3</text>
+<rect class="win" x="4700.0" y="3600.0" width="900.0" height="150.0"/>
+<text class="code" x="5150.0" y="3435.0" text-anchor="middle">В4</text>
+<rect class="sym-f" x="400.0" y="400.0" width="1150.0" height="850.0"/>
+<circle class="sym-l" cx="540.0" cy="540.0" r="60.0"/>
+<line class="soft" x1="1480.0" y1="470.0" x2="1480.0" y2="1180.0"/>
+<line class="soft" x1="470.0" y1="1180.0" x2="1480.0" y2="1180.0"/>
+<text class="lbl-f" x="975.0" y="945.0" text-anchor="middle">ДУШ</text>
+<rect class="sym-f" x="400.0" y="1300.0" width="170.0" height="450.0"/>
+<ellipse class="sym" cx="916.5" cy="1525.0" rx="283.5" ry="180.0"/>
+<rect class="sym-f" x="1000.0" y="1820.0" width="1000.0" height="500.0"/>
+<ellipse class="sym" cx="1500.0" cy="2070.0" rx="320.0" ry="160.0"/>
+<text class="lbl-f" x="1500.0" y="2130.0" text-anchor="middle">МИВКА + ШКАФ</text>
+<rect class="sym-l" x="1000.0" y="2330.0" width="1000.0" height="30.0"/>
+<rect class="soft" x="1900.0" y="1450.0" width="600.0" height="400.0"/>
+<text class="lbl-s" x="750.0" y="1550.0" text-anchor="middle">WC</text>
+<rect class="sym-f" x="3650.0" y="350.0" width="600.0" height="600.0"/>
+<circle class="sym-l" cx="3950.0" cy="650.0" r="168.0"/>
+<text class="lbl-f" x="3950.0" y="710.0" text-anchor="middle">ПЕРАЛНЯ</text>
+<rect class="sym-f" x="4300.0" y="350.0" width="600.0" height="600.0"/>
+<circle class="sym-l" cx="4600.0" cy="650.0" r="168.0"/>
+<text class="lbl-f" x="4600.0" y="710.0" text-anchor="middle">СУШИЛНЯ</text>
+<rect class="sym-f" x="5500.0" y="350.0" width="1300.0" height="600.0"/>
+<rect class="sym-l" x="5540.0" y="390.0" width="1220.0" height="520.0"/>
+<text class="lbl-f" x="6150.0" y="710.0" text-anchor="middle">ПЛОТ</text>
+<rect class="sym" x="5700.0" y="400.0" width="500.0" height="450.0"/>
+<circle class="sym-l" cx="5950.0" cy="625.0" r="117.0"/>
+<rect class="sym-f" x="3650.0" y="1000.0" width="400.0" height="400.0"/>
+<rect class="sym-f" x="6150.0" y="1500.0" width="600.0" height="600.0"/>
+<rect class="ghost" x="5000.0" y="1700.0" width="600.0" height="600.0"/>
+<text class="lbl-s" x="3850.0" y="1250.0" text-anchor="middle">СТЕЛАЖ</text>
+<text class="lbl-s" x="6450.0" y="1850.0" text-anchor="middle">БОЙЛЕР</text>
+<text class="lbl-s" x="5300.0" y="2050.0" text-anchor="middle">ВЕНТИЛАЦИЯ</text>
+<rect class="sym-f" x="9750.0" y="500.0" width="400.0" height="900.0"/>
+<line class="sym-l" x1="10010.0" y1="570.0" x2="10010.0" y2="1330.0"/>
+<rect class="sym-f" x="9750.0" y="1600.0" width="450.0" height="500.0"/>
+<rect class="el-f" x="9850.0" y="2440.0" width="500.0" height="30.0"/>
+<text class="lbl-s" x="9950.0" y="950.0" text-anchor="middle" transform="rotate(-90.0 9950.0 950.0)">ГАРДЕРОБ</text>
+<text class="lbl-s" x="9975.0" y="1980.0" text-anchor="middle">ПЕЙКА</text>
+<text class="lbl-s" x="10100.0" y="2230.0" text-anchor="middle">ТАБЛО</text>
+<rect class="mask" x="-1000.0" y="2580.0" width="14000.0" height="6000.0"/>
+<rect class="plate" x="1942.5" y="1280.0" width="1215.0" height="170.0"/>
+<text class="lbl" x="2550.0" y="1400.0" text-anchor="middle">БАНЯ · 3150 × 2000</text>
+<rect class="plate" x="4338.8" y="1130.0" width="1822.5" height="170.0"/>
+<text class="lbl" x="5250.0" y="1250.0" text-anchor="middle">МОКРО / КИЛЕР · 3150 × 2000</text>
+<rect class="plate" x="10158.8" y="780.0" width="1282.5" height="170.0"/>
+<text class="lbl" x="10800.0" y="900.0" text-anchor="middle">АНТРЕ · 1900 × 2100</text>
+<rect class="plate" x="7591.2" y="1280.0" width="1417.5" height="170.0"/>
+<text class="lbl" x="8300.0" y="1400.0" text-anchor="middle">КУХНЯ — виж лист F-02</text>
+<text class="note" x="350.0" y="3400.0" text-anchor="start">1. Баня: душ 1200 × 900 в северозападния ъгъл, WC до западната стена.</text>
+<text class="note" x="350.0" y="3650.0" text-anchor="start">2. Мивка с шкаф 1000 mm срещу вратата; огледало на южната стена.</text>
+<text class="note" x="350.0" y="3900.0" text-anchor="start">3. Мокро помещение: пералня и сушилня до прозореца, плот и мивка в източния край.</text>
+<text class="note" x="350.0" y="4150.0" text-anchor="start">4. Бойлер 600 × 600 в югоизточния ъгъл; вентилация на високо ниво (пунктир).</text>
+<text class="note" x="350.0" y="4400.0" text-anchor="start">5. Антре: гардероб 400 mm и пейка до входа; табло на южната стена до вратата.</text>
+<rect class="tb" x="350.0" y="5200.0" width="11300.0" height="1210.0"/>
+<line class="tb" x1="350.0" y1="5600.0" x2="11650.0" y2="5600.0"/>
+<line class="tb" x1="350.0" y1="5950.0" x2="11650.0" y2="5950.0"/>
+<line class="tb" x1="9050.0" y1="5200.0" x2="9050.0" y2="5950.0"/>
+<text class="tbmain" x="500.0" y="5464.0" text-anchor="start">NIKOLAEVO HOUSE — ОБЗАВЕЖДАНЕ</text>
+<text class="tbsub" x="500.0" y="5838.0" text-anchor="start">Баня, мокро помещение, антре · лист F-04</text>
+<text class="tbsmall" x="9200.0" y="5456.0" text-anchor="start">F-04</text>
+<text class="tbsmall" x="9200.0" y="5838.0" text-anchor="start">Мащаб 1:50</text>
+<text class="tbsmall" x="500.0" y="6150.0" text-anchor="start">Размери в mm. Санитарията е с примерни размери.</text>
+</svg>

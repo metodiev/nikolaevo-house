@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="178.7mm" height="217.3mm" viewBox="-800 -600 13400 16300" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif">
+<title>E-01 Електроинсталация — план 1:75</title>
+<style type="text/css"><![CDATA[
+.wall   { fill:#dcdcdc; stroke:#111; stroke-width:21.00; }
+.wall-l { fill:none; stroke:#111; stroke-width:16.50; }
+.part   { fill:#eeeeee; stroke:#111; stroke-width:12.00; }
+.win    { fill:#ffffff; stroke:#111; stroke-width:18.00; }
+.glass  { fill:none; stroke:#111; stroke-width:10.50; }
+.sym    { fill:#ffffff; stroke:#111; stroke-width:15.00; }
+.sym-f  { fill:#f2f2f2; stroke:#111; stroke-width:15.00; }
+.sym-l  { fill:none; stroke:#111; stroke-width:13.50; }
+.soft   { fill:none; stroke:#777; stroke-width:12.00; stroke-dasharray:67.50 41.25; }
+.ghost  { fill:none; stroke:#aaa; stroke-width:11.25; stroke-dasharray:90.00 45.00; }
+.door   { fill:none; stroke:#111; stroke-width:16.50; }
+.door-a { fill:none; stroke:#888; stroke-width:11.25; stroke-dasharray:52.50 37.50; }
+.dim    { fill:none; stroke:#666; stroke-width:10.50; }
+.dimt   { fill:#333; font-size:146.25px;  }
+.lbl    { fill:#111; font-size:187.50px;  }
+.lbl-s  { fill:#555; font-size:146.25px;  }
+.lbl-f  { fill:#222; font-size:127.50px;  }
+.code   { fill:#111; font-size:150.00px; font-weight:bold; }
+.sub    { fill:#555; font-size:165.00px; }
+.note   { fill:#222; font-size:146.25px; }
+.el     { fill:#fff; stroke:#111; stroke-width:16.50; }
+.el-f   { fill:#111; stroke:#111; stroke-width:16.50; }
+.el-d   { fill:none; stroke:#111; stroke-width:16.50; }
+.tb     { fill:none; stroke:#111; stroke-width:18.75; }
+.tbmain { fill:#111; font-size:195.00px; font-weight:bold; }
+.tbsub  { fill:#333; font-size:180.00px; }
+.tbsmall{ fill:#444; font-size:146.25px; }
+.plate  { fill:#ffffff; fill-opacity:0.92; stroke:none; }
+.mask   { fill:#ffffff; stroke:none; }
+]]></style>
+<rect x="-800" y="-600" width="13400" height="16300" fill="#ffffff"/>
+<rect class="wall" x="0.0" y="0.0" width="12000.0" height="350.0"/>
+<rect class="wall" x="0.0" y="7850.0" width="12000.0" height="350.0"/>
+<rect class="wall" x="0.0" y="350.0" width="350.0" height="7500.0"/>
+<rect class="wall" x="11650.0" y="350.0" width="350.0" height="7500.0"/>
+<rect class="win" x="1175.0" y="7850.0" width="1500.0" height="350.0"/>
+<rect class="win" x="4475.0" y="7850.0" width="1500.0" height="350.0"/>
+<rect class="win" x="7900.0" y="7850.0" width="2800.0" height="350.0"/>
+<rect class="win" x="1625.0" y="0.0" width="600.0" height="350.0"/>
+<rect class="win" x="4925.0" y="0.0" width="600.0" height="350.0"/>
+<rect class="win" x="7690.0" y="0.0" width="1200.0" height="350.0"/>
+<rect class="win" x="11650.0" y="3500.0" width="350.0" height="1600.0"/>
+<rect class="win" x="0.0" y="5200.0" width="350.0" height="1000.0"/>
+<rect class="part" x="350.0" y="2350.0" width="1850.0" height="150.0"/>
+<rect class="part" x="3100.0" y="2350.0" width="3700.0" height="150.0"/>
+<rect class="part" x="350.0" y="3600.0" width="550.0" height="150.0"/>
+<rect class="part" x="1800.0" y="3600.0" width="2900.0" height="150.0"/>
+<rect class="part" x="5600.0" y="3600.0" width="1200.0" height="150.0"/>
+<rect class="part" x="6800.0" y="350.0" width="150.0" height="2150.0"/>
+<rect class="part" x="6800.0" y="3600.0" width="150.0" height="4250.0"/>
+<rect class="part" x="3500.0" y="350.0" width="150.0" height="2000.0"/>
+<rect class="part" x="3500.0" y="3750.0" width="150.0" height="4100.0"/>
+<rect class="part" x="9630.0" y="350.0" width="120.0" height="2100.0"/>
+<rect class="part" x="9630.0" y="2450.0" width="770.0" height="120.0"/>
+<rect class="part" x="11300.0" y="2450.0" width="350.0" height="120.0"/>
+<rect class="win" x="11650.0" y="700.0" width="350.0" height="1050.0"/>
+<rect class="win" x="10400.0" y="2450.0" width="900.0" height="120.0"/>
+<rect class="win" x="2200.0" y="2350.0" width="900.0" height="150.0"/>
+<rect class="win" x="3800.0" y="2350.0" width="900.0" height="150.0"/>
+<rect class="win" x="900.0" y="3600.0" width="900.0" height="150.0"/>
+<rect class="win" x="4700.0" y="3600.0" width="900.0" height="150.0"/>
+<circle class="el" cx="7200.0" cy="620.0" r="130.0"/>
+<line class="el-d" x1="7128.5" y1="620.0" x2="7271.5" y2="620.0"/>
+<circle class="el" cx="7473.0" cy="620.0" r="130.0"/>
+<line class="el-d" x1="7401.5" y1="620.0" x2="7544.5" y2="620.0"/>
+<circle class="el" cx="8000.0" cy="620.0" r="130.0"/>
+<line class="el-d" x1="7928.5" y1="620.0" x2="8071.5" y2="620.0"/>
+<circle class="el" cx="8273.0" cy="620.0" r="130.0"/>
+<line class="el-d" x1="8201.5" y1="620.0" x2="8344.5" y2="620.0"/>
+<circle class="el" cx="8700.0" cy="620.0" r="130.0"/>
+<line class="el-d" x1="8628.5" y1="620.0" x2="8771.5" y2="620.0"/>
+<circle class="el" cx="8973.0" cy="620.0" r="130.0"/>
+<line class="el-d" x1="8901.5" y1="620.0" x2="9044.5" y2="620.0"/>
+<circle class="el" cx="7150.0" cy="1400.0" r="130.0"/>
+<line class="el-d" x1="7078.5" y1="1400.0" x2="7221.5" y2="1400.0"/>
+<circle class="el" cx="7423.0" cy="1400.0" r="130.0"/>
+<line class="el-d" x1="7351.5" y1="1400.0" x2="7494.5" y2="1400.0"/>
+<circle class="el" cx="7150.0" cy="2050.0" r="130.0"/>
+<line class="el-d" x1="7078.5" y1="2050.0" x2="7221.5" y2="2050.0"/>
+<circle class="el" cx="7423.0" cy="2050.0" r="130.0"/>
+<line class="el-d" x1="7351.5" y1="2050.0" x2="7494.5" y2="2050.0"/>
+<circle class="el" cx="9300.0" cy="620.0" r="130.0"/>
+<line class="el-d" x1="9228.5" y1="620.0" x2="9371.5" y2="620.0"/>
+<circle class="el" cx="7150.0" cy="2350.0" r="130.0"/>
+<line class="el-d" x1="7078.5" y1="2350.0" x2="7221.5" y2="2350.0"/>
+<circle class="el" cx="7150.0" cy="2650.0" r="120.0"/>
+<line class="el-d" x1="7150.0" y1="2650.0" x2="7378.0" y2="2422.0"/>
+<circle class="el" cx="7150.0" cy="3000.0" r="120.0"/>
+<line class="el-d" x1="7150.0" y1="3000.0" x2="7378.0" y2="2772.0"/>
+<circle class="el" cx="10450.0" cy="2750.0" r="120.0"/>
+<line class="el-d" x1="10450.0" y1="2750.0" x2="10678.0" y2="2522.0"/>
+<circle class="el" cx="7150.0" cy="3500.0" r="130.0"/>
+<line class="el-d" x1="7078.5" y1="3500.0" x2="7221.5" y2="3500.0"/>
+<circle class="el" cx="7423.0" cy="3500.0" r="130.0"/>
+<line class="el-d" x1="7351.5" y1="3500.0" x2="7494.5" y2="3500.0"/>
+<circle class="el" cx="7150.0" cy="4050.0" r="130.0"/>
+<line class="el-d" x1="7078.5" y1="4050.0" x2="7221.5" y2="4050.0"/>
+<circle class="el" cx="7423.0" cy="4050.0" r="130.0"/>
+<line class="el-d" x1="7351.5" y1="4050.0" x2="7494.5" y2="4050.0"/>
+<circle class="el" cx="11450.0" cy="2600.0" r="130.0"/>
+<line class="el-d" x1="11378.5" y1="2600.0" x2="11521.5" y2="2600.0"/>
+<circle class="el" cx="11723.0" cy="2600.0" r="130.0"/>
+<line class="el-d" x1="11651.5" y1="2600.0" x2="11794.5" y2="2600.0"/>
+<circle class="el" cx="11450.0" cy="6000.0" r="130.0"/>
+<line class="el-d" x1="11378.5" y1="6000.0" x2="11521.5" y2="6000.0"/>
+<circle class="el" cx="11723.0" cy="6000.0" r="130.0"/>
+<line class="el-d" x1="11651.5" y1="6000.0" x2="11794.5" y2="6000.0"/>
+<circle class="el" cx="11450.0" cy="7000.0" r="130.0"/>
+<line class="el-d" x1="11378.5" y1="7000.0" x2="11521.5" y2="7000.0"/>
+<circle class="el" cx="11723.0" cy="7000.0" r="130.0"/>
+<line class="el-d" x1="11651.5" y1="7000.0" x2="11794.5" y2="7000.0"/>
+<rect class="el" x="6890.0" y="5000.0" width="520.0" height="300.0"/>
+<text class="lbl-f" x="7150.0" y="5240.0" text-anchor="middle">ТВ</text>
+<rect class="el" x="6890.0" y="5350.0" width="520.0" height="300.0"/>
+<text class="lbl-f" x="7150.0" y="5590.0" text-anchor="middle">LAN</text>
+<circle class="el" cx="1000.0" cy="3400.0" r="120.0"/>
+<line class="el-d" x1="1000.0" y1="3400.0" x2="1228.0" y2="3172.0"/>
+<circle class="el" cx="600.0" cy="4200.0" r="130.0"/>
+<line class="el-d" x1="528.5" y1="4200.0" x2="671.5" y2="4200.0"/>
+<circle class="el" cx="873.0" cy="4200.0" r="130.0"/>
+<line class="el-d" x1="801.5" y1="4200.0" x2="944.5" y2="4200.0"/>
+<circle class="el" cx="600.0" cy="6900.0" r="130.0"/>
+<line class="el-d" x1="528.5" y1="6900.0" x2="671.5" y2="6900.0"/>
+<circle class="el" cx="873.0" cy="6900.0" r="130.0"/>
+<line class="el-d" x1="801.5" y1="6900.0" x2="944.5" y2="6900.0"/>
+<circle class="el" cx="3250.0" cy="4150.0" r="130.0"/>
+<line class="el-d" x1="3178.5" y1="4150.0" x2="3321.5" y2="4150.0"/>
+<circle class="el" cx="3523.0" cy="4150.0" r="130.0"/>
+<line class="el-d" x1="3451.5" y1="4150.0" x2="3594.5" y2="4150.0"/>
+<rect class="el" x="2990.0" y="5300.0" width="520.0" height="300.0"/>
+<text class="lbl-f" x="3250.0" y="5540.0" text-anchor="middle">ТВ</text>
+<circle class="el" cx="5450.0" cy="4150.0" r="120.0"/>
+<line class="el-d" x1="5450.0" y1="4150.0" x2="5678.0" y2="3922.0"/>
+<circle class="el" cx="6650.0" cy="4200.0" r="130.0"/>
+<line class="el-d" x1="6578.5" y1="4200.0" x2="6721.5" y2="4200.0"/>
+<circle class="el" cx="6923.0" cy="4200.0" r="130.0"/>
+<line class="el-d" x1="6851.5" y1="4200.0" x2="6994.5" y2="4200.0"/>
+<circle class="el" cx="6650.0" cy="6900.0" r="130.0"/>
+<line class="el-d" x1="6578.5" y1="6900.0" x2="6721.5" y2="6900.0"/>
+<circle class="el" cx="6923.0" cy="6900.0" r="130.0"/>
+<line class="el-d" x1="6851.5" y1="6900.0" x2="6994.5" y2="6900.0"/>
+<circle class="el" cx="3900.0" cy="4150.0" r="130.0"/>
+<line class="el-d" x1="3828.5" y1="4150.0" x2="3971.5" y2="4150.0"/>
+<circle class="el" cx="4173.0" cy="4150.0" r="130.0"/>
+<line class="el-d" x1="4101.5" y1="4150.0" x2="4244.5" y2="4150.0"/>
+<circle class="el" cx="2150.0" cy="2600.0" r="120.0"/>
+<line class="el-d" x1="2150.0" y1="2600.0" x2="2378.0" y2="2372.0"/>
+<circle class="el" cx="2450.0" cy="2150.0" r="130.0"/>
+<line class="el-d" x1="2378.5" y1="2150.0" x2="2521.5" y2="2150.0"/>
+<text class="lbl-f" x="2450.0" y="1890.0" text-anchor="middle">IP44</text>
+<circle class="el" cx="3300.0" cy="600.0" r="170.0"/>
+<line class="el-d" x1="3130.0" y1="600.0" x2="3470.0" y2="600.0"/>
+<line class="el-d" x1="3300.0" y1="430.0" x2="3300.0" y2="770.0"/>
+<circle class="el" cx="3750.0" cy="2600.0" r="120.0"/>
+<line class="el-d" x1="3750.0" y1="2600.0" x2="3978.0" y2="2372.0"/>
+<circle class="el" cx="3950.0" cy="600.0" r="130.0"/>
+<line class="el-d" x1="3878.5" y1="600.0" x2="4021.5" y2="600.0"/>
+<text class="lbl-f" x="3950.0" y="340.0" text-anchor="middle">IP44</text>
+<circle class="el" cx="4600.0" cy="600.0" r="130.0"/>
+<line class="el-d" x1="4528.5" y1="600.0" x2="4671.5" y2="600.0"/>
+<text class="lbl-f" x="4600.0" y="340.0" text-anchor="middle">IP44</text>
+<circle class="el" cx="6600.0" cy="1450.0" r="130.0"/>
+<line class="el-d" x1="6528.5" y1="1450.0" x2="6671.5" y2="1450.0"/>
+<circle class="el" cx="5300.0" cy="1750.0" r="170.0"/>
+<line class="el-d" x1="5130.0" y1="1750.0" x2="5470.0" y2="1750.0"/>
+<line class="el-d" x1="5300.0" y1="1580.0" x2="5300.0" y2="1920.0"/>
+<circle class="el" cx="10850.0" cy="2650.0" r="120.0"/>
+<line class="el-d" x1="10850.0" y1="2650.0" x2="11078.0" y2="2422.0"/>
+<rect class="el-f" x="9800.0" y="2310.0" width="600.0" height="220.0"/>
+<rect class="el" x="10190.0" y="460.0" width="420.0" height="280.0"/>
+<text class="lbl-f" x="10400.0" y="690.0" text-anchor="middle">ЗВ</text>
+<circle class="el" cx="11000.0" cy="8000.0" r="130.0"/>
+<line class="el-d" x1="10928.5" y1="8000.0" x2="11071.5" y2="8000.0"/>
+<text class="lbl-f" x="11000.0" y="7740.0" text-anchor="middle">IP44</text>
+<circle class="el" cx="10600.0" cy="8000.0" r="130.0"/>
+<line class="el-d" x1="10528.5" y1="8000.0" x2="10671.5" y2="8000.0"/>
+<circle class="el" cx="11800.0" cy="600.0" r="130.0"/>
+<line class="el-d" x1="11728.5" y1="600.0" x2="11871.5" y2="600.0"/>
+<circle class="el" cx="1900.0" cy="1350.0" r="190.0"/>
+<line class="el-d" x1="1710.0" y1="1160.0" x2="2090.0" y2="1540.0"/>
+<line class="el-d" x1="1710.0" y1="1540.0" x2="2090.0" y2="1160.0"/>
+<circle class="el" cx="5200.0" cy="1350.0" r="190.0"/>
+<line class="el-d" x1="5010.0" y1="1160.0" x2="5390.0" y2="1540.0"/>
+<line class="el-d" x1="5010.0" y1="1540.0" x2="5390.0" y2="1160.0"/>
+<circle class="el" cx="1500.0" cy="3050.0" r="190.0"/>
+<line class="el-d" x1="1310.0" y1="2860.0" x2="1690.0" y2="3240.0"/>
+<line class="el-d" x1="1310.0" y1="3240.0" x2="1690.0" y2="2860.0"/>
+<circle class="el" cx="3600.0" cy="3050.0" r="190.0"/>
+<line class="el-d" x1="3410.0" y1="2860.0" x2="3790.0" y2="3240.0"/>
+<line class="el-d" x1="3410.0" y1="3240.0" x2="3790.0" y2="2860.0"/>
+<circle class="el" cx="5600.0" cy="3050.0" r="190.0"/>
+<line class="el-d" x1="5410.0" y1="2860.0" x2="5790.0" y2="3240.0"/>
+<line class="el-d" x1="5410.0" y1="3240.0" x2="5790.0" y2="2860.0"/>
+<circle class="el" cx="1900.0" cy="5800.0" r="190.0"/>
+<line class="el-d" x1="1710.0" y1="5610.0" x2="2090.0" y2="5990.0"/>
+<line class="el-d" x1="1710.0" y1="5990.0" x2="2090.0" y2="5610.0"/>
+<circle class="el" cx="5200.0" cy="5800.0" r="190.0"/>
+<line class="el-d" x1="5010.0" y1="5610.0" x2="5390.0" y2="5990.0"/>
+<line class="el-d" x1="5010.0" y1="5990.0" x2="5390.0" y2="5610.0"/>
+<circle class="el" cx="10700.0" cy="1400.0" r="190.0"/>
+<line class="el-d" x1="10510.0" y1="1210.0" x2="10890.0" y2="1590.0"/>
+<line class="el-d" x1="10510.0" y1="1590.0" x2="10890.0" y2="1210.0"/>
+<circle class="el" cx="7600.0" cy="1450.0" r="190.0"/>
+<line class="el-d" x1="7410.0" y1="1260.0" x2="7790.0" y2="1640.0"/>
+<line class="el-d" x1="7410.0" y1="1640.0" x2="7790.0" y2="1260.0"/>
+<circle class="el" cx="8700.0" cy="1450.0" r="190.0"/>
+<line class="el-d" x1="8510.0" y1="1260.0" x2="8890.0" y2="1640.0"/>
+<line class="el-d" x1="8510.0" y1="1640.0" x2="8890.0" y2="1260.0"/>
+<circle class="el" cx="8150.0" cy="620.0" r="120.0"/>
+<line class="el-d" x1="8030.0" y1="500.0" x2="8270.0" y2="740.0"/>
+<line class="el-d" x1="8030.0" y1="740.0" x2="8270.0" y2="500.0"/>
+<circle class="el" cx="8400.0" cy="3200.0" r="190.0"/>
+<line class="el-d" x1="8210.0" y1="3010.0" x2="8590.0" y2="3390.0"/>
+<line class="el-d" x1="8210.0" y1="3390.0" x2="8590.0" y2="3010.0"/>
+<circle class="el" cx="8700.0" cy="5500.0" r="190.0"/>
+<line class="el-d" x1="8510.0" y1="5310.0" x2="8890.0" y2="5690.0"/>
+<line class="el-d" x1="8510.0" y1="5690.0" x2="8890.0" y2="5310.0"/>
+<circle class="el" cx="11000.0" cy="5500.0" r="190.0"/>
+<line class="el-d" x1="10810.0" y1="5310.0" x2="11190.0" y2="5690.0"/>
+<line class="el-d" x1="10810.0" y1="5690.0" x2="11190.0" y2="5310.0"/>
+<circle class="el" cx="3300.0" cy="2080.0" r="120.0"/>
+<line class="el-d" x1="3180.0" y1="1960.0" x2="3420.0" y2="2200.0"/>
+<line class="el-d" x1="3180.0" y1="2200.0" x2="3420.0" y2="1960.0"/>
+<text class="lbl-s" x="1925.0" y="2130.0" text-anchor="middle">БАНЯ</text>
+<text class="lbl-s" x="5225.0" y="2130.0" text-anchor="middle">МОКРО</text>
+<text class="lbl-s" x="3575.0" y="3380.0" text-anchor="middle">КОРИДОР</text>
+<text class="lbl-s" x="1925.0" y="7630.0" text-anchor="middle">СПАЛНЯ 1</text>
+<text class="lbl-s" x="5225.0" y="7630.0" text-anchor="middle">СПАЛНЯ 2</text>
+<text class="lbl-s" x="10700.0" y="2230.0" text-anchor="middle">АНТРЕ</text>
+<text class="lbl-s" x="8300.0" y="7000.0" text-anchor="middle">ХОЛ + ТРАПЕЗАРИЯ + КУХНЯ</text>
+<text class="sub" x="0.0" y="8950.0" text-anchor="start">ЛЕГЕНДА</text>
+<circle class="el" cx="375.0" cy="9625.0" r="130.0"/>
+<line class="el-d" x1="303.5" y1="9625.0" x2="446.5" y2="9625.0"/>
+<text class="note" x="975.0" y="9700.0" text-anchor="start">контакт единичен</text>
+<circle class="el" cx="375.0" cy="10225.0" r="130.0"/>
+<line class="el-d" x1="303.5" y1="10225.0" x2="446.5" y2="10225.0"/>
+<circle class="el" cx="648.0" cy="10225.0" r="130.0"/>
+<line class="el-d" x1="576.5" y1="10225.0" x2="719.5" y2="10225.0"/>
+<text class="note" x="975.0" y="10300.0" text-anchor="start">контакт двоен</text>
+<circle class="el" cx="375.0" cy="10825.0" r="130.0"/>
+<line class="el-d" x1="303.5" y1="10825.0" x2="446.5" y2="10825.0"/>
+<text class="lbl-f" x="375.0" y="10565.0" text-anchor="middle">IP44</text>
+<text class="note" x="975.0" y="10900.0" text-anchor="start">контакт IP44</text>
+<circle class="el" cx="375.0" cy="11425.0" r="120.0"/>
+<line class="el-d" x1="375.0" y1="11425.0" x2="603.0" y2="11197.0"/>
+<text class="note" x="975.0" y="11500.0" text-anchor="start">ключ</text>
+<circle class="el" cx="375.0" cy="12025.0" r="190.0"/>
+<line class="el-d" x1="185.0" y1="11835.0" x2="565.0" y2="12215.0"/>
+<line class="el-d" x1="185.0" y1="12215.0" x2="565.0" y2="11835.0"/>
+<text class="note" x="975.0" y="12100.0" text-anchor="start">осветително тяло</text>
+<circle class="el" cx="6225.0" cy="9625.0" r="120.0"/>
+<line class="el-d" x1="6105.0" y1="9505.0" x2="6345.0" y2="9745.0"/>
+<line class="el-d" x1="6105.0" y1="9745.0" x2="6345.0" y2="9505.0"/>
+<text class="note" x="6825.0" y="9700.0" text-anchor="start">акцентно осветление</text>
+<circle class="el" cx="6225.0" cy="10225.0" r="170.0"/>
+<line class="el-d" x1="6055.0" y1="10225.0" x2="6395.0" y2="10225.0"/>
+<line class="el-d" x1="6225.0" y1="10055.0" x2="6225.0" y2="10395.0"/>
+<text class="note" x="6825.0" y="10300.0" text-anchor="start">вентилатор</text>
+<rect class="el" x="5995.0" y="10695.0" width="460.0" height="260.0"/>
+<text class="lbl-f" x="6225.0" y="10915.0" text-anchor="middle">ТВ</text>
+<text class="note" x="6825.0" y="10900.0" text-anchor="start">ТВ / LAN извод</text>
+<rect class="el-f" x="5925.0" y="11315.0" width="600.0" height="220.0"/>
+<text class="note" x="6825.0" y="11500.0" text-anchor="start">табло</text>
+<rect class="tb" x="-225.0" y="12700.0" width="13050.0" height="2595.0"/>
+<line class="tb" x1="-225.0" y1="13300.0" x2="12825.0" y2="13300.0"/>
+<line class="tb" x1="-225.0" y1="13825.0" x2="12825.0" y2="13825.0"/>
+<line class="tb" x1="8925.0" y1="12700.0" x2="8925.0" y2="13825.0"/>
+<text class="tbmain" x="0.0" y="13096.0" text-anchor="start">NIKOLAEVO HOUSE — ЕЛЕКТРОИНСТАЛАЦИЯ</text>
+<text class="tbsub" x="0.0" y="13657.0" text-anchor="start">План на контакти, ключове и осветление · лист E-01</text>
+<text class="tbsmall" x="9150.0" y="13084.0" text-anchor="start">E-01</text>
+<text class="tbsmall" x="9150.0" y="13657.0" text-anchor="start">Мащаб 1:75</text>
+<text class="tbsmall" x="0.0" y="14125.0" text-anchor="start">Табло в антрето, на южната стена до вратата (височина 1400–1800 mm).</text>
+<text class="tbsmall" x="0.0" y="14515.0" text-anchor="start">Концепция за разполагане — сеченията и защитите се определят от проектант.</text>
+<text class="tbsmall" x="0.0" y="14905.0" text-anchor="start">Размери в mm. Ключовете за банята и мокрото са отвън, в коридора.</text>
+</svg>

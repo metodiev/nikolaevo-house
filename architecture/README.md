@@ -17,6 +17,7 @@
 |---|---|
 | [plans/floor-plan.svg](./plans/floor-plan.svg) | План на разположението, мащаб 1:100 при печат, с размери |
 | [plans/site-orientation.svg](./plans/site-orientation.svg) | Ориентация и положение в парцела (схема, не е в мащаб) |
+| [plans/A-03-dograma.svg](./plans/A-03-dograma.svg) | Дограма и врати — фасади на отворите с посока на отваряне |
 
 ## CAD / DXF
 
